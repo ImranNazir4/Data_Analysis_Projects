@@ -21,3 +21,16 @@ The motive of this analysis is to identify hashtags trends, sentiment analysis, 
 ![image](https://user-images.githubusercontent.com/106988509/198523742-3d73a61d-1b03-4f22-95ba-5490e29b6eba.png)
 ### Sentiment Trend by each Month
 ![image](https://user-images.githubusercontent.com/106988509/198523869-5a05179c-98da-46a6-9c1b-acd06841f851.png)
+
+
+# Emotion Classification
+The aim of this analysis is to build a model that can predict emotion in the text. For training of the model labeled data is used. The dataset contains 9 emotions. The dataset contains more than 30k records.  
+
+### Emotions Distribution
+![image](https://user-images.githubusercontent.com/106988509/198574003-b8b8288e-5b25-4a43-836b-b05de101fcd5.png)
+The dataset is imbalanced so somote method is used to balance it.
+### Balanced Dataset
+![image](https://user-images.githubusercontent.com/106988509/198574221-01d1cf9d-c97a-4ebd-826b-7734988d1075.png)
+
+### Model (Random Forest) Parameters
+![image](https://user-images.githubusercontent.com/106988509/198574487-2e4f1d2c-a28b-4ff6-af6b-b9b596e65d10.png)
