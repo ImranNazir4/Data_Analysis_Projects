@@ -49,5 +49,22 @@ Airbnb (ABNB) is an online marketplace that connects people who want to rent out
 ### Room Types
 ![image](https://user-images.githubusercontent.com/106988509/198864714-b3cf8f78-69fb-4bba-aaca-fae9b5814fbb.png)
 
+# Women Ecommorce Data Analysis
+The goal of this analysis is to identify areas where improvements are needed to increase sales of e-commerce stores.
+### Properties of Dataset
+![image](https://user-images.githubusercontent.com/106988509/198864859-ff688a96-2b31-49ae-9dba-a6ff76c99382.png)
+### Majority of Sales by Age Group
+![image](https://user-images.githubusercontent.com/106988509/198864915-b7ed4ae5-fa49-4644-80c1-e4aea90b6f00.png)
+
+### Recommended Products by Consumers
+![image](https://user-images.githubusercontent.com/106988509/198864947-cb888543-d25c-40d7-8e4c-1d44678219a3.png)
+
+### Department by Most Sellings
+![image](https://user-images.githubusercontent.com/106988509/198865021-c174d0f9-4ec8-494e-8919-5d818f37be1c.png)
+### Sentiment Distribution
+![image](https://user-images.githubusercontent.com/106988509/198865050-07eb9f3e-0534-4f3f-94a0-21348c4c3609.png)
+### Sentiment, Emotion and Aspects Bases Anlaysis
+![image](https://user-images.githubusercontent.com/106988509/198865098-f96a754e-15c0-4501-bbab-47354eb6481f.png)
+
 
 
