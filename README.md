@@ -34,3 +34,20 @@ The dataset is imbalanced so somote method is used to balance it.
 
 ### Model (Random Forest) Parameters
 ![image](https://user-images.githubusercontent.com/106988509/198574487-2e4f1d2c-a28b-4ff6-af6b-b9b596e65d10.png)
+
+# Airbnb Data Analysis
+Airbnb (ABNB) is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in specific locales. The company has come a long way since 2007, when its co-founders first came up with the idea to invite paying guests to sleep on an air mattress in their living room. According to Airbnb's latest data, it has in excess of six million listings, covering more than 100,000 cities and towns and 220-plus countries worldwide.
+
+### Dataset Properties
+![image](https://user-images.githubusercontent.com/106988509/198864658-60309274-031b-4749-876f-23e98533358d.png)
+
+### Price Ranges
+![image](https://user-images.githubusercontent.com/106988509/198864678-7db26656-a1ba-41c4-8fcc-8ea560c9b366.png)
+### Apartments Availability
+![image](https://user-images.githubusercontent.com/106988509/198864696-2d5f8826-ccbe-47b0-916f-9a5a880640af.png)
+
+### Room Types
+![image](https://user-images.githubusercontent.com/106988509/198864714-b3cf8f78-69fb-4bba-aaca-fae9b5814fbb.png)
+
+
+
