@@ -1,5 +1,45 @@
 # Data_Analysis_Projects
 
+# Smart Phone Specification Analysis
+Smart Phones Data Analysis with aim of finding mobile specifications that are accepted by users. We have data from Apple, Samsung, Poco, Redmi, and Xiaomi. We have all the specifications of mobile and need to identify the specification that is mostly accepted by users.
+### Dataset Specifications
+![image](https://user-images.githubusercontent.com/106988509/198865468-78ab570a-3015-4aef-8c66-d62b57987579.png)
+
+### Mobile Review Ratings
+![image](https://user-images.githubusercontent.com/106988509/198865497-51a03dfd-4cba-4a6e-a6e9-6ed50f8048ee.png)
+### Sentiment Analysis
+![image](https://user-images.githubusercontent.com/106988509/198865521-fc702aa7-a628-4f0c-b6f1-8fddb9ea77a2.png)
+### Smart Phones Value(Price) Ranges
+![image](https://user-images.githubusercontent.com/106988509/198865559-566ec475-0a08-494c-b6ba-7eb9f9b612ce.png)
+### Separating Data of Each Brand
+![image](https://user-images.githubusercontent.com/106988509/198865591-ba3ffb1f-86b6-4ab5-afe4-687a4975b5c2.png)
+### Apple Mobiles
+![image](https://user-images.githubusercontent.com/106988509/198865608-daa01c5b-283f-46c9-9973-3d98b8d29325.png)
+### Xiaomi Mobiles
+![image](https://user-images.githubusercontent.com/106988509/198865629-fad4877d-5c66-4141-bd33-ca534235719a.png)
+### Poco Mobiles
+![image](https://user-images.githubusercontent.com/106988509/198865644-5d0accf8-f4c2-4da1-947d-e9f588cc63f6.png)
+### Redmi Mobiles
+![image](https://user-images.githubusercontent.com/106988509/198865670-6282adf8-d863-46ef-853f-a8edfec9c0c6.png)
+### Samsung Mobiles
+![image](https://user-images.githubusercontent.com/106988509/198865690-923c6c9a-4edf-4824-9317-d07c56ceefb2.png)
+
+### Most Accepted Mobile Spacification
+![image](https://user-images.githubusercontent.com/106988509/198865736-bd3625e1-2972-4c1f-8f55-4a90f6086557.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Twitter Hashtags trends during Covide-19
 The motive of this analysis is to identify hashtags trends, sentiment analysis, and activity timelines of users on Twitter during the covid time.
 
