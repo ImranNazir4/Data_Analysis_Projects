@@ -1,0 +1,95 @@
+#importing dplyr package for data manipulation in R
+library(dplyr)
+
+--------------------------------------------------------------------------------
+#Reading the Dataset using read.csv method of dplyr package
+data=read.csv("C:/Users/Zee Tech/Downloads/dataset1.csv",header = TRUE)
+
+--------------------------------------------------------------------------------
+#view of dataset
+data
+
+--------------------------------------------------------------------------------
+#Question17
+
+values_sum=0  #variable for storing sum of ozone values
+
+for(i in data$Ozone) #iterating each value of Ozone in the data
+{
+if(!is.na(i)) #selecting values are not null
+{
+values_sum=values_sum+i     #calculating sum of all non-null values
+}
+}
+
+values_count=sum(!is.na(data$Ozone)) #finding count of non-null values
+
+mean_oznone=values_sum/values_count   #calculating mean of ozone excluding NA
+
+print(mean_oznone)
+
+-------------------------------------------------------------------------------
+
+#Question18
+
+
+#getting Ozone value greater than 31 and Temp greater than 90
+data %>% select('Ozone','Temp','Solar.R') %>% filter(Ozone>31 & Temp>90)->Ozone_Temp_Solar
+
+sum_solar=0  #variable for storing sum of Solar.R
+
+for(i in Ozone_Temp_Solar$Solar.R)  #iterating each value of Solar.R according to condition
+{
+sum_solar=sum_solar+i  #sum of Solar.R values 
+}
+
+count_solar=sum(!is.na(Ozone_Temp_Solar$Solar.R))  #count of Solar.R values as per condition
+
+mean_solar=sum_solar/count_solar  #mean_solar
+
+print(mean_solar)
+
+--------------------------------------------------------------------------------
+
+#Question19
+#selecting the Temp where Month is 6
+data %>% select('Temp','Month') %>% filter(Month==6)->month6_temp
+
+sum_temp=0  #varable for storing sum of Temp of Month6
+
+for(j in month6_temp$Temp)  #iterating each value of Temp
+{
+sum_temp=sum_temp+j   #Temp sum of Month6
+}
+
+count_temp=sum(!is.na(month6_temp$Temp))  #count of Temp as per condition
+
+m6_mean_temp=sum_temp/count_temp       #mean Temp as per condition
+
+print(m6_mean_temp)
+
+--------------------------------------------------------------------------------
+
+#Question20
+
+#selecting the Ozone where Month is 5
+data %>% select('Ozone','Month') %>% filter(Month==5)->month5_ozone
+
+#removing null values from Ozone Column
+month5_ozone %>% filter(!is.na(Ozone))->month5_ozone
+
+max_ozone=0 #our assumed max ozone value
+for(k in month5_ozone$Ozone)
+{
+if(k>max_ozone)   #checking value is greater than our assume value
+{
+max_ozone=k  #setting max value to our assumed max value of ozone
+}
+}
+
+print(max_ozone)
+
+--------------------------------------------------------------------------------
+
+
+

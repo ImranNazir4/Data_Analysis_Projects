@@ -1,0 +1,40 @@
+
+#installing packages in R
+install.packages("LiblineaR")
+
+
+
+#browsing a link in R
+browseURL("https://cran.r-project.org/doc/manuals/r-patched/R-admin.html")
+
+#gives list of all the packages installed
+library()
+
+
+#imported packages in the code
+search()
+
+#importing a package in R
+require("LiblineaR")
+
+#removing a pacakge from the code space
+detach("package:LiblineaR",unload=True)
+
+
+#uninstalling a package in R
+remove.packages("LiblineaR")
+
+
+#get information about package in R
+?iris
+
+
+
+
+
+
+
+
+
+
+
