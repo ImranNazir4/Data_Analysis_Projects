@@ -1,0 +1,3 @@
+Change the version number in setup.py.
+Run setup file again. python setup.py bdist_wheel.
+run ----> scripts>twine upload ./Package_Development/dist/*
