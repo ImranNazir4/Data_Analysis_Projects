@@ -1,0 +1,104 @@
+/*div.css-ocqkz7.e1tzin5v4 { /* metrics noremal dos r2u prob... */
+  /*  
+    border: 1px solid #92a8d1;
+    padding: 5% 5% 5% 10%;
+    border-radius: 5px;
+    
+}*/
+div.stButton > button:first-child { /* button predict */
+    border: 1px solid #92a8d1;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 150px;
+    color: #92a8d1;
+    margin:0 auto;
+    display:block;
+}
+
+div.stButton > button:hover {  /* button predict */
+    background-color: #262730; /* Green */
+    color: white;
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  section.css-x8wxsk.exg6vvm15 {   /* upload rectangle */
+    border: 1px solid #92a8d1;
+    padding: 5% 5% 5% 10%;
+    border-radius: 12px;
+    background-color:rgb(70, 10, 131);
+
+}
+
+
+/*div.css-ocqkz7 {   /* result rectangles normal dos... time score accuracy..."  
+    
+    font-size: 50px;
+    font-weight: bold;
+
+}
+*/
+div.element-container:nth-child(37) { /* centre result of manual input normal or dos..... */
+    
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+
+}
+div.element-container:nth-child(5) {
+   
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+div.element-container:nth-child(4) > div:nth-child(1) > label:nth-child(1){ /* choisir la methode text */
+    color :white;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 50px;
+}
+.css-8u98yl > label:nth-child(1){   /* Télécharger les données enregistrées sous forme de fichier csv : text */
+    color :white;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 50px;
+}
+
+
+.stApp {
+background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(36, 0, 103));
+/*background-color: black;*/
+
+background-size: cover;
+}
+
+
+.css-17ziqus{ /*bg of sidebare*/
+    /*background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(36, 0, 103));*/
+    background-size: cover;
+    background-color: #080808;
+}
+.css-1p1nwyz > div:nth-child(1) > label:nth-child(1){
+    color :white;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 50px;
+
+}
+
+#attack-type-est-normal > div:nth-child(1) > span:nth-child(2){ /* reel resultas avant predicter */
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.css-17z2rne > div:nth-child(1) > p:nth-child(1){ /* resultat of predecting */
+    font-size: 50px;
+    font-weight: bold;
+}
+.stAlert{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}

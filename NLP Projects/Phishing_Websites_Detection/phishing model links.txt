@@ -1,0 +1,5 @@
+https://youtu.be/DIxdSYHAWl8 - this is the youtub channel that explained the model
+
+https://github.com/emre-kocyigit/phishing-website-detection-content-based - this the github link for the projrct. you can get the all the codes from here
+
+https://emre-kocyigit-phishing-website-detection-content-bas-app-4c1qgm.streamlit.app/  -  deployed phising site web app. you can see how it works.
