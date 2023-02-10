@@ -1,0 +1,3 @@
+COT 5428 Formal Foundations for Cybersecurity (3).
+Formal models and methods for achieving rigorous security guarantees. Cryptographic indistinguishability properties, reduction proofs. Formal analyses of security APIs. Secure information flow.
+Prerequisite: CIS 5370.

@@ -1,0 +1,3 @@
+COP 4338 Systems Programming (3).
+Programming in C and advanced programming in Unix environments, including multiprocessing and multithreading.
+Corequisite: COP 3530. This course will have additional fees.

@@ -1,0 +1,2 @@
+COT 4521 Introduction to Computational Geometry (3).
+Study of efficient algorithms to solve geometric problems. Topics covered include convex hulls, Voronoi diagrams, Delaunay triangulations, arrangements, search and intersection, and motion planning. Prerequisite: COP 3530.

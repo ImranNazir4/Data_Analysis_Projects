@@ -1,0 +1,3 @@
+IDC 2020 Introduction to Cryptocurrencies (3).
+High- level conceptual survey of crypto-currencies and other blockchain technologies for non-CS undergraduates, including techniques, applications, ethics and philosophical issues.
+Prerequisite: MAC-XXXX or MAD- XXXX or MGF-XXXX (any math course at any level)

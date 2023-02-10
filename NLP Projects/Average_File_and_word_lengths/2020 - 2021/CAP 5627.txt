@@ -1,0 +1,3 @@
+CAP 5627 Affective Intelligent Agents (3).
+Design and implementation methods using artificial intelligence (AI) techniques, human-computer interaction (HCI) principles, emotion theories; applications, e.g. health informatics, education, games.
+Prerequisites: Graduate standing or permission of the instructor.

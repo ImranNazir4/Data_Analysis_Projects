@@ -1,0 +1,3 @@
+CEN 5087 Software and Data Modeling (3).
+Essential software and data modeling methods and techniques such as UML, XML, and ER.
+Prerequisite: Graduate standing.

@@ -1,0 +1,2 @@
+CAP 2750 Data Analytics for the Internet of Things (3).
+Concepts/applications of Data Analytics for loT. Data science, machine learning, and artificial intelligence at the edge. Inference, sensor fusion, bandwidth, transfer learning, and generative models.

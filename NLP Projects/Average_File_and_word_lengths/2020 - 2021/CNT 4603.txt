@@ -1,0 +1,2 @@
+CNT 4603 Windows System Administration (3).
+An examination of operating systems and applications installation, configuration, and maintenance, including client-server services, server administration and management, and user/group management. Prerequisite: CGS 3767.

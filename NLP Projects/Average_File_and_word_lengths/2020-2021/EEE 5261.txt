@@ -1,0 +1,3 @@
+EEE 5261 Bioelectrical Models (3).
+Engineering models for electrical behavior of nerve and muscle cells, electrode-tissue junctions, volume conductions in tissue and the nervous system as an electrical network. 
+Prerequisites: EEE 4202C or permission of the instructor.

@@ -1,0 +1,2 @@
+CIS 5346 Storage Systems (3).
+Introduction to storage systems, storage system components, storage architecture, devices, trends and applications, performance, RAID, MEMS and portable storage, file- systems, OS storage management. Prerequisite: Graduate standing.

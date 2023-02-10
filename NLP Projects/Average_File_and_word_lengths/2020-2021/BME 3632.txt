@@ -1,0 +1,3 @@
+BME 3632 Biomedical Engineering Transport (3).
+Basic principles of heat, mass, and fluid transport. Derivation of basic equations, and simplification techniques. Applications to physiological systems, artificial organs, and pharmacokinetics. 
+Prerequisites: BME 2740, EGM 3503, CHM 1046 (with a grade of “C” or better), MAP 2302 (with a grade of “C” or better), PHY 2049 (with a grade of “C” or better) and MAC 2313 (with a grade of “C” or better).

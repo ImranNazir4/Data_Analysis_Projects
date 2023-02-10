@@ -1,0 +1,3 @@
+COP 4610 Operating Systems Principles (3).
+Operating systems design principles and implementation techniques. Address spaces, system call interface, process/threads, interprocess communication, deadlock, scheduling, memory, virtual memory, I/O, file systems.
+Prerequisites: COP 4338 and (CDA 3102 or CDA 4101). This course will have additional fees.

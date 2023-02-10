@@ -1,0 +1,3 @@
+CGS 5166 Introduction to Bioinformatics Tools (2).
+Introduction to bioinformatics; analytical and predictive tools; practical use of tools for sequence alignments, phylogeny, visualizations, patterns discovery, gene expression analysis, and protein structure.
+Prerequisite: PCB 6025 or equivalent.

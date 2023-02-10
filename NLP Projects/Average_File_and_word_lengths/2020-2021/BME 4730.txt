@@ -1,0 +1,3 @@
+BME 4730 Analysis of Self-Regulation and Homeostasis in Biosystems (3).
+Application of quantitative analysis methods to the study of self regulation processes that result in homeostatic conditions in biosystems with special emphasis on processes found in the human body. 
+Prerequisites: BME 3404, EEE 4202C.

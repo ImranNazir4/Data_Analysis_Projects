@@ -1,0 +1,4 @@
+EEL 3110 Circuit Analysis (3). 
+Introductory circuit analysis dealing with DC, AC, and transient electrical circuit analysis and the general excitation of circuits using the Laplace transform. Not for Electrical Engineering majors.
+Prerequisites: MAC 2312, PHY 2049, (EGN 1002 or EGN 1100). 
+Corequisites: MAP 2302, EEL 3110L, and for EE or CpE Engineering students, EEL 2880.

@@ -1,0 +1,3 @@
+CGS 4365 Knowledge-Based Management Systems (3).
+Introduction to knowledge-based and expert systems. Knowledge acquisition, knowledge representation, and creation of expert system. Not acceptable for credit for Computer Science majors.
+Prerequisite: COP 4703. This course will have additional fees.

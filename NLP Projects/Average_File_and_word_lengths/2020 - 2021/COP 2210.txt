@@ -1,0 +1,3 @@
+COP 2210 Computer Programming I (4).
+A first course in computer science that uses a structured programming language to study programming and problem solving on the computer. Includes the design, construction and analysis of programs. Student participation in a closed instructional lab is required. 
+This course will have additional fees. Prerequisites: MAC 1140 or MAC 1147 or MAC 2233 or MAC 2311, or Advisor's Permissions

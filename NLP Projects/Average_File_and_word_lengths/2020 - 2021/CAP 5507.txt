@@ -1,0 +1,2 @@
+CAP 5507 Game Theory (3).
+Game representations, solution concepts, algorithms & complexity, repeated games, learning, auctions, voting application to many disciplines. Familiarity with mathematical proofs would be helpful.

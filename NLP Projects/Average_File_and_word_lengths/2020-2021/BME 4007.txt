@@ -1,0 +1,3 @@
+BME 4007 Principles of Bioengineering – GL (3). 
+Medical instrumentation and design, regulations for medical devices, application of computers in medicine, biomaterials, biocommunications, artificial implants; clinical engineering. 
+Prerequisites: BME 3403 or permission of the instructor. 

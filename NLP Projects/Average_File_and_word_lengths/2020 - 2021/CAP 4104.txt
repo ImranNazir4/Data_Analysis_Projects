@@ -1,0 +1,2 @@
+CAP 4104 Human-Computer Interaction (3).
+HCI foundations, user-centered interaction design, prototyping and programming interactive systems, qualitative and quantitative evaluation techniques, designing multimodal interfaces.

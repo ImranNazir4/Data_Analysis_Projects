@@ -1,0 +1,3 @@
+CNT 4406 Network Security and Cryptography (3).
+Symmetric and public key cryptography, IPSec, SSL, password management, firewalls, intrusion detection, wireless security, anonymizers, spam, phishing, malware and network attacks.
+Prerequisites: COP 4338 or CNT 4713.

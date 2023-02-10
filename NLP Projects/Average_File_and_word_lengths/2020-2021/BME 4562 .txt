@@ -1,0 +1,3 @@
+BME 4562 Introduction to Biomedical Optics (3). 
+Fundamentals of biomedical optics, covering optical spectroscopy, polarimetry, and interferometry. Engineering principles used in optical diagnostics, biosensing and therapeutics.
+Prerequisites: PHY 2049 and BME 3403.

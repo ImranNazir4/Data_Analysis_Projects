@@ -1,0 +1,3 @@
+BME 5350 Radiological Engineering and Clinical Dosimetry (3). 
+Quantities for describing the interaction of radiation fields with biological systems. Absorption of radiant energy by biological systems. Applications to clinical dosimetry and radiation safety procedures.
+Prerequisite: Permission of the instructor.

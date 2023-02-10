@@ -1,0 +1,3 @@
+COP 4710 Database Management (3).
+Logical aspects of databases including Relational, Entity-Relationship, and Object-Oriented data models, database design, SQL, relational algebra, tuple calculus, domain calculus, and physical database organization.
+Prerequisite: COP 3337. Corequisite: COP 3530. This course will have additional fees.

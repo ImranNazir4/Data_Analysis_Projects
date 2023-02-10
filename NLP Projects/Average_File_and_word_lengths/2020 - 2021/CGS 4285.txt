@@ -1,0 +1,3 @@
+CGS 4285 Applied Computer Network (3).
+Principles of computer network design, operation and management. Network protocols. Network configuration. Network security. Not acceptable for credit for Computer Science majors.
+Prerequisite: CGS 3767. This course will have additional fees.

@@ -1,0 +1,2 @@
+COT 5310 Theory of Computation I (3).
+Abstract models of computation; including finite automata, regular expressions, context-free grammars, pushdown automata, Turing machines. Decidability and undecidability of computational problems. Prerequisite: MAD 3512.

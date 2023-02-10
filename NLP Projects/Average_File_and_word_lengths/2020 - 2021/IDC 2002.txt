@@ -1,0 +1,2 @@
+IDC 2002 Artificial Intelligence for All (3).
+High-level conceptual survey of artificial intelligence for non-CS undergraduates, including techniques, applications, ethics, and philosophical issues. No high-level math or programming required.

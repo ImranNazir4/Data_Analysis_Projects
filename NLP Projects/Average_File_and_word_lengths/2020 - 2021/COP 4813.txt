@@ -1,0 +1,3 @@
+COP 4813 Web Application Programming (3).
+Creating Web applications with user interfaces, databases, state management, user authentication, error handling, and web services.
+Prerequisites: CGS 4854.

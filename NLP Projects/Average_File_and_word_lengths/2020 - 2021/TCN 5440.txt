@@ -1,0 +1,4 @@
+TCN 5440 Software Development for Telecommunication Networks (3).
+Focuses on the aspects, tools, and techniques of developing software
+applications for telecommunications networks.
+Prerequisites: TCN 5030 or equivalent.

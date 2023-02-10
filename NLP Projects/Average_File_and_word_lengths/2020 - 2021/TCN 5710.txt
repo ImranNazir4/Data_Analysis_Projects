@@ -1,0 +1,2 @@
+TCN 5710 Cyber Sustainability (3).
+In-depth introduction to sustainable development and optimization of cyber systems, such as mobile networks and data centers, with an emphasis on cost, energy, water and life-cycle assessment.

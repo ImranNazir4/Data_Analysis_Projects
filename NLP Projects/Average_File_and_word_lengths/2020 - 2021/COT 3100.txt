@@ -1,0 +1,3 @@
+COT 3100 Discrete Structures (3).
+Align mathematical and computational concepts by applying computing to propositional logic, sets, functions relations, induction, recursion, combinatorics, Boolean algebra, graph and trees.
+Prerequisites: MAC XXXX and COP XXXX Corequisites: (COP 2210 or COP 2250 or EEL 2880)

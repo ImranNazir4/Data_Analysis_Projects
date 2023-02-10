@@ -1,0 +1,2 @@
+COP 5614 Operating Systems (3).
+Operating systems design principles, algorithms and implementation techniques: process and memory management, disk and I/O systems, communications and security.

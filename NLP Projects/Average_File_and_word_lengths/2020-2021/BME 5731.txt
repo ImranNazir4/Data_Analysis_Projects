@@ -1,0 +1,3 @@
+BME 5731 Analysis of Physiological Control Systems (3).
+Quantitative analysis methods and modeling of the self-regulation processes that result in homeostatic conditions in physiological systems with special emphasis on processes found in the human body.
+Prerequisites: Permission of the instructor, EEL 3110, BME 3404.

@@ -1,0 +1,2 @@
+COT 5520 Computational Geometry (3).
+Design and analysis of efficient algorithms to solve geometric problems: geometric searching, convex hull, proximity problem, Voronoi diagram, spanning tree, triangulation, graph drawing applications. Prerequisite: COP 3530 (or equivalents).

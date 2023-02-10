@@ -1,0 +1,3 @@
+CGS 2100 Intro to Microcomputer Applications for Business (3).
+A hands-on study of spreadsheet and database management packages for business students without a technical background.
+Not acceptable for credit for Computer Science majors.

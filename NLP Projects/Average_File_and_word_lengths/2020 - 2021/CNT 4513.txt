@@ -1,0 +1,2 @@
+CNT 4513 Data Communications (3).
+Study Computer network models and protocol layers. Topics include: error handling, frames, broadcast networks, channel allocation; network routing algorithms, internetworking, TCP/IP, ATM protocols. Prerequisites: COP 3804 or COP 3337 and CGS 4285.

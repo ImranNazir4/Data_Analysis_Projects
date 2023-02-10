@@ -1,0 +1,2 @@
+IDC 4011C Computer Science Education for Middle School Children (4).
+Provide teachers with the knowledge of intermediate-level Computer Science topics, as well as the pedagogy on how to teach the topics. Computer Science topics include computational thinking, logic, visual programming, computer hardware and networking, and social issues related to computer technologies including Internet safety.

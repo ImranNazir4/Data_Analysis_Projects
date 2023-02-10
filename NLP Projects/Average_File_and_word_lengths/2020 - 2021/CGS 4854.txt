@@ -1,0 +1,3 @@
+CGS 4854 Website Construction and Management (3).
+The fundamentals of creating and maintaining a website. Installation and maintenance of a web-server. Techniques for building multimedia interactive web-pages. Not acceptable for credit for Computer Science majors.
+Prerequisites: CGS 3767 and (COP 3804 or COP 3337). This course will have additional fees.

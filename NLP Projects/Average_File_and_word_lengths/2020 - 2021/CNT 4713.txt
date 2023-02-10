@@ -1,0 +1,3 @@
+CNT 4713 Net-centric Computing (3).
+This course covers networking fundamentals, network security, network applications, mobile and wireless computing. The course focuses on network programming, including sockets and web programming concepts.
+Prerequisite: COP 4338.

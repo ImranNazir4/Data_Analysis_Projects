@@ -1,0 +1,3 @@
+BME 4422 The Biophysics of Neural Computation (3). 
+This course provides an introduction to the working principles of neurons and neural circuits with emphasis on mathematical models. 
+Prerequisites: EEL 3110, EEL 3110L or permission of the instructor.

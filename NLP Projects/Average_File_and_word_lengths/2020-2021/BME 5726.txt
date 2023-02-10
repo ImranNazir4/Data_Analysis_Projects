@@ -1,0 +1,3 @@
+BME 5726 Protein Engineering (3).
+Cloning, expressing and purifying proteins, and E. coli and yeast expression systems. Design of proteins for specific end uses. 
+Prerequisite: Permission of the instructor.

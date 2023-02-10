@@ -1,0 +1,4 @@
+BME 4100 Biomaterials Science (3). 
+Materials used in prosthesis for skin and soft tissue, vascular implant devices, bone repair, and artificial joints. Structureproperty relationships for biological tissue. 
+Prerequisite: EGM 3503. 
+Corequisite: BME 3404. 

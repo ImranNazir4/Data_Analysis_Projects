@@ -1,0 +1,3 @@
+COP 3337 Computer Programming II (3).
+An intermediate level course in Object Oriented programming. Topics include primitive types, control structures, strings arrays, objects and classes, data abstraction inheritance polymorphism and an introduction to data structures.
+Prerequisites: COP 2210 or EEL 2880. This course will have additional fees.

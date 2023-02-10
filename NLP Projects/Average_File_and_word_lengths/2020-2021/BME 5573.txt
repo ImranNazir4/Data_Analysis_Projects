@@ -1,0 +1,3 @@
+BME 5573 Nanomedicine (3). 
+Nano-scale tools and nanomaterials that result in new medical products and applications with special emphasis on imaging, diagnosis, drug delivery, regenerative medicine as well as new biomaterials.
+Prerequisites: BME 5105 or permission of the instructor.

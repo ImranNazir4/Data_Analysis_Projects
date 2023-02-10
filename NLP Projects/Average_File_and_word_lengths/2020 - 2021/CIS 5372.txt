@@ -1,0 +1,2 @@
+CIS 5372 Fundamentals of Computer Security (3).
+Information assurance algorithms and techniques. Security vulnerabilities. Symmetric and public key encryption. Authentication and Kerberos. Key infrastructure and certificate. Mathematical foundations. Prerequisite: Graduate standing.

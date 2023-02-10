@@ -1,0 +1,2 @@
+CGS 3559 Using the Internet (1).
+Internet history and importance. What is available on the Net. Tools such as email, listserves, telnet, ftp, Archie, Veronica, Gopher, netfind, the World Wide Web, Wais, and Mosaic. Nontechnical. Prerequisite: CGS 2060 or equivalent.

@@ -1,0 +1,3 @@
+CAP 4506 Introduction to Game Theory (3).
+Introduction to all major topics of game theory, including game representations, solution concepts, algorithms & complexity, repeated games, learning, auctions, voting, applications to many disciplines.
+Prerequisites: MAC 2312 or Permission of the Instructor.

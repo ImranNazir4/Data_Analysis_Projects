@@ -1,0 +1,3 @@
+BME 4503C Medical Instrumentation: Application and Design (4).
+Concepts of transducers and instrumentation systems; origins of biopotentials; electrical safety; applications of medical instrumentation.
+Prerequisite: EEL 3110.

@@ -1,0 +1,2 @@
+CAP 5109 Advanced Human-Computer Interaction (3).
+Fundamental concepts of human-computer interaction, cognitive models, user-centered design principles, evaluation techniques, and emerging technologies in various contexts and domains.

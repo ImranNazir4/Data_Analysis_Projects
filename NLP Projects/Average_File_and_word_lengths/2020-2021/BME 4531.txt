@@ -1,0 +1,3 @@
+BME 4531 Medical Imaging (3).
+Fundamentals of major imaging modalities including x-ray radiology, x-ray computed tomography, ultrasonography, magnetic resonance imaging, nuclear imaging (PET and SPECT), and optical imaging. 
+Prerequisites: PHY 2049 and BME 2740. 

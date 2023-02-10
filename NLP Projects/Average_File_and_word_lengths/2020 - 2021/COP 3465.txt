@@ -1,0 +1,2 @@
+COP 3465 Data Structures for IT (3).
+Basic concepts of running time of a program, data structures including lists, stacks, queues, binary search trees, and hash tables, and internal sorting. Not acceptable for credit for CS majors. Prerequisite: Programming II (IT). This course will have additional fees.

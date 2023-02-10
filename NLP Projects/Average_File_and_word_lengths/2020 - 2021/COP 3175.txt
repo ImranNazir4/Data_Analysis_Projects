@@ -1,0 +1,3 @@
+COP 3175 Programming in Visual Basic (3).
+An introduction to Visual Basic programming with emphasis on Business Applications. Not acceptable for credit for Computer Science majors.
+Prerequisites: CGS 2100 or CGS 2060. This course will have additional fees.

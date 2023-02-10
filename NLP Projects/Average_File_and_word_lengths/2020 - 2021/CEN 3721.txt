@@ -1,0 +1,3 @@
+CEN 3721 Introduction to Human-Computer Interaction (3).
+Fundamental concepts of human- computer interaction, cognitive models, user-centered design principles and evaluation, emerging technologies.
+Prerequisites: COP 2210 or COP 2250 or equivalent.

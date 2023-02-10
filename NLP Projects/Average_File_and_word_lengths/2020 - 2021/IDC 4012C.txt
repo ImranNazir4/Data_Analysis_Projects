@@ -1,0 +1,2 @@
+IDC 4012C Computer Science Education for High School Children (4).
+Provide teachers with the knowledge of advanced Computer Science topics, as well as the pedagogy on how to teach the topics. Computer Science topics include how the internet works, big data, logic, programming languages such as Javascript (via an app-creating visual tool) and researching technology innovations.

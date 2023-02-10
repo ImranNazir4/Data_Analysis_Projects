@@ -1,0 +1,3 @@
+CAP 5011 Multimedia Systems and Applications (3).
+Course covers organization of multimedia systems, data representation, quality of service, scheduling algorithms, synchronization and tele-communication of multimedia streams.
+Prerequisite: COP 4610.

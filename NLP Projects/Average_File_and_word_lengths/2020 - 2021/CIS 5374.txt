@@ -1,0 +1,3 @@
+CIS 5374 Information Security and Privacy (3).
+Information Security Planning, Planning for Contingencies, Policy, Security Program, Security Management Models, Database Security, Privacy, Information Security Analysis, Protection Mechanism.
+Prerequisite: CIS 5372.

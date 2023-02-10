@@ -1,0 +1,3 @@
+CIS 4431 IT Automation (3).
+IT automation: mgmt models, auditing, assets, change mgmt, network monitoring, OS imaging, patch mgmt, help desk, remote control, user state mgmt, end-point security, backup, disaster recovery.
+Prerequisite: CGS 3767. Corequisite: CGS 4285 or permission of the instructor.

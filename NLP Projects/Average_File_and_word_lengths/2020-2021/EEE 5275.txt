@@ -1,0 +1,3 @@
+EEE 5275 Bioradiation Engineering (3).
+Spectrum of radiation sources, types of fields, properties of living tissue, mechanisms of field propagation in tissue. Applications in imaging and therapy, hazards and safety.
+Prerequisites: EEL 4410 or permission of the instructor.

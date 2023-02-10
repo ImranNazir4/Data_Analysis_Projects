@@ -1,0 +1,3 @@
+BME 3721 Biomedical Engineering Data Evaluation Principles (3).
+Design and analysis of clinical and biomedical experiments. Statistical process control and measuring performance relevant to medical device industry.
+Prerequisites: (ESI 3215 or STA 3033). 

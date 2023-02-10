@@ -1,0 +1,2 @@
+CAP 5768 Introduction to Data Science (3).
+Foundations of databases, analytics, visualization and management of data. Practical data analysis with applications. Introduction to Python, SQL, R, and other specialized data analysis toolkits. Prerequisites: STA 3164 or equivalent.

@@ -1,0 +1,3 @@
+COP 4604 Advanced Unix Programming (3).
+Unix overview: files and directories, shell scripting and systems programming. Unix tools; Internals: file systems, process structure. Using the system call interface. Interprocess communication.
+Prerequisite: COP 4338. Corequisite: COP 4610. This course will have additional fees.

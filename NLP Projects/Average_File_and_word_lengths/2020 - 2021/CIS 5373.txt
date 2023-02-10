@@ -1,0 +1,2 @@
+CIS 5373 Systems Security (3).
+Risk, Trust, and Threat models; Types of Attacks; Safe Programming Techniques; Operating System Mechanisms, Virtual Machine Systems; Hardware Security Enforces; Application Security; Personal Security. Prerequisite: CIS 5372.

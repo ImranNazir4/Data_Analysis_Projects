@@ -1,0 +1,3 @@
+EEL 5820 Digital Image Processing (3). 
+Image Fundamentals, Image Transforms, Image Enhancement, Edge Detection, Image Segmentation, Texture Analysis, Image Restoration, and Image Compression.
+Prerequisites: EEL 3135 and knowledge of any programming language (FORTRAN, Pascal, C). (F)

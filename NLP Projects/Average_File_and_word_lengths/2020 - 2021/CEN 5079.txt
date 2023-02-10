@@ -1,0 +1,2 @@
+CEN 5079 Secure Application Programming (3).
+Development of applications that are free from common security vulnerabilities, such as buffer overflow, SQL injection, and cross-site scripting attacks. Emphasis is on distributed web applications. Prerequisite: Graduate standing.

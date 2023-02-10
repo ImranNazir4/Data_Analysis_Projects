@@ -1,0 +1,3 @@
+COT 4431 Applied Parallel Computing (3).
+This course teaches advance undergraduate and graduate students to solve problems from scientific, social and financial domains using parallel computing principles and techniques.
+Prerequisites: (COP 3530 and (CDA 3102 or CDA 4101 or EEL 4709)) or permission of the instructor

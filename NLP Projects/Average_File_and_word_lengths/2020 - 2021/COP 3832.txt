@@ -1,0 +1,2 @@
+COP 3832 Advanced Web Server Communication (3).
+Maintain a web server on the Internet. Learn HTML, PERL, Javascript. Configure the Apache web server. Write interactive server scripts. Discuss Web security & ASP. Use Java applets and ActiveX controls. Prerequisites: CGS 3559, COP 2210 or equivalents. This course will have additional fees.

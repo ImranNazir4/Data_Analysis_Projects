@@ -1,0 +1,2 @@
+IDC 5007 Concepts of Artificial Intelligence (3).
+High- level conceptual survey of artificial intelligence for non-CS graduate students, including techniques, applications, ethics, and philosophical issues. No high-level math or programming required.

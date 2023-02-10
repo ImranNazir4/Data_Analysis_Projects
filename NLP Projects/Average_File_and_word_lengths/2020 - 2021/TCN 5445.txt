@@ -1,0 +1,3 @@
+TCN 5445 Telecommunications Networking Programming (3).
+Advanced telecommunications network programming skills including Router and Bridge Software, socket programming and protocol handler.
+Prerequisite: Permission from instructor.

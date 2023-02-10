@@ -1,0 +1,2 @@
+COP 4226 Advanced Windows Programming (3).
+Document and Dialog Based App, Message Passing, Printing, Drawing, GUI Design, Common Controls, Multithreaded Programming, Serialization, Database Connectivity, Runtime Libraries, Memory Management. Prerequisite: COP 3530. This course will have additional fees.

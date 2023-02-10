@@ -1,0 +1,2 @@
+CEN 4072 Fundamentals of Software Testing (3).
+Fundamentals of software testing. Topics include: test plan creation, test case generation, program inspections, specification-based and implementation-based testing, GUI testing, and testing tools. Prerequisite: COP 3530.

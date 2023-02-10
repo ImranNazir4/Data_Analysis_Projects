@@ -1,0 +1,3 @@
+CGS 3092 Professional Ethics and Social Issues in Computing (1).
+Ethical, legal, social issues and the responsibility of computer professionals. Codes of conduct, risks and reliability, responsibility, liability, privacy, security, free speech issues.
+Prerequisites: ENC 3213 and (COP 2210 or COP 2250).

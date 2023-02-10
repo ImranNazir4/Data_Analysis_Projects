@@ -1,0 +1,3 @@
+COP 4555 Principles of Programming Languages (3).
+A comparative study of several programming languages and paradigms. Emphasis is given to design, evaluation and implementation. Programs are written in a few of the languages.
+Prerequisite: COP 3530. This course will have additional fees.

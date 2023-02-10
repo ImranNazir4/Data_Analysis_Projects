@@ -1,0 +1,4 @@
+EEL 3110L Circuits Lab (1).
+This lab introduces basic test equipment; oscilloscopes, multimeters, power supplies, function generator, etc., and uses this equipment in various experiments on resistors, capacitors, and inductors.
+Prerequisite: PHY 2049L. 
+Corequisite: EEL 3110.

@@ -1,0 +1,2 @@
+CTS 2327 Microsoft Windows NT Administration (3).
+A two-part course covering introduction to Networking and the Windows NT Operating System. This course will cover material that is covered on the Microsoft Certified systems Engineer (MCSE) exam. Prerequisites: CGS 2060, or CGS 2100, or equivalent. This course will have additional fees.

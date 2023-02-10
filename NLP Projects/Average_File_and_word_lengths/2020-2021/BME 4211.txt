@@ -1,0 +1,3 @@
+BME 4211 Orthopedic Biomechanics (3).
+Introduction to the fundamentals of human musculoskeletal physiology and anatomy and computation of mechanical forces as it applies to orthopaedic biomechanics. 
+Prerequisite: BME 4100.

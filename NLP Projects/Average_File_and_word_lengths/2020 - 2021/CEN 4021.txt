@@ -1,0 +1,3 @@
+CEN 4021 Software Engineering II (3).
+Issues underlying the successful development of large scale software projects: Software Architectures; Software Planning and Management; Team Structures; Cost Estimation.
+Prerequisite: CEN 4010. This course will have additional fees.

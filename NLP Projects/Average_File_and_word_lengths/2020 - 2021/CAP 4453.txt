@@ -1,0 +1,3 @@
+CAP 4453 Introduction to Robot Vision (3).
+Perspective and orthographic projections; the processing of edges, regions, motion, shading, texture, object detection, recognition, and machine learning.
+Prerequisites: COP 3530 and MAC 2312.

@@ -1,0 +1,3 @@
+CIS 5027 Computer Systems Fundamentals (3).
+Fundamentals concepts of IT Systems: operating systems, networking, distributed systems, platform technologies, web services and human-computer interaction. Covers design principles, algorithms and implementation techniques.
+Prerequisite: Graduate standing.

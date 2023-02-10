@@ -1,0 +1,3 @@
+CIS 4731 Fundamentals of Blockchain Technologies (3).
+Introduction to blockchain key concepts such as proof- of-work, mining, distributed consensus, and its applications including cryptocurrencies, smart contracts, and supply chain monitoring.
+Prerequisite: COP 3530

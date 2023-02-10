@@ -1,0 +1,3 @@
+BME 4011 Clinical Rotations for Biomedical Engineering (1).
+Clinical lectures, video presentations, and observational and participatory rotations through various divisions and laboratories at BME's clinical and industrial partners. 
+Prerequisite: BME 3403.

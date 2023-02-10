@@ -1,0 +1,3 @@
+BME 5505C Engineering Foundation of Medical Imaging Instrument (3). 
+Engineering basis of medical imaging systems, including radiology, X-Ray CT, SPECT, PET, MRI, and laser and ultrasound based imaging, as well as instrument quality assurance procedures. 
+Prerequisite: Permission of the instructor.

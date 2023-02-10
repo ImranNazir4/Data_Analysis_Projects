@@ -1,0 +1,3 @@
+BME 6410 Electrophysiological Phenomena in Biological Tissues (3).
+Provide a balanced understanding of the origin of major electrical phenomena in biology with emphasis on the genesis and data analysis of the electro- and magneto- encephalography.
+Prerequisite: Permission of the instructor.

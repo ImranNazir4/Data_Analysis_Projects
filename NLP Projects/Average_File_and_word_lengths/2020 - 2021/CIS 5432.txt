@@ -1,0 +1,2 @@
+CIS 5432 Advanced IT Automation (3).
+Advanced topics in system/network management including monitoring, help desk, antivirus, anti-malware, backup, disaster recovery, discovery, audit, remote control, automated response, policies, and reports. Prerequisites: CIS 4431 or permission of the instructor.

@@ -1,0 +1,3 @@
+CDA 3103 Fundamentals of Computer Systems (3).
+Overview of computer systems organization. Data representation. Machine and assembly language programming.
+Prerequisites: COP 2210 or equivalent. This course will have additional fees.

@@ -1,0 +1,3 @@
+CGS 2518 Computer Data Analysis (3).
+A hands-on study of how to use a modern spreadsheet program to analyze data, including how to perform queries, summarize data, and solve equations.
+For non-technical students. Not acceptable for CS students.

@@ -1,0 +1,3 @@
+CDA 3102 Computer Architecture (3).
+Covers the levels of organization in a computer; digital logic; machine and assembly language programming, design of memory, buses, ALU, CPU; virtual memory, I/O.
+Prerequisite: COP 3337 and (COT 3100 or MAD 2104).

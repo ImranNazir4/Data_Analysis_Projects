@@ -1,0 +1,2 @@
+COP 4520 Introduction to Parallel Computing (3).
+This course introduces the field of parallel computing. The students will be taught how to design efficient parallel programs and how to use parallel computing techniques to solve scientific problems. Prerequisites: COP 3530 and (CDA 3102 or CDA 4101 or EEL 4709C)

@@ -1,0 +1,3 @@
+CAP 2752 Fundamentals of Data Science (3).
+This course will teach data science fundamentals to undergraduate non-CS majors. The focus will be on real- world applications and use of associated analysis, Visualization tools, Python programming.
+Prerequisite: None for B.S. or B.A. standing or permission of the instructor.

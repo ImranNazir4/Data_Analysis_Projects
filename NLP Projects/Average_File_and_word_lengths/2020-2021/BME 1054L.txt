@@ -1,0 +1,2 @@
+BME 1054L Introduction to Biomedical Engineering Computing (1). 
+Introduction to computers for biomedical engineers. Basic computer programming principles and introduction to computer software such as MATLAB and Labview.

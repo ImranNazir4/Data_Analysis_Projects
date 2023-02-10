@@ -1,0 +1,3 @@
+BME 4311 Molecular Engineering (3). 
+The aim of this course is to educate students in the area of biomedical engineers and interested engineering students with molecular biology, genetic engineering and proteomic engineering. 
+Prerequisite: BME 3403.

@@ -1,0 +1,2 @@
+COT 5407 Introduction to Algorithms (3).
+Design of efficient data structures and algorithms; analysis of algorithms and asymptotic time complexity; graph, string, and geometric algorithms; NP-completeness.

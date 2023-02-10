@@ -1,0 +1,2 @@
+IDC 4010C Computer Science Education for Elementary School Children (4).
+Provide teachers with the knowledge of introductory Computer Science topics, as well as the pedagogy on how to teach the topics. Computer Science topics include computational thinking, logic, visual programming, and social issues related to computer technologies including Internet safety.

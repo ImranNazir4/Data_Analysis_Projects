@@ -1,0 +1,3 @@
+CEN 5082 Grid Enablement of Scientific Applications (3).
+Fundamental principles and applications of high- performance computing and parallel programming using OpenMP, MPI, Globus Toolkit, Web Services, and Grid Services.
+Prerequisites: Graduate standing or permission of the instructor.

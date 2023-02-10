@@ -1,0 +1,3 @@
+CAP 5510C Introduction to Bioinformatics (3).
+Introduction to bioinformatics; algorithmic, analytical and predictive tools and techniques; programming and visualization tools; machine learning; pattern discovery; analysis of sequence alignments, phylogeny data, gene expression data, and protein structure.
+Prerequisites: COP 3530 or equivalent and STA 3033 or equivalent.

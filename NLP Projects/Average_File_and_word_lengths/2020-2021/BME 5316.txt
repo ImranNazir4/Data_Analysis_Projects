@@ -1,0 +1,3 @@
+BME 5316 Molecular Bioprocess Engineering (3). 
+Use of enzyme kinetics, bioreactor design, bioseparations and bioprocessing in the biomedical, biopharmaceutical, and biotechnology industries. 
+Prerequisites: BCH 3033, BME 3632. 

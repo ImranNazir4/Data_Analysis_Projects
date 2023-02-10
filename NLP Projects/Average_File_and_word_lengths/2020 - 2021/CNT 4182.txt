@@ -1,0 +1,3 @@
+CNT 4182 Mobile and loT Cybersecurity Policies and Practices (3).
+Emerging topics in policies and practices for mobile and loT devices. Skills include identifying and assessing values and threats, and mitigating risks to loT and mobile assets.
+Prerequisites: CNT 4403 or EEL 4806

@@ -1,0 +1,3 @@
+CDA 3003 Microcomputer Organization (3).
+A study of the hardware components of modern microcomputers and their organization. Evaluation and comparison of the various microcomputer systems. Not acceptable for credit for Computer Science Majors.
+Prerequisite: COP 2250. This course will have additional fees.

@@ -1,0 +1,2 @@
+COP 3835 Designing Web Pages (3).
+Designing basic pages for display on the World Wide Web. Fundamental design elements and contemporary design tools are discussed. Computer literacy is expected.

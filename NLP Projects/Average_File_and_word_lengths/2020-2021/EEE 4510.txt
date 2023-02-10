@@ -1,0 +1,4 @@
+EEE 4510 Introduction to Digital Signal Processing (3). 
+Z transform and digital filters. Design of digital filters. Effects of finite register length in digital filters. Engineering applications of digital filters. 
+Prerequisites: EEL 3514 or permission of the instructor. 
+Corequisites: EEE 4314 or permission of the instructor. 

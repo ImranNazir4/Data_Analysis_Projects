@@ -1,0 +1,3 @@
+COT 5443 Optimization Methods for Computing: Theory and Applications (3).
+Optimization for CS graduate students, including algorithms, applications to widely used methods including efficient computing, machine learning and data science, and real-world problems. Basic calculus and programming skills are needed.
+Prerequisites: MAC 2311 Calculus I or equivalent; MAS 3105 Linear Algebra or equivalent (instructor's permission is acceptable)

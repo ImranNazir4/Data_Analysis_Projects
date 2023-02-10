@@ -1,0 +1,3 @@
+CDA 5655 Virtualized Systems (3).
+Topics include the concepts and principles of virtualization and the mechanisms and techniques of building virtualized systems, from individual virtual machines to virtualized networked infrastructure.
+Prerequisites: COP 4610 or permission of the instructor.

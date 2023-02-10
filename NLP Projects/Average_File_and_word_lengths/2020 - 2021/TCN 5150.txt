@@ -1,0 +1,2 @@
+TCN 5150 Multimedia Computer Communications (3).
+Covers multimedia computer communications technologies including, multimedia over networks, videoconferencing, telephone, compression algorithms and techniques for transmitting data efficiently. Prerequisites: TCN 6210 or permission of the instructor.

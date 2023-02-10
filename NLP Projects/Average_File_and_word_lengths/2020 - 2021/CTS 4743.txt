@@ -1,0 +1,2 @@
+CTS 4743 Enterprise IT Troubleshooting (3).
+This course covers advanced topics in troubleshooting from the perspective of an infrastructure engineer focusing on diagnosing & resolving issues found in common application architectures patterns. Prerequisite: COP 4703 and (CNT 4403 or EEL 4806)

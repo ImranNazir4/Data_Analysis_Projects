@@ -1,0 +1,3 @@
+BME 5560 Biomedical Engineering Optics (3).  
+Introduction to physical and geometrical optics of biomedical optical devices. Design of optical microscopes, endoscopes, fiber optic delivery systems, spectrometers, fluorometers, and cytometers.
+Prerequisites: Calculus, Differential Equations, Chemistry, and Physics. 

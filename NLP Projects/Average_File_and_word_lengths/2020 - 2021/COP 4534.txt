@@ -1,0 +1,3 @@
+COP 4534 Algorithm Techniques (3).
+Basic algorithm design, including greedy algorithms, divide-and-conquer, dynamic programming, randomization, and backtracking. Graph, string, numerical, geometric, and optimization algorithms.
+Prerequisite: COP 3530.

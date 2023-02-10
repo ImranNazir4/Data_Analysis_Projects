@@ -1,0 +1,4 @@
+BME 2740 Biomedical Engineering Modeling and Simulation (3).
+Computer modeling of biomedical applications. Extensive use of Matlab and Simulink for modeling and analysis of biomedical phenomena.
+Prerequisites: BSC 2010 (with a grade of “C” or better), BME 1054L. 
+Corequisites: MAP 2302, BME 1008C.

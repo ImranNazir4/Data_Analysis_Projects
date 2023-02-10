@@ -1,0 +1,3 @@
+BME 5358L Clinical Rotation in Radiation Oncology (3).
+Practical calibration of radiation therapy instruments, dose calculation and planning of radiation treatment under supervision of certified medical physicist. 
+Prerequisite: BME 5505C.

@@ -1,0 +1,3 @@
+CAP 4783 Management of Datacenter Systems (3).
+Topics include the concepts and principles of warehouse- scale computer system and datacenter management, including workload, software/hardware infrastructure, power and cost.
+Prerequisite: CGS 3767.

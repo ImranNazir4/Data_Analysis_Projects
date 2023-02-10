@@ -1,0 +1,3 @@
+CNT 4504 Advanced Network Management (3).
+Advanced principles of modern internetworking network design and implementation. Hands on experience with routers and switches and core Internet support protocols.
+Prerequisite: CNT 4513.

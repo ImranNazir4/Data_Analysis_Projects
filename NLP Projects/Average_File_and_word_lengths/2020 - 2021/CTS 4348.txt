@@ -1,0 +1,2 @@
+CTS 4348 Unix System Administration (3).
+Techniques of Unix system administration: system configuration and management; user setup, management and accounting; software installation and configuration; network setup, configuration and management. Prerequisite: CGS 3767.

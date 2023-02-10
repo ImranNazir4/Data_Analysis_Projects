@@ -1,0 +1,3 @@
+COP 1000 Introduction to Computer Programming (3).
+Uses graphics and animation in a media programming environment to teach problem solving and programming concepts to students with no prior experience.
+May not be taken after COP 2210 or COP 2250.

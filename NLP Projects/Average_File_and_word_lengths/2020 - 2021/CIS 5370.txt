@@ -1,0 +1,2 @@
+CIS 5370 Principles of Cybersecurity (3).
+Cybersecurity algorithms, techniques. Mathematical foundations. Symmetric and public key encryption. Authentication, key infrastructure, certificates. Covert channels. Access control. Vulnerabilities. Prerequisite: Graduate standing.

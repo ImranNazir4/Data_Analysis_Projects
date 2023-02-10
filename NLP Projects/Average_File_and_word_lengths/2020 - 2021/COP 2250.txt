@@ -1,0 +1,3 @@
+COP 2250 Programming in Java (3).
+A first course in programming for IT majors. Syntax and semantics of Java. Classes and Objects. Object oriented program development.
+Not acceptable for credit for Computer Science majors. This course will have additional fees.

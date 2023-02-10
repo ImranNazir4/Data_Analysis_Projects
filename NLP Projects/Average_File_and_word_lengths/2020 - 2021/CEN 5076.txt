@@ -1,0 +1,3 @@
+CEN 5076 Software Testing (3).
+Tools and techniques to validate software process artifacts: model validation, software metrics, implementation-based testing, specification-based testing, integration and systems testing.
+Prerequisites: CEN 4010 or CEN 5011.

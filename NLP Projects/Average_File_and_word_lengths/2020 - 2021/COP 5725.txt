@@ -1,0 +1,2 @@
+COP 5725 Principles of Database Management Systems (3).
+Overview of Database Systems, Relational Model, Relational Algebra and Relational Calculus; SQL; Database Applications; Storage and Indexing; Query Evaluation; Transaction Management. Selected database topics will also be discussed.

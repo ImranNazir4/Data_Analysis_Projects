@@ -1,0 +1,3 @@
+TCN 5455 Information Theory (3).
+Entropy and measure of information. Proof and interpretation of Shannon’s fundamental theorem for various channels, including noiseless, discrete, time-discrete and time-continuous channels.
+Prerequisite: Permission of the instructor.

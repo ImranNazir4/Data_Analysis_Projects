@@ -1,0 +1,4 @@
+BME 4050L Biomedical Engineering Lab I (1).
+Design, implementation and analysis of biomedical experiments, including biomechanics, tissue mechanics, fluid transport, cardiovascular hemodynamics and materials for artificial organs and implants. 
+Prerequisites: BME 3721, EEL 3110.
+Corequisite: BME 4100, BME 3632. 

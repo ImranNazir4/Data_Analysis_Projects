@@ -1,0 +1,2 @@
+COP 3530 Data Structures (3).
+Basic concepts of data organization, running time of a program, abstract types, data structures including linked lists, nary trees, sets and graphs, internal sorting. Prerequisites: COP 3337 and (MAD 2104 or COT 3100). This course will have additional fees.

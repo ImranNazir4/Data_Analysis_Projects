@@ -1,0 +1,3 @@
+CAP 4630 Artificial Intelligence (3).
+Introduction to all major topics in artificial intelligence, including search, logic, optimization, constraint satisfaction, planning, probabilistic reasoning, multiagent systems, machine learning.
+Prerequisite: COP 3530.

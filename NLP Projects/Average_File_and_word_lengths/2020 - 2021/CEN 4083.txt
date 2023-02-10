@@ -1,0 +1,3 @@
+CEN 4083 Introduction to Cloud Computing (3).
+Topics include the concepts and principles of cloud computing and the techniques of using cloud systems and developing cloud applications.
+Prerequisites: CNT4713 and (CDA 3102 or CDA4101) or permission of the instructor

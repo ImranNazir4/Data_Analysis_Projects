@@ -1,0 +1,2 @@
+CEN 5120 Expert Systems (3).
+Introduction to expert systems, knowledge representation techniques and construction of expert systems. A project such as the implementation of an expert system in a high level AI- language is required. Prerequisite: COP 3530 or permission of the instructor. This course will have additional fees.

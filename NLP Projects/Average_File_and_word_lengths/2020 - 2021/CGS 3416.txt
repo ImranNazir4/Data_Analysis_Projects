@@ -1,0 +1,3 @@
+CGS 3416 Web-based Programming (3). 
+A programming course in Java with emphasis on web-based applications: Applets; Components; Servlets; Java Beans. Not acceptable for credit for Computer Science majors.
+Prerequisites: COP 2250 and MAD 1100. This course will have additional fees.

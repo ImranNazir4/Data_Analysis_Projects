@@ -1,0 +1,3 @@
+COP 4722 Survey of Database Systems (3).
+Design and management of enterprise systems; concurrency techniques; distributed, object-oriented, spatial, and multimedia databases; databases integration; datawarehousing and datamining; OLAP; XML interchange.
+Prerequisites: COP 4710 or COP 4703.

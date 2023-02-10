@@ -1,0 +1,2 @@
+CNT 4403 Computing and Network Security (3).
+Fundamental concepts and principles of computing and network security, symmetric and asymmetric cryptography, hash functions, authentication, firewalls and intrusion detection, and operational issues. Prerequisites: (COP3804 or COP3337 or COP2270) and CGS3767 Corequisite: CGS4285.

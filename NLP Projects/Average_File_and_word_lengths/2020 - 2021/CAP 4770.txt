@@ -1,0 +1,3 @@
+CAP 4770 Introduction to Data Mining (3).
+Data mining applications, data preparation, data reduction and various data mining techniques such as association, clustering, classification, anomaly detection.
+Prerequisite: COP 3530. Corequisite: COP 4710.

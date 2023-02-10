@@ -1,0 +1,2 @@
+TCN 5421 Theory of Network Computation (3).
+Fundamental mathematical models of general and network computation: finite state automata, regular languages, decidability; scholastic processes, Markov chains, queuing theory.

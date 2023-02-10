@@ -1,0 +1,3 @@
+TCN 5080 Secure Telecommunications Transactions (3).
+Telecom and information security issues such as: digital signatures, cryptography as applied to telecom transactions, network policing, nested authentication, and improving system trust.
+Prerequisites: TCN 5030 or permission of the instructor.

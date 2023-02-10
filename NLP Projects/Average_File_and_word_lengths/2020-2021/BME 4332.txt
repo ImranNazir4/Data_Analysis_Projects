@@ -1,0 +1,3 @@
+BME 4332 Cell and Tissue Engineering – GL (3). 
+Physiology of cell growth and in vitro cultivation with basic techniques in biotechnology. Analysis of fundamental processes and engineering approaches on in vitro models for tissue growth. 
+Prerequisites: MAC 2313 (with a grade of “C” or better), BME 3632, BME 4100.

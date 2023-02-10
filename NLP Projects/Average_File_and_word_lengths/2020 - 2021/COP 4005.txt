@@ -1,0 +1,2 @@
+COP 4005 Windows Programming for IT Majors (3).
+Application development techniques in Windows: Classes, Objects, Controls, Forms and Dialogs, Database, and Multitier Application Architecture. Students cannot receive credit for both COP 4005 and COP 4226. Prerequisites: CEN 3721 and COP 3804 or COP 3337. Corequisite: COP 4703. This course will have additional fees.

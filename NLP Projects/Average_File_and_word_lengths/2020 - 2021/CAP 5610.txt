@@ -1,0 +1,3 @@
+CAP 5610 Introduction to Machine Learning (3).
+Decision trees, Bayesian learning, reinforcement learning as well as theoretical concepts such as inductive bias, the PAC learning, minimum description length principle.
+Prerequisite: Graduate standing.

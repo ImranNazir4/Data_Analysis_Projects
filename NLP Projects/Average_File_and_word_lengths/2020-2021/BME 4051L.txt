@@ -1,0 +1,4 @@
+BME 4051L Biomedical Engineering Lab II (1).
+Design, implementation and analysis of biomedical experiments, including bio-signal data acquisition, processing and analysis, mass transport and medical image processing and interpretation. 
+Prerequisites: BME 3721, EEL 3110.
+Corequisite: BME 4100, BME 3632

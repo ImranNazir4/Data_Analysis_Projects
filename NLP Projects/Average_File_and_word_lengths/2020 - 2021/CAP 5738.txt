@@ -1,0 +1,2 @@
+CAP 5738 Data Visualization (3).
+Advanced class on data visualization principles and techniques. Students propose, implement, and present a project with strong collaborative and visual components.

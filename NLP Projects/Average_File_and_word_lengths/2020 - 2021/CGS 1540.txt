@@ -1,0 +1,3 @@
+CGS 1540 Introduction to Databases for All (3).
+Introduction to database concepts including query languages, data organization and modeling, architecture, and security. Emphasis on relational databases with SQL.
+Not acceptable for CS majors.

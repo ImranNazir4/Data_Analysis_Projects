@@ -1,0 +1,4 @@
+BME 4800C Design of Biomedical Systems and Devices – GL (4). 
+Introduction to biomedical engineering design, materials selection, product and process development, manufacturing and of medical devices. Application of modern software tools in device design and sim. 
+Prerequisites: BME 3404, BME 3721, BME 4011, BME 4503C
+Corequisite: BME 3632. 

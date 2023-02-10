@@ -1,0 +1,3 @@
+CAP 5701 Advanced Computer Graphics (3).
+Advanced topics in computer graphics: system architecture, interactive techniques, image synthesis, current research areas.
+Prerequisites: COP 3530 and CAP 3710 or equivalent, or by permission. This course will have additional fees.

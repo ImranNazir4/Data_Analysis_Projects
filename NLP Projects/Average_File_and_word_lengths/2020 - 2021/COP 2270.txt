@@ -1,0 +1,3 @@
+COP 2270 Secure C Programming For Engineers (3).
+Secure programming for engineering and science students using ANSI C. Developing algorithms and code for problems in engineering and science, using secure techniques.
+Not acceptable for CS majors.

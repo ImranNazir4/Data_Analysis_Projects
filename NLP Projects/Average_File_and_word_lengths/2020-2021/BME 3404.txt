@@ -1,0 +1,3 @@
+BME 3404 Engineering Analysis of Biological Systems II (3).
+Quantitative description of physiological systems at the integrative systems level. Includes engineering analysis relating design to organ function. 
+Prerequisite: BME 3403.

@@ -1,0 +1,3 @@
+CEN 4012 Software Design and Development Project (3).
+Students design, implement, document, and test software systems working in faculty supervised project teams and utilizing knowledge obtained in previous courses. Required for Software Design and Development track.
+Prerequisite: CEN 4010. This course will have additional fees.

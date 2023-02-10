@@ -1,0 +1,3 @@
+CGS 3767 Computer Operating Systems (3).
+Introduction to fundamental concepts of operating systems and their implementation in UNIX and Windows.
+Prerequisites: COP 2250 or COP 2210. This course will have additional fees.

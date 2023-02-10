@@ -1,0 +1,3 @@
+CAP 5768C Practical Data Science (3).
+Topics will include: data collection and processing, data visualization and presentation, statistical model building using machine learning, and big data techniques for scaling these methods.
+Prerequisite: M.S. or Ph.D. standing or permission of the instructor.

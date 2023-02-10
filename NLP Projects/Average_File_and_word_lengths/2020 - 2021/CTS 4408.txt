@@ -1,0 +1,2 @@
+CTS 4408 Database Administration (3).
+Client-server architecture; planning, installation, server configuration; user management; performance optimization; backup, restoration; security configuration; replication management; administrative tasks. Prerequisites: COP 4703 or COP 4710.

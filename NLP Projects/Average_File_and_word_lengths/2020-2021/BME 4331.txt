@@ -1,0 +1,3 @@
+BME 4331 Introduction to Artificial Organs (3).
+An introduction to theoretical and experimental models of artificial organs for drug delivery, extracorporeal devices, oxygenators, tissue engineered models of organs, computer simulations of fluid and mass transport. 
+Prerequisite: BME 4332.

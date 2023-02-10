@@ -1,0 +1,2 @@
+TCN 5060 Telecommunications Software and Methodologies (3).
+A high-level look into network architectures and distributed applications, client-server models, network software platforms and advanced techniques for programs specifications through implementation. Prerequisites: TCN 5030 or permission of the instructor.

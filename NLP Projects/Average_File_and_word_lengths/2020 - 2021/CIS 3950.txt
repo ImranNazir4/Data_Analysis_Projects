@@ -1,0 +1,3 @@
+CIS 3950 Capstone I (1).
+Students learn how to perform efficiently in Agile/Scrum teams of up to 5 members and learn how to design and implement solutions to problems as a team.
+Prerequisite: COP 3337 and Junior Standing

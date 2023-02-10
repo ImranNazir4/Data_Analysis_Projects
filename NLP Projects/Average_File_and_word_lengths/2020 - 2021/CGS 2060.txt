@@ -1,0 +1,3 @@
+CGS 2060 Introduction to Microcomputers (3).
+A hands-on study of microcomputer software packages for applications such as operating system, word processing, spreadsheets, and database management. 
+For students without a technical background. Not acceptable for credit for Computer Science majors.

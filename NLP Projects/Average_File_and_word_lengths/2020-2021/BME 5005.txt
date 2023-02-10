@@ -1,0 +1,3 @@
+BME 5005 Applied Biomedical Engineering Principles (3). 
+Biomedical engineering applications to instrumentation, transport phenomena, mechanics, materials and imaging. 
+Prerequisite: Permission of the instructor.
