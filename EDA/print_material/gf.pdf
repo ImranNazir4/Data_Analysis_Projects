@@ -1,0 +1,1587 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "7e05a8a1",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\">Lecture 3.7 (NumPy-07)</h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1582af95",
+   "metadata": {},
+   "source": [
+    "<img align=\"left\" width=\"500\" height=\"500\"  src=\"images/concatfunctions.png\" >"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2a42f40f",
+   "metadata": {},
+   "source": [
+    "## 2. Stacking of NumPy Arrays"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a5841372",
+   "metadata": {},
+   "source": [
+    "<img align=\"left\" width=\"350\" height=\"350\"  src=\"images/hs1.png\" > \n",
+    "<img align=\"right\" width=\"350\" height=\"350\"  src=\"images/vs1.png\" > "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1a425185",
+   "metadata": {},
+   "source": [
+    "## 3. Splitting NumPy Arrays"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "523c9549",
+   "metadata": {},
+   "source": [
+    "<img align=\"center\" width=\"400\" height=\"300\"  src=\"images/splitting.png\" > "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "98474a05",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('1.19.5',\n",
+       " ['c:\\\\users\\\\zee tech\\\\appdata\\\\local\\\\programs\\\\python\\\\python39\\\\lib\\\\site-packages\\\\numpy'])"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "np.__version__ , np.__path__"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4837196d",
+   "metadata": {},
+   "source": [
+    "## 1. Concatenating NumPy Arrays\n",
+    "<img align=\"right\" width=\"400\" height=\"200\"  src=\"images/concataxis1.png\" >\n",
+    "<img align=\"left\" width=\"500\" height=\"400\"  src=\"images/concataxis0.png\" > "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cdc7a39b",
+   "metadata": {},
+   "source": [
+    "The `np.concatenate()` method is used to join arrays with respect to given axis.\n",
+    "\n",
+    "```\n",
+    "np.concatenate(tup, axis=0)\n",
+    "```\n",
+    "\n",
+    "- Where `tup` is comma separated ndarrays\n",
+    "- If axis is 0, it will join the arrays by row-wise (vertically). For 2-D arrays, the number of columns must match.\n",
+    "- If axis is 1, it will join the arrays by column-wise (horizontally). For 2-D arrays, the number of rows must match.\n",
+    "- For 1-D arrays, the arrays can be of any size/length.\n",
+    "- The original arrays remains as such, as it does not occur in-place."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8bf21ff4",
+   "metadata": {},
+   "source": [
+    "**Example:** Concatenate two 1-D Arrays along axis = 0 (row wise). The 1-D arrays can be of any size/length."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "328b234a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 =  [ 9 89 12 17  6]\n",
+      "arr2 =  [14 98 14]\n",
+      "\n",
+      "np.concatenate((arr1,arr2)) =  [ 9 89 12 17  6 14 98 14]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "arr1 = np.random.randint(low = 1, high = 100, size = 5)\n",
+    "arr2 = np.random.randint(low = 1, high = 100, size = 3)\n",
+    "print(\"arr1 = \", arr1)\n",
+    "print(\"arr2 = \", arr2)\n",
+    "arr3 = np.concatenate((arr1, arr2))\n",
+    "arr3 = np.concatenate((arr1, arr2), axis=0)\n",
+    "print(\"\\nnp.concatenate((arr1,arr2)) = \", arr3)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c9ef53fe",
+   "metadata": {},
+   "source": [
+    "### You cannot concatenate 1-D arrays on `axis=1`, as it do not exist :)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1453c811",
+   "metadata": {},
+   "source": [
+    "**Example:** Concatenate two 2-D Arrays along `axis=0` (vertically/row-wise). The number of columns of two arrays must match."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "86f79a6f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 = \n",
+      " [[9 3 4]\n",
+      " [9 1 1]]\n",
+      "arr2 = \n",
+      " [[3 3 5]\n",
+      " [8 9 1]\n",
+      " [4 1 4]]\n",
+      "\n",
+      "np.concatenate((arr1,arr2)) = \n",
+      " [[9 3 4]\n",
+      " [9 1 1]\n",
+      " [3 3 5]\n",
+      " [8 9 1]\n",
+      " [4 1 4]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "arr1 = np.random.randint(low = 1, high = 10, size = (2,3))\n",
+    "arr2 = np.random.randint(low = 1, high = 10, size = (3,3))\n",
+    "print(\"arr1 = \\n\", arr1)\n",
+    "print(\"arr2 = \\n\", arr2)\n",
+    "arr3 = np.concatenate((arr1, arr2), axis=0)\n",
+    "print(\"\\nnp.concatenate((arr1,arr2)) = \\n\", arr3)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "280eed63",
+   "metadata": {},
+   "source": [
+    "**Example:** Concatenate two 2-D Arrays along `axis=1` (horizontally/column-wise). The number of rows of two arrays must match."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "b2096ab9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 = \n",
+      " [[6 8]\n",
+      " [3 8]]\n",
+      "arr2 = \n",
+      " [[3 8 2]\n",
+      " [4 3 6]]\n",
+      "\n",
+      "np.concatenate((arr1,arr2)) = \n",
+      " [[6 8 3 8 2]\n",
+      " [3 8 4 3 6]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "arr1 = np.random.randint(low = 1, high = 10, size = (2,2))\n",
+    "arr2 = np.random.randint(low = 1, high = 10, size = (2,3))\n",
+    "print(\"arr1 = \\n\", arr1)\n",
+    "print(\"arr2 = \\n\", arr2)\n",
+    "\n",
+    "arr3 = np.concatenate((arr1, arr2), axis=1)\n",
+    "print(\"\\nnp.concatenate((arr1,arr2)) = \\n\", arr3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "d9bf0876",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(2, 5)"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "arr3.shape"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9ad0ca2a",
+   "metadata": {},
+   "source": [
+    "## 2. Stacking NumPy Arrays\n",
+    "- Concatenating joins a sequence of arrays along an existing axis, and stacking joins a sequence of arrays along existing as well as along a new axis.\n",
+    "- We can perform stacking along three dimensions:\n",
+    "    - `np.vstack()` : it performs vertical stacking along the rows.\n",
+    "    - `np.hstack()` : it performs horizontal stacking along with the columns.\n",
+    "    - `np.dstack()` : it performs in-depth stacking along a new third axis (depth).\n",
+    "\n",
+    "**Note:** \n",
+    "- `numpy.stack()` is the most general of the three methods, offering an axis parameter for specifying which way to put the arrays together.\n",
+    "- `np.column_stack()` is used to stack 1-D arrays as columns into 2-D array.\n",
+    "- `np.row_stack()` is used to stack 1-D arrays as rows into 2-D array."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0965f219",
+   "metadata": {},
+   "source": [
+    "**Example: `np.row_stack()`**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "1a1e8151",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 =  [2 5 1]\n",
+      "arr2 =  [3 6 2]\n",
+      "\n",
+      "np.row_stack((arr1, arr2)):\n",
+      "  [[2 5 1]\n",
+      " [3 6 2]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#ROW STACK\n",
+    "import numpy as np\n",
+    "arr1 = np.array([2,5,1])\n",
+    "arr2 = np.array([3,6,2])\n",
+    "\n",
+    "print(\"arr1 = \", arr1)\n",
+    "print(\"arr2 = \", arr2)\n",
+    "  \n",
+    "arr3 = np.row_stack((arr1, arr2))\n",
+    "\n",
+    "print (\"\\nnp.row_stack((arr1, arr2)):\\n \", arr3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "021c089f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(2, 3)"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "arr3.shape"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "32fa1887",
+   "metadata": {},
+   "source": [
+    "**Example: `np.column_stack()`**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "e8fb88fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 =  [2 5 1]\n",
+      "arr2 =  [3 6 2]\n",
+      "\n",
+      "np.column_stack((arr1, arr2)):\n",
+      "  [[2 3]\n",
+      " [5 6]\n",
+      " [1 2]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#COLUMN STACK\n",
+    "import numpy as np\n",
+    "arr1 = np.array([2,5,1])\n",
+    "arr2 = np.array([3,6,2])\n",
+    "\n",
+    "print(\"arr1 = \", arr1)\n",
+    "print(\"arr2 = \", arr2)\n",
+    "  \n",
+    "arr3 = np.column_stack((arr1, arr2))\n",
+    "\n",
+    "print (\"\\nnp.column_stack((arr1, arr2)):\\n \", arr3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5a8a8d26",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "62eb4ce5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b3626ed3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8b0ecaa1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6b791ea8",
+   "metadata": {},
+   "source": [
+    "<img align=\"right\" width=\"250\" height=\"100\"  src=\"images/vstackfinal.png\" > \n",
+    "\n",
+    "### a. Use `np.vstack()` for Row-Wise Concatenation\n",
+    "The `np.vstack()` method is used to stack arrays vertically or row-wise.\n",
+    "\n",
+    "```\n",
+    "np.vstack(tup)\n",
+    "```\n",
+    "\n",
+    "- Where `tup` is comma separated ndarrays\n",
+    "- 1-D arrays must have the same size/length, while for 2-D arrays, the number of columns must match.\n",
+    "- It returns an ndarray formed by stacking the given arrays, will be at least 2-D.\n",
+    "- The original arrays remains as such, as it does not occur in-place."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9491a3b8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3c58a9cf",
+   "metadata": {},
+   "source": [
+    "**Example:** Perform vertical stacking of two 1-D Arrays, which must have the same size/length."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "0a1ba250",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 =  [5 6 8 1]\n",
+      "arr2 =  [9 4 7 9]\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "array([[5, 6, 8, 1],\n",
+       "       [9, 4, 7, 9]])"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "arr1 = np.random.randint(low = 1, high = 10, size = 4)\n",
+    "arr2 = np.random.randint(low = 1, high = 10, size = 4)\n",
+    "\n",
+    "print(\"arr1 = \", arr1)\n",
+    "print(\"arr2 = \", arr2)\n",
+    "  \n",
+    "np.vstack((arr1, arr2))\n",
+    "\n",
+    "#print (\"\\nnp.vstack((arr1, arr2)):\\n \", arr3)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "eaca3c1e",
+   "metadata": {},
+   "source": [
+    "Note: The output array is a 2-D array"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a92c8ce6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "29694002",
+   "metadata": {},
+   "source": [
+    "**Example:** Perform vertical stacking of two 2-D Arrays. The number of columns of two arrays must match"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "dd21992c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 = \n",
+      " [[5 3 7 2 6 9 9 2 5 7]]\n",
+      "arr2 = \n",
+      " [[2 7 7 2 4 7 6 9 6 7]]\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "array([[5, 3, 7, 2, 6, 9, 9, 2, 5, 7],\n",
+       "       [2, 7, 7, 2, 4, 7, 6, 9, 6, 7]])"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "arr1 = np.random.randint(low = 1, high = 10, size = (1,10))\n",
+    "arr2 = np.random.randint(low = 1, high = 10, size = (1,10))\n",
+    "\n",
+    "print(\"arr1 = \\n\", arr1)\n",
+    "print(\"arr2 = \\n\", arr2)\n",
+    "\n",
+    "np.vstack((arr1, arr2))\n",
+    "#print (\"\\n np.vstack((arr1, arr2)):\\n \", arr3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "780d1db4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = np.array([[1], [2], [3]])\n",
+    "b = np.array([[4], [5], [6]])\n",
+    "c=np.vstack((a,b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "165f929f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(6, 1)"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c.shape"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2e1e3875",
+   "metadata": {},
+   "source": [
+    "<img align=\"right\" width=\"250\" height=\"100\"  src=\"images/hstackfinal.png\" > \n",
+    "\n",
+    "### b. Using `np.hstack()` for Column-Wise Concatenation\n",
+    "The `np.hstack()` method is used to stack arrays horizontally or column-wise.\n",
+    "\n",
+    "```\n",
+    "np.hstack(tup)\n",
+    "```\n",
+    "\n",
+    "- Where `tup` is comma separated ndarrays\n",
+    "- 1-D arrays can have any size/length, while for 2-D arrays, the number of rows must match.\n",
+    "- It returns an ndarray formed by stacking the given arrays.\n",
+    "- The original arrays remains as such, as it does not occur in-place."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "deceefd3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7e71cc75",
+   "metadata": {},
+   "source": [
+    "**Example:** Perform horizontal stacking of two 1-D Arrays, which can be of different  size/length"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "bac46141",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 =  [[7 2]\n",
+      " [3 2]\n",
+      " [6 1]\n",
+      " [6 7]\n",
+      " [5 6]]\n",
+      "arr2 =  [[3 8]\n",
+      " [5 3]\n",
+      " [4 3]\n",
+      " [3 2]\n",
+      " [3 6]]\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "array([[7, 2, 3, 8],\n",
+       "       [3, 2, 5, 3],\n",
+       "       [6, 1, 4, 3],\n",
+       "       [6, 7, 3, 2],\n",
+       "       [5, 6, 3, 6]])"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "arr1 = np.random.randint(low = 1, high = 10, size = (5,2))\n",
+    "arr2 = np.random.randint(low = 1, high = 10, size = (5,2))\n",
+    "print(\"arr1 = \", arr1)\n",
+    "print(\"arr2 = \", arr2)\n",
+    "  \n",
+    "np.hstack((arr1, arr2))\n",
+    "#print (\"\\n np.hstack((arr1, arr2)):\\n \", arr3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "d3a42c33",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 =  [5 5 8 4 7]\n",
+      "arr2 =  [3 7 1 8]\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "array([5, 5, 8, 4, 7, 3, 7, 1, 8])"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "arr1 = np.random.randint(low = 1, high = 10, size = 5)\n",
+    "arr2 = np.random.randint(low = 1, high = 10, size = 4)\n",
+    "print(\"arr1 = \", arr1)\n",
+    "print(\"arr2 = \", arr2)\n",
+    "  \n",
+    "np.hstack((arr1, arr2))\n",
+    "#print (\"\\n np.hstack((arr1, arr2)):\\n \", arr3)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5d786095",
+   "metadata": {},
+   "source": [
+    "Note: The output array is a 1-D array"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3351f377",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f7eb1d49",
+   "metadata": {},
+   "source": [
+    "**Example:** Perform horizontal stacking of two 2-D Arrays. The number of rows of two arrays must match"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "1b6fce65",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 = \n",
+      " [[8 3]\n",
+      " [9 8]]\n",
+      "arr2 = \n",
+      " [[6 8 9]\n",
+      " [3 2 4]]\n",
+      "\n",
+      " np.hstack((arr1, arr2)):\n",
+      "  [[8 3 6 8 9]\n",
+      " [9 8 3 2 4]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "arr1 = np.random.randint(low = 1, high = 10, size = (2,2))\n",
+    "arr2 = np.random.randint(low = 1, high = 10, size = (2,3))\n",
+    "print(\"arr1 = \\n\", arr1)\n",
+    "print(\"arr2 = \\n\", arr2)\n",
+    "\n",
+    "arr3 = np.hstack((arr1, arr2))\n",
+    "print (\"\\n np.hstack((arr1, arr2)):\\n \", arr3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0715afa4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b2cb4513",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "538597f0",
+   "metadata": {},
+   "source": [
+    "### e. Using `np.stack()`\n",
+    "\n",
+    "- The `np.stack()` method is used to join a sequence of same dimension arrays along a new axis.\n",
+    "- The axis parameter specifies the index of the new axis in the dimensions of the result. \n",
+    "- For example, if axis=0 it will be the first dimension and if axis=-1 it will be the last dimension.\n",
+    "```\n",
+    "np.stack(a1, a2, a3, ..., axis=0)\n",
+    "```\n",
+    "\n",
+    "- Where `tup` is comma separated ndarrays\n",
+    "- 1-D or 2-D arrays must have the same shape, while n-D arrays must have the same shape along all but the third axis.\n",
+    "- It returns the array formed by stacking the given arrays, which has one more dimension than the input arrays.\n",
+    "- This function makes most sense for arrays with up to 3 dimensions. For instance, for pixel-data with a height (first axis), width (second axis), and r/g/b channels (third axis).\n",
+    "\n",
+    "\n",
+    "\n",
+    "**Note:** Concatenating joins a sequence of tensors along an existing axis, and stacking joins a sequence of tensors along a new axis"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bf7c1a4c",
+   "metadata": {},
+   "source": [
+    "**Example:** Perform stacking of two 1-D Arrays, which must have the same size/shape."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "d41eb42c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 =  [6 9 9 8]\n",
+      "arr2 =  [7 2 7 3]\n",
+      "\n",
+      " np.stack(arr1, arr2, axis=0):\n",
+      "  [[6 9 9 8]\n",
+      " [7 2 7 3]]\n",
+      "\n",
+      " np.row_stack(arr1, arr2)):\n",
+      "  [[6 9 9 8]\n",
+      " [7 2 7 3]]\n",
+      "\n",
+      " np.stack((arr1, arr2), axis=1):\n",
+      "  [[6 7]\n",
+      " [9 2]\n",
+      " [9 7]\n",
+      " [8 3]]\n",
+      "\n",
+      " np.column_stack(arr1, arr2):\n",
+      "  [[6 7]\n",
+      " [9 2]\n",
+      " [9 7]\n",
+      " [8 3]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "arr1 = np.random.randint(low = 1, high = 10, size = 4)\n",
+    "arr2 = np.random.randint(low = 1, high = 10, size = 4)\n",
+    "print(\"arr1 = \", arr1)\n",
+    "print(\"arr2 = \", arr2)\n",
+    "  \n",
+    "# Stacking two 1-D arrays along axis 0 using stack()\n",
+    "arr3 = np.stack((arr1, arr2), axis = 0)\n",
+    "print (\"\\n np.stack(arr1, arr2, axis=0):\\n \", arr3)\n",
+    "# Stacking the two 1-D arrays using row_stack()\n",
+    "arr4 = np.row_stack((arr1, arr2))\n",
+    "print (\"\\n np.row_stack(arr1, arr2)):\\n \", arr4)\n",
+    "  \n",
+    "\n",
+    "# Stacking two 1-D arrays along axis 1 using stack()\n",
+    "arr5 = np.stack((arr1, arr2), axis = 1)\n",
+    "print (\"\\n np.stack((arr1, arr2), axis=1):\\n \", arr5)\n",
+    "# Stacking the two 1-D arrays using column_stack()\n",
+    "arr6 = np.column_stack((arr1, arr2))\n",
+    "print (\"\\n np.column_stack(arr1, arr2):\\n \", arr6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c33b2b61",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ec563ebb",
+   "metadata": {},
+   "source": [
+    "**Example:** Perform stacking of two 2-D Arrays, which must have the same size/shape."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "96c36e49",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 = \n",
+      " [[4 3 1]\n",
+      " [5 6 2]]\n",
+      "arr2 = \n",
+      " [[5 1 8]\n",
+      " [3 9 1]]\n",
+      "\n",
+      " np.stack((arr1, arr2), axis=0): \n",
+      " [[[4 3 1]\n",
+      "  [5 6 2]]\n",
+      "\n",
+      " [[5 1 8]\n",
+      "  [3 9 1]]]\n",
+      "shape of arr3: (2, 2, 3)\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "arr1 = np.array([[4,3,1],[5,6,2]])\n",
+    "arr2 = np.array([[5,1,8],[3,9,1]])\n",
+    "\n",
+    "print(\"arr1 = \\n\", arr1)\n",
+    "print(\"arr2 = \\n\", arr2)\n",
+    "\n",
+    "# Stacking the two arrays along axis 0\n",
+    "arr3 = np.stack((arr1, arr2), axis = 0)\n",
+    "print (\"\\n np.stack((arr1, arr2), axis=0): \\n\", arr3)\n",
+    "\n",
+    "print(\"shape of arr3:\", arr3.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "75d2beb7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr1 = \n",
+      " [[4 3 1]\n",
+      " [5 6 2]]\n",
+      "arr2 = \n",
+      " [[5 1 8]\n",
+      " [3 9 1]]\n",
+      "\n",
+      " np.stack((arr1, arr2), axis=1): \n",
+      " [[[4 3 1]\n",
+      "  [5 1 8]]\n",
+      "\n",
+      " [[5 6 2]\n",
+      "  [3 9 1]]]\n",
+      "shape of arr3: (2, 2, 3)\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "arr1 = np.array([[4,3,1],[5,6,2]])\n",
+    "arr2 = np.array([[5,1,8],[3,9,1]])\n",
+    "\n",
+    "print(\"arr1 = \\n\", arr1)\n",
+    "print(\"arr2 = \\n\", arr2)\n",
+    "\n",
+    "# Stacking the two arrays along axis 1\n",
+    "arr3 = np.stack((arr1, arr2), axis = 1)\n",
+    "print (\"\\n np.stack((arr1, arr2), axis=1): \\n\", arr3)\n",
+    "\n",
+    "print(\"shape of arr3:\", arr3.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8bc1301b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "arr1 = np.array([[4,3,1],[5,6,2]])\n",
+    "arr2 = np.array([[5,1,8],[3,9,1]])\n",
+    "\n",
+    "print(\"arr1 = \\n\", arr1)\n",
+    "print(\"arr2 = \\n\", arr2)\n",
+    "\n",
+    "  \n",
+    "# Stacking the two arrays along last axis\n",
+    "arr3 = np.stack((arr1, arr2), axis = -1)\n",
+    "print (\"\\n np.stack((arr1, arr2), axis=-1):\\n \", arr3)\n",
+    "print(\"shape of arr3:\", arr3.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "643a3e7b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3bb7e22c",
+   "metadata": {},
+   "source": [
+    "## 3. Splitting NumPy Arrays\n",
+    "- Splitting is reverse operation of Joining, and is used to split one array into multiple arrays....\n",
+    "- We can perform splitting along three dimensions:\n",
+    "    - `np.split()` : Split array into a list of multiple sub-arrays of equal size.\n",
+    "    - `np.hsplit()` : Split array into multiple sub-arrays horizontally (column wise).\n",
+    "    - `np.vsplit()` : Split array into multiple sub-arrays vertically (row wise)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1093d12a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "968822fb",
+   "metadata": {},
+   "source": [
+    "### a. The `np.split()` and `np.array_split()` Methods\n",
+    "\n",
+    "<img align=\"left\" width=\"400\" height=\"200\"  src=\"images/split.png\" > \n",
+    "<img align=\"right\" width=\"400\" height=\"200\"  src=\"images/array_split.png\" > \n",
+    "\n",
+    "<br><br><br><br><br><br><br><br><br><br>\n",
+    "- The `np.split()` method splits an array into multiple sub-arrays of equal sizes.\n",
+    "\n",
+    "```\n",
+    "np.split(arr, size, axis=0)\n",
+    "```\n",
+    "- Where,\n",
+    "    - `arr` is the array to be divided into sub-arrays.\n",
+    "    - `size` is an size of the sub-arrays, into which `arr` will be divided along the axis. \n",
+    "    - `axis` is the axis along which to split, default is 0.\n",
+    "- If such split is not possible, an error is raised. To avoid error you can use `np.array_split()`\n",
+    "- It returns a list of sub-arrays as views into `arr`"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9b03967e",
+   "metadata": {},
+   "source": [
+    "**Example:** Use of `split()`"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "93d40d2b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "arr1 = np.random.randint(low = 1, high = 10, size = 20)\n",
+    "print(\"arr1:\\n\",arr1)\n",
+    "\n",
+    "# The split size must be a factor of array size (can be 1, 2, 4, 5, 10) \n",
+    "print(\"\\nSub-arrays: \\n\", np.split(arr1, 4))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "334e0358",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0fe4f87c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5502e895",
+   "metadata": {},
+   "source": [
+    "**Example:** Use of `array_split()`"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "37370678",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# create an array of float type\n",
+    "arr1 = np.random.randint(low = 1, high = 10, size = 13)\n",
+    "print(\"arr1:\\n\",arr1)\n",
+    "\n",
+    "# The array_split() will not flag an error if size is not a factor of array size (will manage)\n",
+    "print(\"\\nSub-arrays: \\n\", np.array_split(arr1, 4))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4144eb48",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0a688f2a",
+   "metadata": {},
+   "source": [
+    "<img align=\"right\" width=\"150\" height=\"50\"  src=\"images/hsplit.png\" > \n",
+    "\n",
+    "### b. The `np.hsplit()` Method\n",
+    "- The `np.hsplit()` method is used to split an array into multiple sub-arrays horizontally (column-wise). \n",
+    "- The `np.hsplit()` is equivalent to split with axis=1, the array is always split along the second axis regardless of the array dimension.\n",
+    "\n",
+    "```\n",
+    "np.hsplit(arr, size)\n",
+    "```\n",
+    "- Where,\n",
+    "    - `arr` is the array to be divided into sub-arrays.\n",
+    "    - `size` is the size of the sub-arrays, into which `arr` will be divided along the axis. For `hsplit()`, size argument should be a factor of number of columns, else it flags an error\n",
+    "- It returns a list of sub-arrays as views into `arr`"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6042a59e",
+   "metadata": {},
+   "source": [
+    "**Example:**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d9baa401",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# create an array of float type with 4 rows and 4 columns with sequential values from 0 to 15\n",
+    "arr1 = np.arange(16.0).reshape(4,4)\n",
+    "# print array\n",
+    "print(\"arr1:\\n\",arr1)\n",
+    "print(\"shape: \", arr1.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9d1e5fd3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# horizontally split array into 2 subarrays\n",
+    "print(\"\\nSub-arrays: \\n\", np.hsplit(arr1, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b9ea9ca1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6fe57a59",
+   "metadata": {},
+   "source": [
+    "<img align=\"right\" width=\"200\" height=\"50\"  src=\"images/vsplit.png\" > \n",
+    "\n",
+    "### c. The `np.vsplit()` Method\n",
+    "- The `np.vsplit()` method is used to split an array into multiple sub-arrays vertically (row-wise). Not applicable for 1-D array.\n",
+    "- The `np.vsplit()` is equivalent to split with axis=0, the array is always split along the first axis regardless of the array dimension.\n",
+    "\n",
+    "```\n",
+    "np.vsplit(arr, size)\n",
+    "```\n",
+    "-Where,\n",
+    "   - `arr` is the array to be divided into sub-arrays.\n",
+    "   - `size` is the size of the sub-arrays, into which `arr` will be divided along the axis. For `vsplit()`, size argument should be a factor of number of rows, else it flags an error\n",
+    "- It returns a list of sub-arrays as views into `arr`"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "134c339a",
+   "metadata": {},
+   "source": [
+    "**Example:**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b4f3ba75",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# create an array of float type with 4 rows and 5 columns with sequential values from 0 to 19\n",
+    "arr1 = np.arange(16.0).reshape(4,4)\n",
+    "print(\"arr1:\\n\",arr1)\n",
+    "print(\"shape: \", arr1.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ffb810cb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# vertically split array into 2 subarrays (remember size argument must be a factor of number of rows )\n",
+    "print(\"\\nSub-arrays: \\n\", np.vsplit(arr1, 2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "61acb5b9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "609b8419",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fb676934",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "db14fa84",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "91e9898b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ac133d80",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "49c29303",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "arr3:  [[2 3]\n",
+      " [5 6]\n",
+      " [1 2]]\n",
+      "arr4:  [[2 5 1]\n",
+      " [3 6 2]]\n",
+      "arr5:  [2 5 1 3 6 2]\n",
+      "arr6:  [[2 3]\n",
+      " [5 6]\n",
+      " [1 2]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "arr1 = np.array([2,5,1])\n",
+    "arr2 = np.array([3,6,2])\n",
+    "arr3 = np.column_stack((arr1, arr2))\n",
+    "arr4 = np.vstack((arr1, arr2))\n",
+    "arr5 = np.hstack((arr1, arr2))\n",
+    "arr6 = np.stack((arr1, arr2), axis = 1)\n",
+    "print (\"arr3: \", arr3)\n",
+    "print (\"arr4: \", arr4)\n",
+    "print (\"arr5: \", arr5)\n",
+    "print (\"arr6: \", arr6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "c7ee4eee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Collecting notebook-as-pdf\n",
+      "  Downloading notebook_as_pdf-0.5.0-py3-none-any.whl (6.5 kB)\n",
+      "Collecting nbconvert\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "  WARNING: The script pyppeteer-install.exe is installed in 'C:\\Users\\Zee Tech\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts' which is not on PATH.\n",
+      "  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n",
+      "  WARNING: The scripts jupyter-migrate.exe, jupyter-troubleshoot.exe and jupyter.exe are installed in 'C:\\Users\\Zee Tech\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts' which is not on PATH.\n",
+      "  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n",
+      "  WARNING: The script jupyter-trust.exe is installed in 'C:\\Users\\Zee Tech\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts' which is not on PATH.\n",
+      "  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n",
+      "  WARNING: The scripts jupyter-kernel.exe, jupyter-kernelspec.exe and jupyter-run.exe are installed in 'C:\\Users\\Zee Tech\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts' which is not on PATH.\n",
+      "  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n",
+      "  WARNING: The script jupyter-execute.exe is installed in 'C:\\Users\\Zee Tech\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts' which is not on PATH.\n",
+      "  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n",
+      "  WARNING: The scripts jupyter-dejavu.exe and jupyter-nbconvert.exe are installed in 'C:\\Users\\Zee Tech\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts' which is not on PATH.\n",
+      "  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "  Downloading nbconvert-7.2.9-py3-none-any.whl (274 kB)\n",
+      "     ------------------------------------ 274.9/274.9 kB 529.3 kB/s eta 0:00:00\n",
+      "Collecting pyppeteer\n",
+      "  Downloading pyppeteer-1.0.2-py3-none-any.whl (83 kB)\n",
+      "     -------------------------------------- 83.4/83.4 kB 276.0 kB/s eta 0:00:00\n",
+      "Collecting PyPDF2\n",
+      "  Downloading pypdf2-3.0.1-py3-none-any.whl (232 kB)\n",
+      "     ------------------------------------ 232.6/232.6 kB 889.3 kB/s eta 0:00:00\n",
+      "Collecting traitlets>=5.0\n",
+      "  Downloading traitlets-5.8.1-py3-none-any.whl (116 kB)\n",
+      "     ------------------------------------ 116.8/116.8 kB 158.5 kB/s eta 0:00:00\n",
+      "Collecting defusedxml\n",
+      "  Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)\n",
+      "Collecting tinycss2\n",
+      "  Downloading tinycss2-1.2.1-py3-none-any.whl (21 kB)\n",
+      "Collecting mistune<3,>=2.0.3\n",
+      "  Downloading mistune-2.0.4-py2.py3-none-any.whl (24 kB)\n",
+      "Collecting nbclient>=0.5.0\n",
+      "  Downloading nbclient-0.7.2-py3-none-any.whl (71 kB)\n",
+      "     -------------------------------------- 72.0/72.0 kB 395.6 kB/s eta 0:00:00\n",
+      "Collecting jinja2>=3.0\n",
+      "  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)\n",
+      "     ------------------------------------ 133.1/133.1 kB 413.7 kB/s eta 0:00:00\n",
+      "Requirement already satisfied: pygments>=2.4.1 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert->notebook-as-pdf) (2.14.0)\n",
+      "Collecting jupyter-core>=4.7\n",
+      "  Downloading jupyter_core-5.1.5-py3-none-any.whl (93 kB)\n",
+      "     -------------------------------------- 93.5/93.5 kB 484.3 kB/s eta 0:00:00\n",
+      "Requirement already satisfied: packaging in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert->notebook-as-pdf) (21.3)\n",
+      "Requirement already satisfied: bleach in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert->notebook-as-pdf) (5.0.1)\n",
+      "Collecting pandocfilters>=1.4.1\n",
+      "  Downloading pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)\n",
+      "Collecting nbformat>=5.1\n",
+      "  Downloading nbformat-5.7.3-py3-none-any.whl (78 kB)\n",
+      "     -------------------------------------- 78.1/78.1 kB 722.0 kB/s eta 0:00:00\n",
+      "Collecting jupyterlab-pygments\n",
+      "  Downloading jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)\n",
+      "Collecting markupsafe>=2.0\n",
+      "  Downloading MarkupSafe-2.1.2-cp310-cp310-win_amd64.whl (16 kB)\n",
+      "Collecting beautifulsoup4\n",
+      "  Downloading beautifulsoup4-4.11.1-py3-none-any.whl (128 kB)\n",
+      "     ------------------------------------ 128.2/128.2 kB 443.3 kB/s eta 0:00:00\n",
+      "Collecting appdirs<2.0.0,>=1.4.3\n",
+      "  Downloading appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)\n",
+      "Requirement already satisfied: certifi>=2021 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer->notebook-as-pdf) (2022.9.24)\n",
+      "Requirement already satisfied: tqdm<5.0.0,>=4.42.1 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer->notebook-as-pdf) (4.64.1)\n",
+      "Requirement already satisfied: importlib-metadata>=1.4 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer->notebook-as-pdf) (6.0.0)\n",
+      "Collecting websockets<11.0,>=10.0\n",
+      "  Downloading websockets-10.4-cp310-cp310-win_amd64.whl (101 kB)\n",
+      "     ------------------------------------ 101.4/101.4 kB 646.8 kB/s eta 0:00:00\n",
+      "Collecting pyee<9.0.0,>=8.1.0\n",
+      "  Downloading pyee-8.2.2-py2.py3-none-any.whl (12 kB)\n",
+      "Requirement already satisfied: urllib3<2.0.0,>=1.25.8 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer->notebook-as-pdf) (1.26.13)\n",
+      "Requirement already satisfied: zipp>=0.5 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from importlib-metadata>=1.4->pyppeteer->notebook-as-pdf) (3.11.0)\n",
+      "Requirement already satisfied: platformdirs>=2.5 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jupyter-core>=4.7->nbconvert->notebook-as-pdf) (2.6.2)\n",
+      "Collecting pywin32>=1.0\n",
+      "  Downloading pywin32-305-cp310-cp310-win_amd64.whl (12.1 MB)\n",
+      "     -------------------------------------- 12.1/12.1 MB 307.1 kB/s eta 0:00:00\n",
+      "Collecting jupyter-client>=6.1.12\n",
+      "  Downloading jupyter_client-8.0.1-py3-none-any.whl (103 kB)\n",
+      "     ------------------------------------ 103.2/103.2 kB 270.2 kB/s eta 0:00:00\n",
+      "Collecting fastjsonschema\n",
+      "  Downloading fastjsonschema-2.16.2-py3-none-any.whl (22 kB)\n",
+      "Requirement already satisfied: jsonschema>=2.6 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbformat>=5.1->nbconvert->notebook-as-pdf) (4.17.3)\n",
+      "Requirement already satisfied: colorama in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from tqdm<5.0.0,>=4.42.1->pyppeteer->notebook-as-pdf) (0.4.6)\n",
+      "Collecting soupsieve>1.2\n",
+      "  Downloading soupsieve-2.3.2.post1-py3-none-any.whl (37 kB)\n",
+      "Requirement already satisfied: webencodings in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from bleach->nbconvert->notebook-as-pdf) (0.5.1)\n",
+      "Requirement already satisfied: six>=1.9.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from bleach->nbconvert->notebook-as-pdf) (1.16.0)\n",
+      "Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from packaging->nbconvert->notebook-as-pdf) (3.0.9)\n",
+      "Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jsonschema>=2.6->nbformat>=5.1->nbconvert->notebook-as-pdf) (0.19.3)\n",
+      "Requirement already satisfied: attrs>=17.4.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jsonschema>=2.6->nbformat>=5.1->nbconvert->notebook-as-pdf) (22.1.0)\n",
+      "Collecting pyzmq>=23.0\n",
+      "  Downloading pyzmq-25.0.0-cp310-cp310-win_amd64.whl (969 kB)\n",
+      "     ------------------------------------ 969.4/969.4 kB 841.4 kB/s eta 0:00:00\n",
+      "Collecting tornado>=6.2\n",
+      "  Downloading tornado-6.2-cp37-abi3-win_amd64.whl (425 kB)\n",
+      "     ------------------------------------ 425.3/425.3 kB 312.6 kB/s eta 0:00:00\n",
+      "Requirement already satisfied: python-dateutil>=2.8.2 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert->notebook-as-pdf) (2.8.2)\n",
+      "Installing collected packages: pywin32, pyee, mistune, fastjsonschema, appdirs, websockets, traitlets, tornado, tinycss2, soupsieve, pyzmq, PyPDF2, pandocfilters, markupsafe, jupyterlab-pygments, defusedxml, pyppeteer, jupyter-core, jinja2, beautifulsoup4, nbformat, jupyter-client, nbclient, nbconvert, notebook-as-pdf\n",
+      "Successfully installed PyPDF2-3.0.1 appdirs-1.4.4 beautifulsoup4-4.11.1 defusedxml-0.7.1 fastjsonschema-2.16.2 jinja2-3.1.2 jupyter-client-8.0.1 jupyter-core-5.1.5 jupyterlab-pygments-0.2.2 markupsafe-2.1.2 mistune-2.0.4 nbclient-0.7.2 nbconvert-7.2.9 nbformat-5.7.3 notebook-as-pdf-0.5.0 pandocfilters-1.5.0 pyee-8.2.2 pyppeteer-1.0.2 pywin32-305 pyzmq-25.0.0 soupsieve-2.3.2.post1 tinycss2-1.2.1 tornado-6.2 traitlets-5.8.1 websockets-10.4\n"
+     ]
+    }
+   ],
+   "source": [
+    "!pip install -U notebook-as-pdf"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "bdae5bab",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Requirement already satisfied: pyppeteer in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (1.0.2)\n",
+      "Requirement already satisfied: websockets<11.0,>=10.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer) (10.4)\n",
+      "Requirement already satisfied: urllib3<2.0.0,>=1.25.8 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer) (1.26.13)\n",
+      "Requirement already satisfied: appdirs<2.0.0,>=1.4.3 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer) (1.4.4)\n",
+      "Requirement already satisfied: tqdm<5.0.0,>=4.42.1 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer) (4.64.1)\n",
+      "Requirement already satisfied: certifi>=2021 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer) (2022.9.24)\n",
+      "Requirement already satisfied: pyee<9.0.0,>=8.1.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer) (8.2.2)\n",
+      "Requirement already satisfied: importlib-metadata>=1.4 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from pyppeteer) (6.0.0)\n",
+      "Requirement already satisfied: zipp>=0.5 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from importlib-metadata>=1.4->pyppeteer) (3.11.0)\n",
+      "Requirement already satisfied: colorama in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from tqdm<5.0.0,>=4.42.1->pyppeteer) (0.4.6)\n"
+     ]
+    }
+   ],
+   "source": [
+    "!pip install pyppeteer"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "15edeab1",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'pyppeteer' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-12-67d7f30ecbcf>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[1;32m----> 1\u001b[1;33m \u001b[0mpyppeteer\u001b[0m\u001b[1;33m-\u001b[0m\u001b[0minstall\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m: name 'pyppeteer' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "pyppeteer-install"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "cd4784bf",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (<ipython-input-22-ccecb6933434>, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"<ipython-input-22-ccecb6933434>\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    jupyter-nbconvert --to PDFviaHTML example.ipynb\u001b[0m\n\u001b[1;37m                           ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "jupyter-nbconvert --to PDFviaHTML example.ipynb"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "7f58df47",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Requirement already satisfied: nbconvert in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (7.2.9)\n",
+      "Requirement already satisfied: traitlets>=5.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (5.8.1)\n",
+      "Requirement already satisfied: pygments>=2.4.1 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (2.14.0)\n",
+      "Requirement already satisfied: nbformat>=5.1 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (5.7.3)\n",
+      "Requirement already satisfied: packaging in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (21.3)\n",
+      "Requirement already satisfied: beautifulsoup4 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (4.11.1)\n",
+      "Requirement already satisfied: markupsafe>=2.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (2.1.2)\n",
+      "Requirement already satisfied: jinja2>=3.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (3.1.2)\n",
+      "Requirement already satisfied: nbclient>=0.5.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (0.7.2)\n",
+      "Requirement already satisfied: jupyter-core>=4.7 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (5.1.5)\n",
+      "Requirement already satisfied: tinycss2 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (1.2.1)\n",
+      "Requirement already satisfied: bleach in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (5.0.1)\n",
+      "Requirement already satisfied: mistune<3,>=2.0.3 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (2.0.4)\n",
+      "Requirement already satisfied: defusedxml in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (0.7.1)\n",
+      "Requirement already satisfied: jupyterlab-pygments in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (0.2.2)\n",
+      "Requirement already satisfied: pandocfilters>=1.4.1 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbconvert) (1.5.0)\n",
+      "Requirement already satisfied: platformdirs>=2.5 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jupyter-core>=4.7->nbconvert) (2.6.2)\n",
+      "Requirement already satisfied: pywin32>=1.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jupyter-core>=4.7->nbconvert) (305)\n",
+      "Requirement already satisfied: jupyter-client>=6.1.12 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbclient>=0.5.0->nbconvert) (8.0.1)\n",
+      "Requirement already satisfied: jsonschema>=2.6 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbformat>=5.1->nbconvert) (4.17.3)\n",
+      "Requirement already satisfied: fastjsonschema in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from nbformat>=5.1->nbconvert) (2.16.2)\n",
+      "Requirement already satisfied: soupsieve>1.2 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from beautifulsoup4->nbconvert) (2.3.2.post1)\n",
+      "Requirement already satisfied: webencodings in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from bleach->nbconvert) (0.5.1)\n",
+      "Requirement already satisfied: six>=1.9.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from bleach->nbconvert) (1.16.0)\n",
+      "Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from packaging->nbconvert) (3.0.9)\n",
+      "Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jsonschema>=2.6->nbformat>=5.1->nbconvert) (0.19.3)\n",
+      "Requirement already satisfied: attrs>=17.4.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jsonschema>=2.6->nbformat>=5.1->nbconvert) (22.1.0)\n",
+      "Requirement already satisfied: pyzmq>=23.0 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (25.0.0)\n",
+      "Requirement already satisfied: tornado>=6.2 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (6.2)\n",
+      "Requirement already satisfied: python-dateutil>=2.8.2 in i:\\wpsystem\\s-1-5-21-2818287816-1769971900-1840473298-1002\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\\localcache\\local-packages\\python310\\site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (2.8.2)\n"
+     ]
+    }
+   ],
+   "source": [
+    "!pip install nbconvert"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "f6eee73a",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (<ipython-input-24-1be2664eae28>, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"<ipython-input-24-1be2664eae28>\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    jupyter nbconvert --to webpdf --allow-chromium-download your-notebook-file.ipynb\u001b[0m\n\u001b[1;37m            ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "jupyter nbconvert --to webpdf --allow-chromium-download your-notebook-file.ipynb"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2ce764b7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
