@@ -1,0 +1,21 @@
+,"In order to effectively solve the problem of high divorce rate, we",Unnamed: 0,"""Implementation of machine learning algorithm on factors"
+0,output the importance of each feature. The ten most important,,"effecting divorce rate,"" 2018 International Conference on"
+1,features of RF and NGBoost are shown in Table 7.,,"Engineering and Emerging Technologies (ICEET), Lahore,"
+2,,,"2018, pp. 1-5."
+3,4. CONCLUSION AND DISCUSSION,[6],"A. Jarynowski and P. Nyczka, ""Dynamic Network Approach"
+4,"In this work, three machine learning algorithms are applied to",,"to Marriage/Divorces Problem,"" 2014 European Network"
+5,"predict potential divorce. SVM, RF and NGBoost all have good",,"Intelligence Conference, Wroclaw, 2014, pp. 122-125."
+6,performance. NGBoost has a slight advantage than SVM and RF,,
+7,,[7],"J. Li, G. Zhang, H. Yan, L. Yu and T. Meng, ""A Markov"
+8,"in predicting. In addition, we find out the most important factors",,
+9,,,Logic Networks Based Method to Predict Judicial Decisions
+10,lead to divorce calculated by RF and NGBoost. As shown in,,
+11,,,"of Divorce Cases,"" 2018 IEEE International Conference on"
+12,"Table 7, there is only one difference in the top ten questions. This",,
+13,,,"Smart Cloud (SmartCloud), New York, NY, 2018, pp. 129-"
+14,"shows that the research is very convincing. In the future, we will",,
+15,,,132.
+16,collect more data and add some personal information to analyze.,,
+17,,[8],"Yöntem, M , Adem, K , İlhan, T , Kılıçarslan, S . (2019)."
+18,5. REFERENCES,,Divorce Prediction Using Correlation Based Feature
+19,"[1] A. P. Panatagama, G. P. Pratama and D. Y. Wibawa,",,Selection and Artificial Neural Networks. Nevşehir Hacı

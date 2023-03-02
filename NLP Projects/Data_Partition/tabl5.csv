@@ -1,0 +1,35 @@
+,NGBoost The key parameters of Random forest set in this paper are shown RF
+0,in Table 5. No. Question No. Question
+1,18 My spouse and I have 18 My spouse and I have
+2,Table 5. Key parameters of Natural Gradient Boosting similar ideas about how similar ideas about how
+3,Parameters Description Optimal marriage should be. marriage should be.
+4,Value 40 We're just starting a 40 We're just starting a
+5,base leaner The base leaner of natural decision discussion before I discussion before I know
+6,gradient boosting machine tree know what's going on. what's going on.
+7,n_estimators The number of trees in the 2000 11 I think that one day in 11 I think that one day in
+8,"gradient boosting machine. the future, when I look the future, when I look"
+9,"max_depth The maximum depth of the tree. 3 back, I see that my back, I see that my"
+10,spouse and I have been spouse and I have been
+11,min_samples The minimum number of 2 in harmony with each in harmony with each
+12,_split samples required to split an other. other.
+13,internal node of the base 26 I know my spouse's 19 My spouse and I have
+14,decision tree. basic anxieties. similar ideas about how
+15,min_samples The minimum number of 1 roles should be in
+16,_leaf samples in newly created leaves marriage.
+17,of the base decision tree. 19 My spouse and I have 17 We share the same views
+18,min_weight_f The minimum weighted fraction 0 similar ideas about how about being happy in our
+19,raction_leaf of the input samples required to roles should be in life with my spouse.
+20,be at a leaf node of the base marriage.
+21,decision tree. 17 We share the same 20 My spouse and I have
+22,minibatch_fra Fraction of minibatch selected 0.9 views about being similar values in trust.
+23,c randomly without resampling. happy in our life with
+24,Dist Distribution configured in  Bernoulli my spouse.
+25,NGBoost 20 My spouse and I have 9 I enjoy traveling with
+26,Score Scoring rule MLE similar values in trust. my wife.
+27,9 I enjoy traveling with 26 I know my spouse's
+28,The performance of Natural Gradient Boosting is shown in Table my wife. basic anxieties.
+29,6. It outperforms SVM and random forest on all three evaluation 16 We're compatible with 16 We're compatible with
+30,scores.my spouse about what my spouse about what
+31,love should be. The top 10 important features of random forest are shown in love should be.
+32,"Figure 3. As shown in Figure 3, question 18 is still the most 36 I can be humiliating 25 I have knowledge of my"
+33,when we discussions. spouse's inner world.

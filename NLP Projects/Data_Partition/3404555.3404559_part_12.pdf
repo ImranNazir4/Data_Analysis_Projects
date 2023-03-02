@@ -1,0 +1,95 @@
+crea ted by  
+stanfor dmlgroup   and choose decision tree sas the base leane r
+s.
+ 
+2.3
+ 
+Evaluati on  
+In orde r to e valuat e algorithms on the dataset objec tive ly , we used 
+10
+-fold cro ss-vali dation
+. On 10 -fold cro ss-validati on, the data  set 
+was divi ded into te n subset s, and 9 of the m were ta ken as tra ining 
+set and 1 subset was used as validati on set. Thi s proc ess re peate d 
+10 ti mes, with every  subset used as vali dat ion set exact ly once
+. In this
+ pape r, Acc ura cy , Pre cision  and F1 score  are uti liz ed to 
+eva luat e per formanc e . The de finitions of them a re : 
+          
+ L
+XT
+>
+XR
+XT
+>
+XR
+>
+JT
+>
+JR
+           
+  
+(2) 2NA?EOE KJ L
+ÍÉ
+ÍÉ
+>
+¿É
+                (3) 
+ 
+( s
+O?KNA L t Û
+ãåØ Ö ÜæÜâá ÛåØ Ö Ôßß
+ãåØ Ö ÜæÜâá > åØ Ö Ôßß
+ 
+  
+   
+(4)
+ 
+wher e TP, TN, FP,  FN mea ns True  Positi ve ,  True  Negative
+, 
+False 
+Positi ve
+, 
+False Nega tive and 
+              
+NA?= HH L
+ÍÉ
+ÍÉ
+>
+¿Ç
+  
+                (5) 
+3. RESULTS  
+3.1
+ 
+SVM 
+In this pape r,  w
+e 
+choose the Radia l Basis Function  as the ker nel 
+func ti on  and set key  para meters
+ C = 1. 0, Gamma = 0. 03. The 
+per formanc e of 
+SVM
+ is sho wn in Ta ble  2. All result s are 
+ca lcul ate d as the ave rage of 10
+-fold cro ss-validation . Table  2. Per formance  of SVM  
+Evaluation M etri cs
+ 
+Evaluation
+ 
+S
+c
+ore
+s
+ 
+Acc ura cy
+ 
+0. 9715
+ 
+Prec ision
+ 
+0. 9769
+ 
+F1 score
+ 
+0. 9710

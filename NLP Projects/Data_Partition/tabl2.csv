@@ -1,0 +1,22 @@
+,Unnamed: 0,Unnamed: 1,Unnamed: 2,Parameters,Description,Optimal
+0,,,,,,Value
+1,,,,n_estimators,The number of trees in the,2000
+2,,,,,forest.,
+3,,,,max_features,The number of features to,15
+4,,,,,consider when looking for the,
+5,,,,,best split.,
+6,,,,max_depth,The maximum depth of the,not limited
+7,,,,,tree.,
+8,,,,min_samples_,The minimum number of,2
+9,,Figure 1. Illustration of Random forest.,,split,samples required to split an,
+10,,,,,internal node.,
+11,2.2.3,Natural Gradient Boosting (NGBoost),,min_samples_,The minimum number of,1
+12,The NGBoost,algorithm is a supervised learning method for,,leaf,samples in newly created,
+13,"probabilistic forecasting proposed by Tony Duan, Anand Avati,",,,,leaves.,
+14,"Daisy Yi Ding, et al. in 2019. It is a gradient boosting approach",,,min_weight_f,The minimum weighted,0
+15,which uses natural gradients to solve the problem of simultaneous,,,raction_leaf,fraction of the input samples,
+16,boosting of multiple parameters from the base learners [11]. In,,,,required to be at a leaf node.,
+17,"this paper,",we use the python library “ngboost” created by,,,,
+18,,,,bootstrap,Whether bootstrap samples,True
+19,stanfordmlgroup  and choose decision trees as the base leaners.,,,,,
+20,,,,,are used when building trees.,

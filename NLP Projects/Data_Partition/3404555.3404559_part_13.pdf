@@ -1,0 +1,71 @@
+A
+s 
+shown in Table  2, SVM has ac hieve d very  good per formance  
+as alle val uat ionscor es  are higher tha n 97% . 3.2
+ 
+Random Fo res t 
+T he key  paramete rs of Random fore st  set in this pape r  are shown 
+in Tabl e 3 . Table  3. Key  param eters of  Random for est  
+Par ame ter s
+ 
+Descr iption
+ 
+Optimal  
+Value
+ 
+n_esti mat ors
+ 
+The  number oftree s in the 
+fore st.
+ 
+2
+0
+00
+ 
+max_f ea ture s
+ 
+The  number of 
+fea tures to 
+conside r when looking for the 
+best split
+. 1
+5
+ 
+max_de pth
+ 
+The  maxi mum dept h of the 
+tre e
+. n
+ot li mited
+ 
+min_samples_
+split
+ 
+The  mini mum number  of 
+sample s re quired to split an 
+int ernal  node. 2
+ 
+min_samples_
+leaf
+ 
+The  mini mum number  of 
+sample s in newly  
+created 
+le aves. 1
+ 
+min_wei ght_f
+ra ction_leaf
+ 
+The  mini mum weighted 
+fra ction of the i nput sample s 
+re quire d to be ata lea f node. 0
+ 
+bootstra p Whet her  bootstrap sample s 
+are  used when buil ding trees. T
+rue
+ 
+ 
+The  performance of ra ndom forest is shown in Ta ble 4. Random 
+fore st has bet ter per formance and
+ all three e val uat ion score s are 
+bet ter than tha t

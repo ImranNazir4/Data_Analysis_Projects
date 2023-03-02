@@ -1,0 +1,35 @@
+Compar ed with SVM an d RF,  N
+GB
+oost has superior  per formance 
+as
+ NGBoost ca n ac hie ve 0. 9 833 a ccur acy , 0. 9769  pre cision and 
+0. 9
+828 F1 score. In addit ion
+, 
+we  also show the most important 
+fe at ures  in the model  of RF and N
+GB
+oost to find the most 
+important  factors whic h lea d to divorc e . CCS Concep t s Computing me thodologi es
+á
+Mac hine learning
+á
+Machine 
+le arning approaches
+á
+Classification and re gression tr ee s. 
+Ke ywords  
+Divorc e ;  machine learni ng
+; 
+random fore st
+; 
+nat ural gra die nt 
+boosting ;  dat a mini ng . 1. INTRODUCTION  
+Husband and wife  are two differe nt sides of a fa mily  and tied  
+toge ther to live for a better live . But Some couple s divorce d for 
+var ious reasons . Acc ording  to [ 3
+]
+, 
+in
+ Ameri ca,  40% t o 50% of all 
+first marr ia ges,  and 60% of sec ond marr ia ges , will end in divorce .

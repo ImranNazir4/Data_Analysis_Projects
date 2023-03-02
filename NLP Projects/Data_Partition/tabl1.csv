@@ -1,0 +1,5 @@
+,Unnamed: 0,Evaluation Metrics,Evaluation Scores
+0,Random forest is an ensemble of decision trees trained with the,,
+1,"bagging method used for Classification, Regression and other",Accuracy,0.9715
+2,"tasks [4], [10]. Trees in forest are trained on random samples of",Precision,0.9769
+3,training data and the split of each node on a tree is based on a,F1 score,0.971

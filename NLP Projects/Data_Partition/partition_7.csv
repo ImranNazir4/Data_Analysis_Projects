@@ -1,0 +1,86 @@
+,0
+0,"re cognition and re gression model ing  [2
+],  [9
+]
+. It calc ula te s a 
+dec ision boundary  
+to
+ maxi mizes the dista nc e of the nea rest points 
+of any  cla ss to the deci sion  boundary
+. Given N point s 
+<
+:
+Ü
+á ;
+Ü
+=
+Ü @ 5
+Ç
+ 
+where  
+:
+Ü
+Ð 4
+á
+ is the
+ i
+-
+th
+ input  and 
+;
+Ü
+ is the 
+i
+-th 
+ 
+ labe l.  In 
+thi s pape r,  
+J L
+wv
+ and 
+;
+Ü
+ Ð <rá s=
+. SVM ai ms to cre ate a  cl assifier 
+in the form of : 
+   
+B
+:
+T
+;
+L OECJ :
+Ã
+U
+Ü
+=
+Ü
+ð
+:
+T á T
+Ü
+;
+E >
+á
+Ü @ 5
+;
+           (1)  
+wher e 
+=
+Ü
+ are positive re al constant s and b is a real constant . ð
+:
+® á ®
+;
+ 
+is
+ a  kern el funct ion  [12]. 2. 2. 2 Ra nd om Fo rest 
+(RF)
+ 
+Random fore st is an ense mble of d
+eci sion 
+tr
+ee s tra ined with the 
+baggi ng met hod used for Classificat ion, Regression and other 
+ta sks [4
+],  [10]. Tre es in fore st are  tra ined  on random sample s of 
+tra ini ng data  and the  split  of each node on a tree  is base d on a"
