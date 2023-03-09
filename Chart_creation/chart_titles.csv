@@ -66,211 +66,211 @@ Free Cash Flow
 Net Promoter Score
 Product Mix Analysis
 Purchasing Metrics
-Procurement Metrics
-Maintenance Metrics
-Recruiting Metrics
-Revenue Growth
-Cost of Goods Sold
-Operating Expenses
-Operating Income
-Gross Profit
-Net Profit
-Net Profit Margin
-Earnings Per Share
-Book Value
-Market Value
-Return on Investment
-Return on Sales
-Debt-to-Assets Ratio
-Cash Ratio
-Operating Cash Flow
-Enterprise Value
-Price-to-Book Ratio
-Price-to-Sales Ratio
-EBITDA
-EBITDA Margin
-Total Debt
-Long-Term Debt
-Short-Term Debt
-Fixed Asset Turnover
-Total Asset Turnover
-Net Working Capital
-Current Assets
-Current Liabilities
-Total Assets
-Total Liabilities
-Stockholders' Equity
-Capital Expenditures
-Depreciation
-Amortization
-Goodwill
-Intangible Assets
-Tangible Assets
-Cost of Revenue
-Revenue
-Operating Revenue
-Investment Revenue
-Net Sales
-Gross Revenue
-Gross Margin
-Operating Margin
-EBIT Margin
-Pre-Tax Margin
-Net Income Margin
-Gross Profit Margin
-Asset Turnover Ratio
-Interest Expense
-Tax Rate
-Adjusted Net Income
-Return on Capital
-Cash Flow Margin
-Cash Flow Yield
-CFO-to-EBITDA Ratio
-GDP by Country
-Inflation by Country
-Fisheries by Country
-Medicines by Country
-Nutrition by Country
-HIV/AIDS by Country
-Malaria by Country
-Poverty by Country
-Land Use by Country
-Obesity by Country
-Refugees by Country
-Migration by Country
-Terrorism by Country
-Taxation by Country
-Banking by Country
-Insurance by Country
-Fintech by Country
-Trade by Country
-Transport by Country
-Tariffs by Country
-Product Mix
-Net Revenue
-Market Share
-Customer Churn
-Order Volume
-Price Index
-Labor Costs
-Sales Growth
-Customer Segments
-Expenses by Dept
-Sales Pipeline
-Inventory Turns
-Market Size
-Sales Funnel
-Marketing Spend
-Lead Conversion
-Profit and Loss
-Market Trends
-Sales by Channel
-Customer Loyalty
-Customer Behavior
-Employee Turnover
-Revenue by Product
-Sales Forecast
-ROI Analysis
-Customer Retention
-Sales by Product
-Market Penetration
-Revenue by Channel
-Sales by Customer
-Expense Analysis
-Sales Mix
-Cash Flow Forecast
-Market Position
-Sales Performance
-Product Launch
-Sales by Segment
-Expense Trends
-Sales Projection
-Customer Acquisition
-Price Analysis
-Market Segments
-Sales by Quarter
-Sales by Territory
-Sales by Country
-Customer Value
-Sales Velocity
-Sales by Month
-Revenue Mix
-Sales Targets
-Customer Analysis
-Sales Growth Rate
-Competitive Analysis
-Sales Efficiency
-Customer Profiles
-Sales by Year
-Customer Experience
-Sales Cycle Length
-Sales Conversion
-Revenue Forecast
-Price Elasticity
-Sales Momentum
-Expense Breakdown
-Sales Lead Quality
-Sales by Store
-Sales by Platform
-Sales by Source
-Market Demand
-Sales by Category
-Market Opportunities
-Sales by Week
-Sales Strategy
-Sales by Agent
-Market Conditions
-Sales Trend Analysis
-Sales by Industry
-Sales Incentives
-Asset Allocation
-Capital Adequacy
-Credit Scoring
-Deposit Growth
-Expense Management
-Financial Planning
-Fraud Detection
-Loan Portfolio
-Market Volatility
-Mortgage Rates
-Payment Systems
-Retail Banking
-Risk Management
-Savings Accounts
-Shareholder Value
-Wealth Management
-Banking Regulation
-Cash Management
-Commercial Lending
-Consumer Credit
-Credit Ratings
-Debt Service Ratio
-Digital Banking
-Financial Stability
-Interest Rate Risk
-Liquidity Management
-Loan Quality
-Merchant Services
-Mobile Banking
-Online Banking
-Overdraft Fees
-Profitability
-Transaction Banking
-Wealth Creation
-Banking Customer
-Banking Efficiency
-Capital Markets
-Credit Cards
-Credit Risk
-Deposit Accounts
-Financial Inclusion
-Forex Trading
-Investment Banking
-Loan Underwriting
-Market Risk
-Mortgage Lending
-Payment Processing
-Private Banking
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
 Retail Credit
 Risk Assessment
 Securities Trading
@@ -339,23 +339,23 @@ capital structure
 cash management
 tax filing deadline
 tax reduction tips
-inventory control
-payroll tax rates
-tax liability rules
-bank reconciliation
-accounts analysis
-job costing analysis
-cost of goods sold
-depreciation methods
-tax preparation tips
-inventory management
-accounting standards
-tax filing status
-operating expenses
-accounts overview
-tax deduction rules
-financial ratios
-capital budgeting
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
 tax planning tips
 tax refund rules
 inventory valuation
@@ -561,3 +561,956 @@ Marketing Trends
 Marketing Campaign
 Content Engagement
 Marketing Analytics
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+inventory control
+payroll tax rates
+tax liability rules
+bank reconciliation
+accounts analysis
+job costing analysis
+cost of goods sold
+depreciation methods
+tax preparation tips
+inventory management
+accounting standards
+tax filing status
+operating expenses
+accounts overview
+tax deduction rules
+financial ratios
+capital budgeting
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+Financial Ratios
+Inventory Turnover
+Sales Forecasting
+Website Heatmap
+User Demographics
+Customer Churn Rates
+Brand Reputation
+Email Open Rates
+Cost Per Acquisition
+Cost Per Click
+Cost Per Impression
+Ad Conversion Rates
+Email Marketing ROI
+Mobile App Downloads
+App Store Rankings
+App Retention Rates
+App Usage by Feature
+App User Behavior
+App Monetization
+E-commerce Metrics
+Average Order Value
+Email List Growth
+Product Performance
+Brand Positioning
+Consumer Price Index
+Unemployment Rate
+Inflation Rate
+Manufacturing Index
+Retail Sales Index
+Interest Rates
+Exchange Rates
+Oil Prices
+Commodity Prices
+Demographic Analysis
+Population Growth
+Migration Patterns
+Income Distribution
+Education Levels
+Healthcare Trends
+Environmental Impact
+Corporate Governance
+Investor Relations
+Dividend Yield
+Earnings per Share
+Debt-to-Equity Ratio
+Return on Equity
+Profit Margin
+Return on Assets
+Net Income
+Asset Turnover
+Current Ratio
+Quick Ratio
+Working Capital
+Free Cash Flow
+Net Promoter Score
+Product Mix Analysis
+Purchasing Metrics
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+ '
+Procurement Metrics
+Maintenance Metrics
+Recruiting Metrics
+Revenue Growth
+Cost of Goods Sold
+Operating Expenses
+Operating Income
+Gross Profit
+Net Profit
+Net Profit Margin
+Earnings Per Share
+Book Value
+Market Value
+Return on Investment
+Return on Sales
+Debt-to-Assets Ratio
+Cash Ratio
+Operating Cash Flow
+Enterprise Value
+Price-to-Book Ratio
+Price-to-Sales Ratio
+EBITDA
+EBITDA Margin
+Total Debt
+Long-Term Debt
+Short-Term Debt
+Fixed Asset Turnover
+Total Asset Turnover
+Net Working Capital
+Current Assets
+Current Liabilities
+Total Assets
+Total Liabilities
+Stockholders' Equity
+Capital Expenditures
+Depreciation
+Amortization
+Goodwill
+Intangible Assets
+Tangible Assets
+Cost of Revenue
+Revenue
+Operating Revenue
+Investment Revenue
+Net Sales
+Gross Revenue
+Gross Margin
+Operating Margin
+EBIT Margin
+Pre-Tax Margin
+Net Income Margin
+Gross Profit Margin
+Asset Turnover Ratio
+Interest Expense
+Tax Rate
+Adjusted Net Income
+Return on Capital
+Cash Flow Margin
+Cash Flow Yield
+CFO-to-EBITDA Ratio
+GDP by Country
+Inflation by Country
+Fisheries by Country
+Medicines by Country
+Nutrition by Country
+HIV/AIDS by Country
+Malaria by Country
+Poverty by Country
+Land Use by Country
+Obesity by Country
+Refugees by Country
+Migration by Country
+Terrorism by Country
+Taxation by Country
+Banking by Country
+Insurance by Country
+Fintech by Country
+Trade by Country
+Transport by Country
+Tariffs by Country
+Product Mix
+Net Revenue
+Market Share
+Customer Churn
+Order Volume
+Price Index
+Labor Costs
+Sales Growth
+Customer Segments
+Expenses by Dept
+Sales Pipeline
+Inventory Turns
+Market Size
+Sales Funnel
+Marketing Spend
+Lead Conversion
+Profit and Loss
+Market Trends
+Sales by Channel
+Customer Loyalty
+Customer Behavior
+Employee Turnover
+Revenue by Product
+Sales Forecast
+ROI Analysis
+Customer Retention
+Sales by Product
+Market Penetration
+Revenue by Channel
+Sales by Customer
+Expense Analysis
+Sales Mix
+Cash Flow Forecast
+Market Position
+Sales Performance
+Product Launch
+Sales by Segment
+Expense Trends
+Sales Projection
+Customer Acquisition
+Price Analysis
+Market Segments
+Sales by Quarter
+Sales by Territory
+Sales by Country
+Customer Value
+Sales Velocity
+Sales by Month
+Revenue Mix
+Sales Targets
+Customer Analysis
+Sales Growth Rate
+Competitive Analysis
+Sales Efficiency
+Customer Profiles
+Sales by Year
+Customer Experience
+Sales Cycle Length
+Sales Conversion
+Revenue Forecast
+Price Elasticity
+Sales Momentum
+Expense Breakdown
+Sales Lead Quality
+Sales by Store
+Sales by Platform
+Sales by Source
+Market Demand
+Sales by Category
+Market Opportunities
+Sales by Week
+Sales Strategy
+Sales by Agent
+Market Conditions
+Sales Trend Analysis
+Sales by Industry
+Sales Incentives
+Asset Allocation
+Capital Adequacy
+Credit Scoring
+Deposit Growth
+Expense Management
+Financial Planning
+Fraud Detection
+Loan Portfolio
+Market Volatility
+Mortgage Rates
+Payment Systems
+Retail Banking
+Risk Management
+Savings Accounts
+Shareholder Value
+Wealth Management
+Banking Regulation
+Cash Management
+Commercial Lending
+Consumer Credit
+Credit Ratings
+Debt Service Ratio
+Digital Banking
+Financial Stability
+Interest Rate Risk
+Liquidity Management
+Loan Quality
+Merchant Services
+Mobile Banking
+Online Banking
+Overdraft Fees
+Profitability
+Transaction Banking
+Wealth Creation
+Banking Customer
+Banking Efficiency
+Capital Markets
+Credit Cards
+Credit Risk
+Deposit Accounts
+Financial Inclusion
+Forex Trading
+Investment Banking
+Loan Underwriting
+Market Risk
+Mortgage Lending
+Payment Processing
+Private Banking
