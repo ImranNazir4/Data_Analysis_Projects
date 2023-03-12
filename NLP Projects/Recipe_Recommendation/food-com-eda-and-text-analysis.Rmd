@@ -1,0 +1,633 @@
+---
+title: "Food.com EDA and Text Analysis"
+author: "Ethan Schacht"
+date: "10/29/2019"
+output: 
+  html_document:
+    toc: yes
+    number_sections: yes
+    code_folding: hide
+    theme: simplex
+    highlight: espresso
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(out.width = "75%", 
+               fig.align = "center")
+```
+
+<style type="text/css">
+
+body{
+  font-size: 14pt;
+}
+
+</style>
+
+# **Introduction**
+
+For this analysis, I will perform EDA, including text analysis, on the Food.com recipes and interactions dataset.  My primary goal will be determining which factors lead to both successful and unsuccessful recipes, as this information would be useful to both recipe makers and anybody who enjoys making recipes.
+
+I will join the raw recipes and interactions datasets to perform the analysis.  Feel free to leave a comment and/or an upvote if you enjoy the analysis or have any feedback.  I'm a young college student who is relatively new to data science and I'm always aiming to improve :)
+
+![](https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_721,h_406/v1/img/recipes/20/72/20/WXg0b6hWQGSECNzCgQcs_SCTC%206%20-%20final_4.jpg)
+
+# **Understanding the Data**
+
+## Data Import
+
+First, we will load the appropriate libraries and import / join the data and see what we are working with.  Stringr (apart of the tidyverse) will be a key element of the analysis. 
+
+```{r message = FALSE, warning = FALSE}
+
+library(tidyverse)
+library(lubridate)
+library(extrafont)
+library(scales)
+library(ggridges)
+library(corrplot)
+library(Hmisc)
+library(reshape2)
+
+theme_set(theme_dark() + theme(text = element_text(family = "Impact")))
+
+recipes <- read_csv("../input/food-com-recipes-and-user-interactions/RAW_recipes.csv")
+reviews <- read_csv("../input/food-com-recipes-and-user-interactions/RAW_interactions.csv")
+
+food <- inner_join(recipes, reviews, by = c("id" = "recipe_id"))
+
+str(food)
+head(food, 10)
+
+```
+
+The joined data consists of 1,132,367 rows and 16 variables.  11 variables relate to the recipes and the last 4 variables relate to the user interactions.  id and recipe_id are the keys.  Each row represents an interaction for a given recipe, so the number of rows for each recipe corresponds to that recipe's number of interactions.
+
+## Missing Values
+
+Now, lets count the missing values by column.
+
+```{r message = FALSE, warning = FALSE}
+
+colSums(is.na(food))
+
+```
+
+The only column with a significant amount of missing values is the description.  There are also 165 interactions that involve a rating with no review.
+
+## Feature Engineering
+
+Now let's see what additional variables we can extract out of the data.
+
+### Time Components
+
+For both the recipe submission and recipe review, we will extract the month and year variables.
+
+```{r message = FALSE, warning = FALSE}
+
+food2 <- food %>% 
+  mutate(submission_month = month(submitted, label = TRUE), submission_year = year(submitted), review_month = month(date, label = TRUE), review_year = year(date)) %>%
+  select(-c(submitted, date))
+
+food2 %>% 
+  select(name, submission_month, submission_year, review_month, review_year) %>%
+  head(10)
+
+```
+
+### Nutritional Values
+
+For each value in the nutrition column, we have a vector of size 7.  Each element of these vectors represents calories, total fat, sugar, sodium, protein, saturated fat, and carbohydrates, respectively.  We will use separate() to extract these elements into their own columns.
+
+```{r message = FALSE, warning = FALSE}
+
+food3 <- food2 %>%
+  mutate(nutrition = str_replace_all(nutrition, "\\[|\\]", "")) %>%
+  separate(nutrition, into = c("calories", "total_fat", "sugar", "sodium", "protein", "sat_fat", "carbs"), sep = ",")
+
+food3 %>%
+  select(name, calories, total_fat, sugar, sodium, protein, sat_fat, carbs) %>%
+  distinct() %>%
+  head(10)
+
+```
+
+# **Exploratory Data Analysis**
+
+Now the data is ready to be analyzed...
+
+## Basic Distributions
+
+We will start with basic distributions.
+
+### Minutes
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(id, name, minutes) %>%
+  distinct() %>%
+  ggplot(aes(minutes)) +
+  geom_density() 
+
+```
+
+There are some strangely high values that are skewing the data.  Let's take a look.
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(id, name, minutes) %>%
+  distinct() %>%
+  arrange(desc(minutes)) %>%
+  head(20)
+
+```
+
+The top row is certainly an error so we will filter this out.  In the context of this dataset, many of these high values seem strange but not easily identifiable as errors so we will put the graph on a logarithmic scale.
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(id, name, minutes) %>%
+  filter(minutes < 2000000) %>%
+  distinct() %>%
+  ggplot(aes(minutes)) +
+  geom_density(fill = "green") +
+  geom_vline(xintercept = median(food3$minutes)) +
+  scale_x_log10() +
+  xlab("Making Time (mins)") +
+  ylab(NULL) +
+  theme(axis.text.y = element_blank()) +
+  ggtitle("Distribution of Recipe Making Time")
+
+paste0("Median Recipe Making Time: ", median(food3$minutes), " Minutes")
+
+```
+
+### Number of Steps
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(id, name, n_steps) %>%
+  distinct() %>%
+  ggplot(aes(n_steps)) +
+  geom_histogram(fill = "green") +
+  geom_vline(xintercept = median(food3$n_steps)) +
+  ggtitle("Distribution of Recipe Number of Steps") +
+  xlab("Number of Steps") +
+  ylab("Count")
+
+paste0("Median Number of Steps: ", median(food3$n_steps))
+
+```
+
+There's also some skewing here but it is reasonable.
+
+### Number of Ingredients
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(id, name, n_ingredients) %>%
+  distinct() %>%
+  ggplot(aes(n_ingredients)) +
+  geom_histogram(fill = "green") +
+  geom_vline(xintercept = median(food3$n_ingredients)) +
+  ggtitle("Distribution of Recipe Number of Ingredients") +
+  xlab("Number of Ingredients") +
+  ylab("Count") 
+
+paste0("Median Number of Ingredients: ", median(food3$n_ingredients))
+
+```
+
+### Ratings
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(rating) %>%
+  ggplot(aes(rating)) +
+  geom_bar(fill = "green") +
+  geom_vline(xintercept = mean(food3$rating)) +
+  ggtitle("Distribution of Recipe Ratings") +
+  xlab("Rating") +
+  ylab("Count") +
+  scale_x_continuous(breaks = c(0,1,2,3,4,5))
+
+paste0("Mean Rating: ", round(mean(food3$rating), 2))
+
+```
+
+Most people rate the recipes very positively (a 0 means the user hasn't tried the recipe).
+
+### Submission and Review Years
+
+Over what period of time was data collected for both submissions and reviews?
+
+```{r message = FALSE, warning = FALSE}
+
+sub_years <- food3 %>%
+  select(submission_year, id) %>%
+  distinct()
+review_years <- food3 %>%
+  select(review_year)
+
+ggplot() +
+  geom_bar(data = review_years, aes(review_year), fill = "red") +
+  geom_bar(data = sub_years, aes(submission_year), fill = "green") +
+  xlab("Year") +
+  ylab("Count") +
+  ggtitle("Distribution of Recipe Submission and Review Years", subtitle = "Green bars represent submission, red bars represent reviews")
+ 
+```
+
+The average year for submissions is slightly earlier than the average year for reviews, which makes sense.
+
+### Submission and Review Months
+
+Over what periods of the year was data collected for both submissions and reviews?
+
+```{r message = FALSE, warning = FALSE}
+
+sub_months <- food3 %>%
+  select(submission_month, id) %>%
+  distinct()
+review_months <- food3 %>%
+  select(review_month)
+
+ggplot() +
+  geom_bar(data = review_months, aes(review_month), fill = "red") +
+  geom_bar(data = sub_months, aes(submission_month), fill = "green") +
+  xlab("Month") +
+  ylab("Count") +
+  ggtitle("Distribution of Recipe Submission and Review Years", subtitle = "Green bars represent submission, red bars represent reviews")
+ 
+```
+
+A slight majority of recipe submissions were made in January, though there is no significant difference between months outside of this.
+
+### Nutritional Facts {.tabset .tabset-fade .tabset-pills}
+
+Because of extremely high values, again, we will have to put the distributions on a logarithmic scale.
+
+#### Calories
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(6:12) %>%
+  distinct() %>%
+  ggplot(aes(as.numeric(calories))) +
+  geom_density(fill = "green") +
+  geom_vline(xintercept = median(as.numeric(food3$calories))) +
+  xlab("Calories") +
+  ylab(NULL) +
+  ggtitle("Distribution of Calories") +
+  theme(axis.text.y = element_blank()) +
+  scale_x_log10()
+
+paste0("Median Calories: ", median(as.numeric(food3$calories)))
+
+```
+
+#### Total Fat
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(6:12) %>%
+  distinct() %>%
+  ggplot(aes(as.numeric(total_fat))) +
+  geom_density(fill = "green") +
+  geom_vline(xintercept = median(as.numeric(food3$total_fat))) +
+  xlab("Total Fat") +
+  ylab(NULL) +
+  ggtitle("Distribution of Total Fat") +
+  theme(axis.text.y = element_blank()) +
+  scale_x_log10()
+
+paste0("Median Total Fat: ", median(as.numeric(food3$total_fat)))
+
+```
+
+#### Sugar
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(6:12) %>%
+  distinct() %>%
+  ggplot(aes(as.numeric(sugar))) +
+  geom_density(fill = "green") +
+  geom_vline(xintercept = median(as.numeric(food3$sugar))) +
+  xlab("Sugar") +
+  ylab(NULL) +
+  ggtitle("Distribution of Sugar") +
+  theme(axis.text.y = element_blank()) +
+  scale_x_log10()
+
+paste0("Median Sugar: ", median(as.numeric(food3$sugar)))
+
+```
+
+#### Sodium
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(6:12) %>%
+  distinct() %>%
+  ggplot(aes(as.numeric(sodium))) +
+  geom_density(fill = "green") +
+  geom_vline(xintercept = median(as.numeric(food3$sodium))) +
+  xlab("Sodium") +
+  ylab(NULL) +
+  ggtitle("Distribution of Sodium") +
+  theme(axis.text.y = element_blank()) +
+  scale_x_log10()
+
+paste0("Median Sodium: ", median(as.numeric(food3$sodium)))
+
+```
+
+#### Protein
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(6:12) %>%
+  distinct() %>%
+  ggplot(aes(as.numeric(protein))) +
+  geom_density(fill = "green") +
+  geom_vline(xintercept = median(as.numeric(food3$protein))) +
+  xlab("Protein") +
+  ylab(NULL) +
+  ggtitle("Distribution of Protein") +
+  theme(axis.text.y = element_blank()) +
+  scale_x_log10()
+
+paste0("Median Protein: ", median(as.numeric(food3$protein)))
+
+```
+
+#### Saturated Fat
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(6:12) %>%
+  distinct() %>%
+  ggplot(aes(as.numeric(sat_fat))) +
+  geom_density(fill = "green") +
+  geom_vline(xintercept = median(as.numeric(food3$sat_fat))) +
+  xlab("Saturated Fat") +
+  ylab(NULL) +
+  ggtitle("Distribution of Saturated Fat") +
+  theme(axis.text.y = element_blank()) +
+  scale_x_log10()
+
+paste0("Median Saturated Fat: ", median(as.numeric(food3$sat_fat)))
+
+```
+
+#### Carbohydrates
+
+```{r message = FALSE, warning = FALSE}
+
+food3 %>%
+  select(6:12) %>%
+  distinct() %>%
+  ggplot(aes(as.numeric(carbs))) +
+  geom_density(fill = "green") +
+  geom_vline(xintercept = median(as.numeric(food3$carbs))) +
+  xlab("Carbs") +
+  ylab(NULL) +
+  ggtitle("Distribution of Carbs") +
+  theme(axis.text.y = element_blank()) +
+  scale_x_log10()
+
+paste0("Median Carbs: ", median(as.numeric(food3$carbs)))
+
+```
+
+## Correlation Plot
+
+In one chart, I will visualize the relationship between all the relevant continuous variables that we analyzed individually in the previous section.  
+
+```{r message = FALSE, warning = FALSE}
+
+corr_values <- food3 %>%
+  select(minutes, 6:13, n_ingredients, rating, submission_year, review_year) %>%
+  na.omit() 
+
+corrmat1 <- rcorr(as.matrix(corr_values))
+
+corrplot(corrmat1$r, type = "upper", order = "hclust", tl.col = "black", tl.srt = 45)
+
+corrmat1$r
+
+```
+
+Calories has a very strong relationship with the other nutritional variables, and most of the strongest relationships are between the nutritional variables.  It makes sense that number of ingredients has a strong positive relationship with number of steps.  The one negative relationship is rating and review year, interestingly, which means that reviews have become slightly more negative over time.
+
+## Text Analysis 
+
+In this section, I will perform text analysis on the review, description, tags, steps, and ingredients columns in order to find relationships between certain aspects of the text and recipe ratings.
+
+```{r message = FALSE, warning = FALSE}
+
+text_food <- food3 %>%
+  select(name, id, tags, steps, description, ingredients, review, rating, user_id)
+
+```
+
+### Which Ingredients Yield the Highest Ratings?
+
+We will extract the values in our ingredients column using separate_rows() to answer this question:
+
+```{r message = FALSE, warning = FALSE}
+
+ingredients <- food3 %>%
+  select(ingredients, rating) %>%
+  separate_rows(ingredients, sep = "\\, ")
+
+ingredients2 <- ingredients %>%
+  mutate(ingredients = str_replace_all(ingredients, "\\[|\\]|\\'", ""))  %>%
+  group_by(ingredients) %>%
+  summarise(count = n(), avg_rating = mean(rating))
+
+head(ingredients2, 10)
+
+```
+
+First, which are the most common ingredients?
+
+```{r message = FALSE, warning = FALSE}
+
+ingredients2 %>%
+  arrange(desc(count)) %>%
+  head(10) %>%
+  ggplot(aes(fct_reorder(ingredients, count), count)) +
+  geom_bar(stat = "identity", fill = "green") +
+  coord_flip() +
+  xlab(NULL) +
+  ylab("Count") +
+  ggtitle("The 10 Most Common Ingredients")
+  
+
+```
+
+Now, we will filter out all of the ingredients with less than 500 ratings and see which common ingredients are involved in the best and worst recipes.
+
+```{r message = FALSE, warning = FALSE}
+
+ingredients2 %>%
+  filter(count >= 500) %>%
+  arrange(desc(avg_rating)) %>%
+  head(10) %>%
+  ggplot(aes(fct_reorder(ingredients, avg_rating), avg_rating)) +
+  geom_bar(stat = "identity", fill = "green") +
+  geom_label(aes(label = round(avg_rating, 2))) +
+  coord_flip() +
+  xlab(NULL) +
+  ylab("Average Rating") +
+  ggtitle("The 10 Best Common Ingredients")
+  
+```
+
+```{r message = FALSE, warning = FALSE}
+
+ingredients2 %>%
+  filter(count >= 500) %>%
+  arrange(desc(avg_rating)) %>%
+  tail(10) %>%
+  ggplot(aes(rev(fct_reorder(ingredients, avg_rating)), avg_rating)) +
+  geom_bar(stat = "identity", fill = "green") +
+  geom_label(aes(label = round(avg_rating, 2))) +
+  coord_flip() +
+  xlab(NULL) +
+  ylab("Average Rating") +
+  ggtitle("The 10 Worst Common Ingredients")
+  
+```
+
+We can see that many dietary subsititutes such as soy milk, sugar substitute, and gluten free flour make this list.
+
+### How Does Length of Review Correlate With Rating?
+
+Now we will use str_length to determine the number of characters per review, and see how this translates into sentiment.  Note that we must get rid of some NA's as we noticed these in the reviews column in the beginning of the analysis.
+
+```{r message = FALSE, warning = FALSE}
+
+reviews <- text_food %>%
+  select(review, rating) %>%
+  na.omit() %>%
+  mutate(rating_count = str_length(review)) %>%
+  mutate(rating = as.character(rating))
+
+reviews$review[[73]]
+
+reviews[73,]
+
+reviews %>%
+  ggplot(aes(rating, rating_count)) +
+  geom_boxplot(fill = "green") +
+  scale_y_log10() +
+  xlab("Rating") +
+  ylab("Character Count") +
+  ggtitle("Review Character Counts by Rating")
+
+paste0("Correlation Value: ", round(cor(reviews$rating_count, as.numeric(reviews$rating)), 2))
+
+```
+
+There is little to no overall correlation between length of review and rating.  From ratings 1 to 3, however, we can see a slight increase in median character count.
+
+### Do Exclamatory Reviews Correlate With High Ratings?
+
+In this section, we will count the number of "!" per review as well as upper-case words (at least two letters to filter out "I" and "A") and determine these counts' relationships with ratings.
+
+```{r message = FALSE, warning = FALSE}
+reviews2 <- reviews %>%
+  mutate(num_exclam = str_count(review, "!")) %>%
+  mutate(num_upper = str_count(review, "\\b[A-Z][A-Z]+\\b")) #Regex for getting upper-case words of at least two characters.  The \b escape allows all seperate words to be included even if they have punctuation afterwards.
+
+reviews2$review[[73]]
+
+reviews2[73,]
+
+```
+
+```{r message = FALSE, warning = FALSE}
+
+reviews2 %>%
+  ggplot(aes(rating, num_exclam)) +
+  geom_boxplot(fill = "green") +
+  scale_y_log10() +
+  xlab("Rating") +
+  ylab("Exclamation Points") +
+  ggtitle("Number of Exclamation Marks in Reviews by Rating")
+
+paste0("Correlation Value: ", round(cor(reviews2$num_exclam, as.numeric(reviews2$rating)), 2))
+
+```
+
+```{r message = FALSE, warning = FALSE}
+
+reviews2 %>%
+  ggplot(aes(rating, num_upper)) +
+  geom_boxplot(fill = "green") +
+  scale_y_log10() +
+  xlab("Rating") +
+  ylab("Upper-Case Words") +
+  ggtitle("Number of Upper-Case Words in Reviews by Rating")
+
+paste0("Correlation Value: ", round(cor(reviews2$num_upper, as.numeric(reviews2$rating)), 2))
+
+```
+
+People who write many exclamation marks tend to give higher ratings, though the amount of upper-case words has no little to no correlation with ratings.
+
+### Word Clouds {.tabset .tabset-fade .tabset-pills}
+
+What are the most commonly used words within our text variables?
+
+#### Ingredients 
+
+```{r message = FALSE, warning = FALSE}
+
+library(wordcloud)
+
+ingred <- ingredients2 %>%
+  separate_rows(ingredients, sep = "\\ ") %>%
+  mutate(ingredients = str_replace_all(ingredients, '"', "")) %>%
+  group_by(ingredients) %>%
+  summarise(n = n()) %>%
+  filter(!(ingredients %in% c("s", "the", "and", "or", "a", "")))
+  
+
+wordcloud(words = ingred$ingredients, freq = ingred$n, max.words = 200, random.order = FALSE)
+
+```
+
+#### Recipe Name
+
+```{r message = FALSE, warning = FALSE}
+
+names <- text_food %>%
+  separate_rows(name, sep = " ") %>%
+  group_by(name) %>%
+  summarise(n = n())
+
+names2 <- names %>%
+  filter(!(name %in% c("s", "the", "and", "or", "a", "")))
+
+wordcloud(words = names2$name, freq = names2$n, max.words = 200, random.order = FALSE)
+
+```
+### MORE TEXT ANALYSIS COMING SOON
+                                              
