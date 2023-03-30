@@ -1,0 +1,45 @@
+Email:
+DonaldBritt@gmail.com
+
+Phone:
+(745) 368-7944
+
+Links:
+[]
+
+Technical Skills:
+Data Analysis,Data Visualization,Machine Learning,Natural Language Processing
+
+Educations:
+
+
+Experiences:
+ experience with python programming and data analysis libraries such as pandas, numpy, and scipy , proficiency in sql and experience with databases such as mysql, postgresql, or oracle , familiarity with machine learning algorithms and frameworks such as scikit-learn, tensorflow, or pytorch , ability to work with large and complex datasets, and to clean and preprocess data as necessary , experience with data visualization tools such as tableau, d3.js, or matplotlib , strong problem-solving skills and ability to communicate findings to technical and non-technical stakeholders , experience with cloud computing platforms such as aws, google cloud platform, or azure , knowledge of statistics and experimental design , experience with natural language processing (nlp) or computer vision (cv) is a plus , ability to work independently and as part of a team in a fast-paced, deadline-driven environment 
+
+Certificates:
+
+
+Soft Skills:
+Email:
+DonaldBritt@gmail.com
+
+Phone:
+(745) 368-7944
+
+Links:
+
+
+Technical Skills:
+['Data Analysis,Data Visualization,Machine Learning,Natural Language Processing']
+
+Educations:
+[[]]
+
+Experiences:
+[[' experience with python programming and data analysis libraries such as pandas, numpy, and scipy ', ' proficiency in sql and experience with databases such as mysql, postgresql, or oracle ', ' familiarity with machine learning algorithms and frameworks such as scikit-learn, tensorflow, or pytorch ', ' ability to work with large and complex datasets, and to clean and preprocess data as necessary ', ' experience with data visualization tools such as tableau, d3.js, or matplotlib ', ' strong problem-solving skills and ability to communicate findings to technical and non-technical stakeholders ', ' experience with cloud computing platforms such as aws, google cloud platform, or azure ', ' knowledge of statistics and experimental design ', ' experience with natural language processing (nlp) or computer vision (cv) is a plus ', ' ability to work independently and as part of a team in a fast-paced, deadline-driven environment ']]
+
+Certificates:
+[[]]
+
+Soft Skills:
+['']

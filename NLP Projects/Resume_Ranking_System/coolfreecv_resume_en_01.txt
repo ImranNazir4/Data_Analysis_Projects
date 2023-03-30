@@ -1,0 +1,116 @@
+coolfreecv_resume_en_01.csvEmail:
+Phone:
+Email:
+imrnazir8@gmail.comPhone:
++923067326316Links:
+Email:
+imrnazir8@gmail.comPhone:
++923067326316Links:
+Technical Skills:
+Data Analysis,Data Visualization,Data Mining,Natural Language Processing,Neural Networks,Feature EngineeringEducations:
+ bachelor of computer science , bachelor of computer science Experiences:
+Certificates:
+Soft Skills:
+Email:
+imrnazir8@gmail.comPhone:
++923067326316Links:
+Technical Skills:
+Data Analysis,Data Visualization,Data Mining,Natural Language Processing,Neural Networks,Feature EngineeringEducations:
+ bachelor of computer science , bachelor of computer science Experiences:
+Certificates:
+Soft Skills:
+Email:
+imrnazir8@gmail.com
+
+Phone:
++923067326316
+
+Links:
+Technical Skills:
+Data Analysis,Data Visualization,Data Mining,Natural Language Processing,Neural Networks,Feature Engineering
+
+Educations:
+ bachelor of computer science , bachelor of computer science 
+
+Experiences:
+
+
+Certificates:
+
+
+Soft Skills:
+Email:
+imrnazir8@gmail.com
+
+Phone:
++923067326316
+
+Links:
+Email:
+imrnazir8@gmail.com
+
+Phone:
++923067326316
+
+Links:
+['https://www.linkedin.com/in/imran-nazir-898b431b4/', 'https://github.com/imrannazir4', 'https://www.fiverr.com/shalakumalaku', 'https://pypi.org/project/ml-pilot/', 'https://www.linkedin.com/in/imran-nazir-898b431b4/', 'https://github.com/imrannazir4', 'https://www.fiverr.com/shalakumalaku', 'https://pypi.org/project/ml-pilot/']
+
+Technical Skills:
+Data Analysis,Data Visualization,Data Mining,Natural Language Processing,Neural Networks,Feature Engineering
+
+Educations:
+ bachelor of computer science , bachelor of computer science 
+
+Experiences:
+
+
+Certificates:
+
+
+Soft Skills:
+Email:
+imrnazir8@gmail.com
+
+Phone:
++923067326316
+
+Links:
+https://www.linkedin.com/in/imran-nazir-898b431b4/https://github.com/imrannazir4https://www.fiverr.com/shalakumalakuhttps://pypi.org/project/ml-pilot/https://www.linkedin.com/in/imran-nazir-898b431b4/https://github.com/imrannazir4https://www.fiverr.com/shalakumalakuhttps://pypi.org/project/ml-pilot/
+
+Technical Skills:
+Email:
+imrnazir8@gmail.com
+
+Phone:
++923067326316
+
+Links:
+https://www.linkedin.com/in/imran-nazir-898b431b4/https://github.com/imrannazir4https://www.fiverr.com/shalakumalakuhttps://pypi.org/project/ml-pilot/https://www.linkedin.com/in/imran-nazir-898b431b4/https://github.com/imrannazir4https://www.fiverr.com/shalakumalakuhttps://pypi.org/project/ml-pilot/
+
+Technical Skills:
+['Data Analysis,Data Visualization,Data Mining,Natural Language Processing,Neural Networks,Feature Engineering']
+
+Educations:
+Email:
+imrnazir8@gmail.com
+
+Phone:
++923067326316
+
+Links:
+https://www.linkedin.com/in/imran-nazir-898b431b4/https://github.com/imrannazir4https://www.fiverr.com/shalakumalakuhttps://pypi.org/project/ml-pilot/https://www.linkedin.com/in/imran-nazir-898b431b4/https://github.com/imrannazir4https://www.fiverr.com/shalakumalakuhttps://pypi.org/project/ml-pilot/
+
+Technical Skills:
+['Data Analysis,Data Visualization,Data Mining,Natural Language Processing,Neural Networks,Feature Engineering']
+
+Educations:
+[[' bachelor of computer science ', ' bachelor of computer science ']]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
+['']

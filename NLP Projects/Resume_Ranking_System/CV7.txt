@@ -1,0 +1,45 @@
+Email:
+GayleHawkins@gmail.com
+
+Phone:
+(526) 372-3648
+
+Links:
+[]
+
+Technical Skills:
+Data Analysis,Classification
+
+Educations:
+
+
+Experiences:
+
+
+Certificates:
+
+
+Soft Skills:
+Email:
+GayleHawkins@gmail.com
+
+Phone:
+(526) 372-3648
+
+Links:
+
+
+Technical Skills:
+['Data Analysis,Classification']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
+['']
