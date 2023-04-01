@@ -42,4 +42,26 @@ Certificates:
 [[]]
 
 Soft Skills:
+['']Email:
+VirgilRasmussen@gmail.com
+
+Phone:
+(685) 682-3747
+
+Links:
+
+
+Technical Skills:
+['Data Analysis,Classification']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
 ['']

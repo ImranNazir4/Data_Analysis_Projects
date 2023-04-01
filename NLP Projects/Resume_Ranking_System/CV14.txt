@@ -42,4 +42,26 @@ Certificates:
 [[]]
 
 Soft Skills:
+['']Email:
+LeonDean@gmail.com
+
+Phone:
+
+
+Links:
+
+
+Technical Skills:
+['Data Visualization,Clustering']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
 ['']

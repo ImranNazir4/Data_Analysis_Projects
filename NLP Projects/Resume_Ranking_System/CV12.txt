@@ -42,4 +42,26 @@ Certificates:
 [[]]
 
 Soft Skills:
+['']Email:
+WilliamBaltazar@gmail.com
+
+Phone:
+(627) 367-2287
+
+Links:
+
+
+Technical Skills:
+['']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
 ['']

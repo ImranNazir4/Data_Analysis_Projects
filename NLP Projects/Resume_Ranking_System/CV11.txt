@@ -42,4 +42,26 @@ Certificates:
 [[]]
 
 Soft Skills:
+['']Email:
+JudyWelch@gmail.com
+
+Phone:
+(254) 844-5629
+
+Links:
+
+
+Technical Skills:
+['Data Analysis,Clustering']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
 ['']

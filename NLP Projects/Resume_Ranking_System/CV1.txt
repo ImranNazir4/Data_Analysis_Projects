@@ -42,4 +42,26 @@ Certificates:
 [[' ibm data science professional certificate ', ' microsoft certified: azure data scientist associate ', ' google data analytics professional certificate ', ' cloudera certified data analyst ', ' datacamp certified data scientist ', ' python institute certified data science associate ', ' hortonworks certified associate (hca) for apache hadoop ', ' sas certified big data professional ', ' amazon web services (aws) certified data analytics - specialty ']]
 
 Soft Skills:
+['']Email:
+
+
+Phone:
+
+
+Links:
+
+
+Technical Skills:
+['Data Analysis,Data Visualization,Machine Learning,Statistical Modeling,Predictive Analytics,Data Mining,Natural Language Processing,Deep Learning,Neural Networks,Artificial Intelligence,Big Data Analytics,Time Series Analysis,Regression Analysis,Clustering,Classification,Sentiment Analysis,Text Analytics,Image Processing,Web Scraping,Data Cleaning,Data Wrangling,Data Preprocessing,Feature Engineering,Dimensionality Reduction,Ensemble Methods,Model Evaluation,Model Selection,Hyperparameter Tuning,Reinforcement Learning,Bayesian Inference']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[' ibm data science professional certificate ', ' microsoft certified: azure data scientist associate ', ' google data analytics professional certificate ', ' cloudera certified data analyst ', ' datacamp certified data scientist ', ' python institute certified data science associate ', ' hortonworks certified associate (hca) for apache hadoop ', ' sas certified big data professional ', ' amazon web services (aws) certified data analytics - specialty ']]
+
+Soft Skills:
 ['']

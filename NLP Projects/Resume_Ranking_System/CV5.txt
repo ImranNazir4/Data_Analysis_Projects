@@ -42,4 +42,26 @@ Certificates:
 [[]]
 
 Soft Skills:
+['']Email:
+BonniePelt@gmail.com
+
+Phone:
+(937) 794-8772
+
+Links:
+http://caremanager.optum.com
+
+Technical Skills:
+['Data Analysis,Data Mining']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
 ['']

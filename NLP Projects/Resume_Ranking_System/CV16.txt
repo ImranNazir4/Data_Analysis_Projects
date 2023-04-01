@@ -42,4 +42,26 @@ Certificates:
 [[]]
 
 Soft Skills:
+['']Email:
+LanceDuffie@gmail.com
+
+Phone:
+(863) 435-4986
+
+Links:
+
+
+Technical Skills:
+['']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
 ['']

@@ -42,4 +42,26 @@ Certificates:
 [[]]
 
 Soft Skills:
+['']Email:
+ClarencePrice@gmail.com
+
+Phone:
+(786) 324-2395
+
+Links:
+
+
+Technical Skills:
+['']
+
+Educations:
+[[]]
+
+Experiences:
+[[]]
+
+Certificates:
+[[]]
+
+Soft Skills:
 ['']
