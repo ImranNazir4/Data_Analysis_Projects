@@ -1,0 +1,2198 @@
+,chart_titles
+0,Sales by Region
+1,Monthly Revenue
+2,Yearly Sales Trends
+3,Top Selling Products
+4,Daily Web Traffic
+5,Website Bounce Rates
+6,Monthly Expenses
+7,Yearly Budget
+8,Cash Flow Analysis
+9,Balance Sheet
+10,Financial Ratios
+11,Inventory Turnover
+12,Sales Forecasting
+13,Website Heatmap
+14,User Demographics
+15,Customer Churn Rates
+16,Brand Reputation
+17,Email Open Rates
+18,Cost Per Acquisition
+19,Cost Per Click
+20,Cost Per Impression
+21,Ad Conversion Rates
+22,Email Marketing ROI
+23,Mobile App Downloads
+24,App Store Rankings
+25,App Retention Rates
+26,App Usage by Feature
+27,App User Behavior
+28,App Monetization
+29,E-commerce Metrics
+30,Average Order Value
+31,Email List Growth
+32,Product Performance
+33,Brand Positioning
+34,Consumer Price Index
+35,Unemployment Rate
+36,Inflation Rate
+37,Manufacturing Index
+38,Retail Sales Index
+39,Interest Rates
+40,Exchange Rates
+41,Oil Prices
+42,Commodity Prices
+43,Demographic Analysis
+44,Population Growth
+45,Migration Patterns
+46,Income Distribution
+47,Education Levels
+48,Healthcare Trends
+49,Environmental Impact
+50,Corporate Governance
+51,Investor Relations
+52,Dividend Yield
+53,Earnings per Share
+54,Debt-to-Equity Ratio
+55,Return on Equity
+56,Profit Margin
+57,Return on Assets
+58,Net Income
+59,Asset Turnover
+60,Current Ratio
+61,Quick Ratio
+62,Working Capital
+63,Free Cash Flow
+64,Net Promoter Score
+65,Product Mix Analysis
+66,Purchasing Metrics
+67,
+68,
+69,
+70,
+71,
+72,
+73,
+74,
+75,
+76,
+77,
+78,
+79,
+80,
+81,
+82,
+83,
+84,
+85,
+86,
+87,
+88,
+89,
+90,
+91,
+92,
+93,
+94,
+95,
+96,
+97,
+98,
+99,
+100,
+101,
+102,
+103,
+104,
+105,
+106,
+107,
+108,
+109,
+110,
+111,
+112,
+113,
+114,
+115,
+116,
+117,
+118,
+119,
+120,
+121,
+122,
+123,
+124,
+125,
+126,
+127,
+128,
+129,
+130,
+131,
+132,
+133,
+134,
+135,
+136,
+137,
+138,
+139,
+140,
+141,
+142,
+143,
+144,
+145,
+146,
+147,
+148,
+149,
+150,
+151,
+152,
+153,
+154,
+155,
+156,
+157,
+158,
+159,
+160,
+161,
+162,
+163,
+164,
+165,
+166,
+167,
+168,
+169,
+170,
+171,
+172,
+173,
+174,
+175,
+176,
+177,
+178,
+179,
+180,
+181,
+182,
+183,
+184,
+185,
+186,
+187,
+188,
+189,
+190,
+191,
+192,
+193,
+194,
+195,
+196,
+197,
+198,
+199,
+200,
+201,
+202,
+203,
+204,
+205,
+206,
+207,
+208,
+209,
+210,
+211,
+212,
+213,
+214,
+215,
+216,
+217,
+218,
+219,
+220,
+221,
+222,
+223,
+224,
+225,
+226,
+227,
+228,
+229,
+230,
+231,
+232,
+233,
+234,
+235,
+236,
+237,
+238,
+239,
+240,
+241,
+242,
+243,
+244,
+245,
+246,
+247,
+248,
+249,
+250,
+251,
+252,
+253,
+254,
+255,
+256,
+257,
+258,
+259,
+260,
+261,
+262,
+263,
+264,
+265,
+266,
+267,
+268,
+269,
+270,
+271,
+272,Retail Credit
+273,Risk Assessment
+274,Securities Trading
+275,Structured Finance
+276,Treasury Services
+277,Underbanked Market
+278,Universal Banking
+279,Banking Products
+280,Banking Sector
+281,Big Data Analytics
+282,Capital Structure
+283,Cash Flows
+284,Commercial Banking
+285,Compliance Risk
+286,Corporate Banking
+287,Credit Analysis
+288,Credit Default Swaps
+289,Credit Derivatives
+290,Credit Spreads
+291,Data Analytics
+292,Debt Financing
+293,Debt Issuance
+294,Debt Markets
+295,Derivatives Trading
+296,Economic Growth
+297,Emerging Markets
+298,Equity Markets
+299,tax planning guide
+300,balance sheet data
+301,financial analysis
+302,income statement
+303,cash flow forecast
+304,capital expenditure
+305,budgeting process
+306,accounts payable
+307,tax compliance tips
+308,cost accounting
+309,auditing process
+310,tax code changes
+311,internal controls
+312,payroll processing
+313,accounting software
+314,inventory turnover
+315,depreciation rates
+316,financial reporting
+317,asset valuation
+318,working capital
+319,accounting ratios
+320,tax deductions list
+321,balance sheet ratios
+322,tax return status
+323,tax exemption rules
+324,cash flow analysis
+325,accounts receivable
+326,inventory analysis
+327,bookkeeping tips
+328,financial planning
+329,taxable income
+330,financial statements
+331,tax refund status
+332,fixed asset analysis
+333,break-even analysis
+334,audit report format
+335,cash flow statement
+336,capital structure
+337,cash management
+338,tax filing deadline
+339,tax reduction tips
+340,
+341,
+342,
+343,
+344,
+345,
+346,
+347,
+348,
+349,
+350,
+351,
+352,
+353,
+354,
+355,
+356,
+357,tax planning tips
+358,tax refund rules
+359,inventory valuation
+360,accounts management
+361,break-even point
+362,auditing standards
+363,tax audit process
+364,accounts strategy
+365,tax return deadline
+366,budget management
+367,cash flow strategies
+368,cost management
+369,taxable income rules
+370,cash flow management
+371,tax deduction limits
+372,payroll management
+373,customer behavior
+374,shopping cart data
+375,online payment
+376,conversion rates
+377,site traffic data
+378,market segmentation
+379,product descriptions
+380,mobile commerce
+381,customer retention
+382,shopping trends
+383,search engine rank
+384,email marketing
+385,social media ads
+386,product reviews
+387,shipping options
+388,retargeting ads
+389,marketplace sales
+390,customer service
+391,cross-selling items
+392,loyalty programs
+393,affiliate marketing
+394,payment processing
+395,sales funnels
+396,website design
+397,user experience
+398,site speed analysis
+399,order fulfillment
+400,cart abandonment
+401,upselling strategies
+402,online reputation
+403,search engine ads
+404,product search data
+405,customer feedback
+406,online promotions
+407,email campaigns
+408,marketplace fees
+409,customer acquisition
+410,product photography
+411,checkout process
+412,order tracking
+413,mobile app usage
+414,online security
+415,shipping costs
+416,customer personas
+417,product assortment
+418,subscription models
+419,sales forecasting
+420,revenue analysis
+421,discount codes
+422,product pricing
+423,social media data
+424,marketplace rankings
+425,email segmentation
+426,site search data
+427,payment options
+428,sales data analysis
+429,web analytics
+430,customer reviews
+431,product availability
+432,retention strategies
+433,influencer marketing
+434,product ratings
+435,referral programs
+436,order processing
+437,mobile optimization
+438,email automation
+439,product bundles
+440,Financial Analysis
+441,bankruptcy trends
+442,debt repayment plan
+443,asset allocation mix
+444,wealth management
+445,market volatility 
+446,credit score impact 
+447,business liquidity 
+448,financial reporting 
+449,interest rate swaps 
+450,cash flow analysis 
+451,exchange rate risk 
+452,loan delinquency
+453,securities trading 
+454,economic indicators
+455,asset securitization
+456,payment gateway API
+457,debt restructuring
+458,profitability ratios
+459,investment returns
+460,cash reserve ratio
+461,merchant services 
+462,hedging strategies
+463,cost of capital
+464,financial planning 
+465,capital structure 
+466,corporate finance 
+467,loan portfolio risk
+468,credit card fraud
+469,capital markets data
+470,tax policy changes 
+471,risk management plan
+472,commercial banking
+473,financial liquidity 
+474,investment portfolio
+475,financial modeling 
+476,payment gateway fees
+477,banking analytics 
+478,business valuation
+479,treasury management
+480,global market trends
+481,mortgage market data
+482,credit risk analysis
+483,Market Potential
+484,Sales by Person
+485,Sales and Marketing
+486,Market Entry
+487,Website Traffic
+488,Conversion Rate
+489,Cost per Click
+490,Email Campaigns
+491,Social Media ROI
+492,Ad Impressions
+493,Click-Through Rate
+494,Keyword Rankings
+495,Content Marketing
+496,Lead Generation
+497,Landing Page Views
+498,Email Open Rate
+499,Social Media Ads
+500,Influencer Reach
+501,Cost per Conversion
+502,Organic Traffic
+503,Brand Awareness
+504,Page Views per Visit
+505,Social Media Reach
+506,Video Marketing
+507,Mobile Optimization
+508,Cost per Impression
+509,Retargeting Ads
+510,Search Engine Ads
+511,Bounce Rate
+512,Ad Engagement
+513,SEO Ranking Factors
+514,Blog Traffic
+515,Display Ads
+516,Email Click-Through
+517,Social Media Trends
+518,Video Views
+519,Website Engagement
+520,Paid Search Ads
+521,Social Media Sales
+522,Marketing Automation
+523,Customer Reviews
+524,Inbound Marketing
+525,Content Strategy
+526,Mobile Marketing
+527,Social Media Metrics
+528,Affiliate Marketing
+529,Website Conversions
+530,Ad Creative Testing
+531,Programmatic Ads
+532,A/B Testing
+533,Content Performance
+534,Marketing Funnel
+535,Search Intent
+536,Email Segmentation
+537,Social Media Content
+538,Marketing Mix
+539,Cost per Action
+540,Marketing Strategy
+541,Marketing Metrics
+542,Customer Journey
+543,Email Drip Campaigns
+544,Content Management
+545,Lead Nurturing
+546,Website Design
+547,Video Advertising
+548,Mobile App Marketing
+549,Audience Targeting
+550,Marketing Budget
+551,Google Analytics
+552,Content Creation
+553,Marketing KPIs
+554,Marketing ROI
+555,Customer Engagement
+556,Marketing Data
+557,Email Newsletter
+558,Marketing Trends
+559,Marketing Campaign
+560,Content Engagement
+561,Marketing Analytics
+562,
+563,
+564,
+565,
+566,
+567,
+568,
+569,
+570,
+571,
+572,
+573,
+574,
+575,
+576,
+577,
+578,
+579,
+580,
+581,
+582,
+583,
+584,
+585,
+586,
+587,
+588,
+589,
+590,
+591,
+592,
+593,
+594,
+595,
+596,
+597,
+598,
+599,
+600,
+601,
+602,
+603,
+604,
+605,
+606,
+607,
+608,
+609,
+610,
+611,
+612,
+613,
+614,
+615,
+616,
+617,
+618,
+619,
+620,
+621,
+622,
+623,
+624,
+625,
+626,
+627,
+628,
+629,
+630,
+631,
+632,
+633,
+634,
+635,
+636,
+637,
+638,
+639,
+640,
+641,
+642,
+643,
+644,
+645,
+646,
+647,
+648,
+649,
+650,
+651,
+652,
+653,
+654,
+655,
+656,
+657,
+658,
+659,
+660,
+661,
+662,
+663,
+664,
+665,
+666,
+667,
+668,
+669,
+670,
+671,
+672,
+673,
+674,
+675,
+676,
+677,
+678,
+679,
+680,
+681,
+682,
+683,
+684,
+685,
+686,
+687,
+688,
+689,
+690,
+691,
+692,
+693,
+694,
+695,
+696,
+697,
+698,
+699,
+700,
+701,
+702,
+703,
+704,
+705,
+706,
+707,
+708,
+709,
+710,
+711,
+712,
+713,
+714,
+715,
+716,
+717,
+718,
+719,
+720,
+721,
+722,
+723,
+724,
+725,
+726,
+727,
+728,
+729,
+730,
+731,
+732,
+733,
+734,
+735,
+736,
+737,
+738,
+739,
+740,
+741,
+742,
+743,
+744,
+745,
+746,
+747,
+748,
+749,
+750,
+751,
+752,
+753,
+754,
+755,
+756,
+757,
+758,
+759,
+760,
+761,
+762,
+763,
+764,
+765,
+766,
+767,
+768,
+769,
+770,
+771,
+772,
+773,
+774,
+775,
+776,
+777,
+778,
+779,
+780,
+781,
+782,
+783,
+784,
+785,
+786,
+787,
+788,
+789,
+790,
+791,
+792,
+793,
+794,
+795,
+796,
+797,
+798,
+799,
+800,
+801,
+802,
+803,
+804,
+805,
+806,
+807,
+808,
+809,
+810,
+811,
+812,
+813,
+814,
+815,
+816,
+817,
+818,
+819,
+820,
+821,
+822,
+823,
+824,
+825,
+826,
+827,
+828,
+829,
+830,
+831,
+832,
+833,
+834,
+835,
+836,
+837,
+838,
+839,
+840,
+841,
+842,
+843,
+844,
+845,
+846,
+847,
+848,
+849,
+850,
+851,
+852,
+853,
+854,
+855,
+856,
+857,
+858,
+859,
+860,
+861,
+862,
+863,
+864,
+865,
+866,
+867,
+868,
+869,
+870,
+871,
+872,
+873,
+874,
+875,
+876,
+877,
+878,
+879,
+880,
+881,
+882,
+883,
+884,
+885,
+886,
+887,
+888,
+889,
+890,
+891,
+892,
+893,
+894,
+895,
+896,
+897,
+898,
+899,
+900,
+901,
+902,
+903,
+904,
+905,
+906,
+907,
+908,
+909,
+910,
+911,
+912,
+913,
+914,
+915,
+916,
+917,
+918,
+919,
+920,
+921,
+922,
+923,
+924,
+925,
+926,
+927,
+928,
+929,
+930,
+931,
+932,
+933,
+934,
+935,
+936,
+937,
+938,
+939,
+940,
+941,
+942,
+943,
+944,
+945,
+946,
+947,
+948,
+949,
+950,
+951,
+952,
+953,
+954,
+955,
+956,
+957,
+958,
+959,
+960,
+961,
+962,
+963,
+964,
+965,
+966,
+967,
+968,
+969,
+970,
+971,
+972,
+973,
+974,
+975,
+976,
+977,
+978,
+979,
+980,
+981,
+982,
+983,
+984,
+985,
+986,
+987,
+988,
+989,
+990,
+991,
+992,
+993,
+994,
+995,
+996,
+997,
+998,
+999,
+1000,
+1001,
+1002,
+1003,
+1004,
+1005,
+1006,
+1007,
+1008,
+1009,
+1010,
+1011,
+1012,
+1013,
+1014,
+1015,
+1016,
+1017,
+1018,
+1019,
+1020,
+1021,
+1022,
+1023,
+1024,
+1025,
+1026,
+1027,inventory control
+1028,payroll tax rates
+1029,tax liability rules
+1030,bank reconciliation
+1031,accounts analysis
+1032,job costing analysis
+1033,cost of goods sold
+1034,depreciation methods
+1035,tax preparation tips
+1036,inventory management
+1037,accounting standards
+1038,tax filing status
+1039,operating expenses
+1040,accounts overview
+1041,tax deduction rules
+1042,financial ratios
+1043,capital budgeting
+1044,
+1045,
+1046,
+1047,
+1048,
+1049,
+1050,
+1051,
+1052,
+1053,
+1054,
+1055,
+1056,
+1057,
+1058,
+1059,
+1060,
+1061,
+1062,
+1063,
+1064,
+1065,
+1066,
+1067,
+1068,
+1069,
+1070,
+1071,
+1072,
+1073,
+1074,
+1075,
+1076,
+1077,
+1078,
+1079,
+1080,
+1081,
+1082,
+1083,
+1084,
+1085,
+1086,
+1087,
+1088,
+1089,
+1090,
+1091,
+1092,
+1093,
+1094,
+1095,
+1096,
+1097,
+1098,
+1099,
+1100,
+1101,
+1102,
+1103,
+1104,
+1105,
+1106,
+1107,
+1108,
+1109,
+1110,
+1111,
+1112,
+1113,
+1114,
+1115,
+1116,
+1117,
+1118,
+1119,
+1120,
+1121,
+1122,
+1123,
+1124,
+1125,
+1126,
+1127,
+1128,
+1129,
+1130,
+1131,
+1132,
+1133,
+1134,
+1135,
+1136,
+1137,
+1138,
+1139,
+1140,
+1141,
+1142,
+1143,
+1144,
+1145,
+1146,
+1147,
+1148,
+1149,
+1150,
+1151,
+1152,
+1153,
+1154,
+1155,
+1156,
+1157,Financial Ratios
+1158,Inventory Turnover
+1159,Sales Forecasting
+1160,Website Heatmap
+1161,User Demographics
+1162,Customer Churn Rates
+1163,Brand Reputation
+1164,Email Open Rates
+1165,Cost Per Acquisition
+1166,Cost Per Click
+1167,Cost Per Impression
+1168,Ad Conversion Rates
+1169,Email Marketing ROI
+1170,Mobile App Downloads
+1171,App Store Rankings
+1172,App Retention Rates
+1173,App Usage by Feature
+1174,App User Behavior
+1175,App Monetization
+1176,E-commerce Metrics
+1177,Average Order Value
+1178,Email List Growth
+1179,Product Performance
+1180,Brand Positioning
+1181,Consumer Price Index
+1182,Unemployment Rate
+1183,Inflation Rate
+1184,Manufacturing Index
+1185,Retail Sales Index
+1186,Interest Rates
+1187,Exchange Rates
+1188,Oil Prices
+1189,Commodity Prices
+1190,Demographic Analysis
+1191,Population Growth
+1192,Migration Patterns
+1193,Income Distribution
+1194,Education Levels
+1195,Healthcare Trends
+1196,Environmental Impact
+1197,Corporate Governance
+1198,Investor Relations
+1199,Dividend Yield
+1200,Earnings per Share
+1201,Debt-to-Equity Ratio
+1202,Return on Equity
+1203,Profit Margin
+1204,Return on Assets
+1205,Net Income
+1206,Asset Turnover
+1207,Current Ratio
+1208,Quick Ratio
+1209,Working Capital
+1210,Free Cash Flow
+1211,Net Promoter Score
+1212,Product Mix Analysis
+1213,Purchasing Metrics
+1214,
+1215,
+1216,
+1217,
+1218,
+1219,
+1220,
+1221,
+1222,
+1223,
+1224,
+1225,
+1226,
+1227,
+1228,
+1229,
+1230,
+1231,
+1232,
+1233,
+1234,
+1235,
+1236,
+1237,
+1238,
+1239,
+1240,
+1241,
+1242,
+1243,
+1244,
+1245,
+1246,
+1247,
+1248,
+1249,
+1250,
+1251,
+1252,
+1253,
+1254,
+1255,
+1256,
+1257,
+1258,
+1259,
+1260,
+1261,
+1262,
+1263,
+1264,
+1265,
+1266,
+1267,
+1268,
+1269,
+1270,
+1271,
+1272,
+1273,
+1274,
+1275,
+1276,
+1277,
+1278,
+1279,
+1280,
+1281,
+1282,
+1283,
+1284,
+1285,
+1286,
+1287,
+1288,
+1289,
+1290,
+1291,
+1292,
+1293,
+1294,
+1295,
+1296,
+1297,
+1298,
+1299,
+1300,
+1301,
+1302,
+1303,
+1304,
+1305,
+1306,
+1307,
+1308,
+1309,
+1310,Procurement Metrics
+1311,Maintenance Metrics
+1312,Recruiting Metrics
+1313,Revenue Growth
+1314,Cost of Goods Sold
+1315,Operating Expenses
+1316,Operating Income
+1317,Gross Profit
+1318,Net Profit
+1319,Net Profit Margin
+1320,Earnings Per Share
+1321,Book Value
+1322,Market Value
+1323,Return on Investment
+1324,Return on Sales
+1325,Debt-to-Assets Ratio
+1326,Cash Ratio
+1327,Operating Cash Flow
+1328,Enterprise Value
+1329,Price-to-Book Ratio
+1330,Price-to-Sales Ratio
+1331,EBITDA
+1332,EBITDA Margin
+1333,Total Debt
+1334,Long-Term Debt
+1335,Short-Term Debt
+1336,Fixed Asset Turnover
+1337,Total Asset Turnover
+1338,Net Working Capital
+1339,Current Assets
+1340,Current Liabilities
+1341,Total Assets
+1342,Total Liabilities
+1343,Stockholders' Equity
+1344,Capital Expenditures
+1345,Depreciation
+1346,Amortization
+1347,Goodwill
+1348,Intangible Assets
+1349,Tangible Assets
+1350,Cost of Revenue
+1351,Revenue
+1352,Operating Revenue
+1353,Investment Revenue
+1354,Net Sales
+1355,Gross Revenue
+1356,Gross Margin
+1357,Operating Margin
+1358,EBIT Margin
+1359,Pre-Tax Margin
+1360,Net Income Margin
+1361,Gross Profit Margin
+1362,Asset Turnover Ratio
+1363,Interest Expense
+1364,Tax Rate
+1365,Adjusted Net Income
+1366,Return on Capital
+1367,Cash Flow Margin
+1368,Cash Flow Yield
+1369,CFO-to-EBITDA Ratio
+1370,GDP by Country
+1371,Inflation by Country
+1372,Fisheries by Country
+1373,Medicines by Country
+1374,Nutrition by Country
+1375,HIV/AIDS by Country
+1376,Malaria by Country
+1377,Poverty by Country
+1378,Land Use by Country
+1379,Obesity by Country
+1380,Refugees by Country
+1381,Migration by Country
+1382,Terrorism by Country
+1383,Taxation by Country
+1384,Banking by Country
+1385,Insurance by Country
+1386,Fintech by Country
+1387,Trade by Country
+1388,Transport by Country
+1389,Tariffs by Country
+1390,Product Mix
+1391,Net Revenue
+1392,Market Share
+1393,Customer Churn
+1394,Order Volume
+1395,Price Index
+1396,Labor Costs
+1397,Sales Growth
+1398,Customer Segments
+1399,Expenses by Dept
+1400,Sales Pipeline
+1401,Inventory Turns
+1402,Market Size
+1403,Sales Funnel
+1404,Marketing Spend
+1405,Lead Conversion
+1406,Profit and Loss
+1407,Market Trends
+1408,Sales by Channel
+1409,Customer Loyalty
+1410,Customer Behavior
+1411,Employee Turnover
+1412,Revenue by Product
+1413,Sales Forecast
+1414,ROI Analysis
+1415,Customer Retention
+1416,Sales by Product
+1417,Market Penetration
+1418,Revenue by Channel
+1419,Sales by Customer
+1420,Expense Analysis
+1421,Sales Mix
+1422,Cash Flow Forecast
+1423,Market Position
+1424,Sales Performance
+1425,Product Launch
+1426,Sales by Segment
+1427,Expense Trends
+1428,Sales Projection
+1429,Customer Acquisition
+1430,Price Analysis
+1431,Market Segments
+1432,Sales by Quarter
+1433,Sales by Territory
+1434,Sales by Country
+1435,Customer Value
+1436,Sales Velocity
+1437,Sales by Month
+1438,Revenue Mix
+1439,Sales Targets
+1440,Customer Analysis
+1441,Sales Growth Rate
+1442,Competitive Analysis
+1443,Sales Efficiency
+1444,Customer Profiles
+1445,Sales by Year
+1446,Customer Experience
+1447,Sales Cycle Length
+1448,Sales Conversion
+1449,Revenue Forecast
+1450,Price Elasticity
+1451,Sales Momentum
+1452,Expense Breakdown
+1453,Sales Lead Quality
+1454,Sales by Store
+1455,Sales by Platform
+1456,Sales by Source
+1457,Market Demand
+1458,Sales by Category
+1459,Market Opportunities
+1460,Sales by Week
+1461,Sales Strategy
+1462,Sales by Agent
+1463,Market Conditions
+1464,Sales Trend Analysis
+1465,Sales by Industry
+1466,Sales Incentives
+1467,Asset Allocation
+1468,Capital Adequacy
+1469,Credit Scoring
+1470,Deposit Growth
+1471,Expense Management
+1472,Financial Planning
+1473,Fraud Detection
+1474,Loan Portfolio
+1475,Market Volatility
+1476,Mortgage Rates
+1477,Payment Systems
+1478,Retail Banking
+1479,Risk Management
+1480,Savings Accounts
+1481,Shareholder Value
+1482,Wealth Management
+1483,Banking Regulation
+1484,Cash Management
+1485,Commercial Lending
+1486,Consumer Credit
+1487,Credit Ratings
+1488,Debt Service Ratio
+1489,Digital Banking
+1490,Financial Stability
+1491,Interest Rate Risk
+1492,Liquidity Management
+1493,Loan Quality
+1494,Merchant Services
+1495,Mobile Banking
+1496,Online Banking
+1497,Overdraft Fees
+1498,Profitability
+1499,Transaction Banking
+1500,Wealth Creation
+1501,Banking Customer
+1502,Banking Efficiency
+1503,Capital Markets
+1504,Credit Cards
+1505,Credit Risk
+1506,Deposit Accounts
+1507,Financial Inclusion
+1508,Forex Trading
+1509,Investment Banking
+1510,Loan Underwriting
+1511,Market Risk
+1512,Mortgage Lending
+1513,Payment Processing
+1514,Private Banking
+1515,Taux de conversion des leads en clients
+1516,Nombre de visites sur le site web
+1517,Taux de rebond du site web
+1518,Nombre de pages vues sur le site web
+1519,Taux de conversion du site web
+1520,Coût par acquisition (CPA)
+1521,Taux de clics (CTR)
+1522,Taux d'ouverture des emails
+1523,Taux de désabonnement des emails
+1524,Taux de conversion des emails
+1525,Taux de satisfaction client
+1526,Temps de réponse moyen aux demandes clients
+1527,Nombre de réclamations clients
+1528,Taux de résolution des réclamations clients
+1529,Temps de traitement des réclamations clients
+1530,Niveau de fidélisation des clients
+1531,Taux d'attrition des clients
+1532,Coût d'acquisition d'un client (CAC)
+1533,Valeur moyenne d'une commande
+1534,Taux de conversion par canal de vente
+1535,Taux de panier moyen
+1536,Taux d'abandon de panier
+1537,Nombre de nouveaux clients
+1538,Taux de retour des clients
+1539,Taux de satisfaction des employés
+1540,Taux d'absentéisme des employés
+1541,Taux de rotation des employés
+1542,Nombre de formations suivies par employé
+1543,Nombre d'erreurs de production
+1544,Taux de correction des erreurs de production
+1545,Taux de satisfaction des fournisseurs
+1546,Temps de réponse des fournisseurs
+1547,Nombre de livraisons à temps
+1548,Taux de commandes passées à temps
+1549,Coût des stocks
+1550,Taux de rotation des stocks
+1551,Niveau de satisfaction des partenaires commerciaux
+1552,Taux de participation aux événements professionnels
+1553,Taux de conversion des prospects
+1554,Taux de conversion des visiteurs en prospects
+1555,Nombre de contacts avec les prospects
+1556,Taux de rétention des prospects
+1557,Taux de satisfaction des prospects
+1558,Taux de conversion des ventes en ligne
+1559,Taux de satisfaction des clients en ligne
+1560,Nombre de retours de produits
+1561,Taux de satisfaction des retours de produits
+1562,Taux de réponse aux demandes de support
+1563,Taux de satisfaction des demandes de support
+1564,Taux de conversion des utilisateurs en clients
+1565,Taux de satisfaction des utilisateurs
+1566,Nombre de téléchargements d'application mobile
+1567,Taux de rétention des utilisateurs d'application mobile
+1568,Taux de conversion des utilisateurs d'application mobile en clients
+1569,Taux d'ouverture des notifications push
+1570,Taux de conversion des notifications push
+1571,Nombre de fans sur les réseaux sociaux
+1572,Taux d'engagement sur les réseaux sociaux
+1573,Nombre de partages sur les réseaux sociaux
+1574,Taux de conversion des publicités sur
+1575,Tasa de conversión de leads a clientes
+1576,Número de visitas al sitio web
+1577,Tasa de rebote del sitio web
+1578,Número de páginas vistas en el sitio web
+1579,Tasa de conversión del sitio web
+1580,Coste por adquisición (CPA)
+1581,Tasa de clics (CTR)
+1582,Tasa de apertura de correos electrónicos
+1583,Tasa de cancelación de suscripción a correos electrónicos
+1584,Tasa de conversión de correos electrónicos
+1585,Tasa de satisfacción del cliente
+1586,Tiempo medio de respuesta a solicitudes de clientes
+1587,Número de quejas de clientes
+1588,Tasa de resolución de quejas de clientes
+1589,Tiempo de procesamiento de quejas de clientes
+1590,Nivel de fidelización de clientes
+1591,Tasa de pérdida de clientes
+1592,Coste de adquisición de un cliente (CAC)
+1593,Valor medio de una venta
+1594,Tasa de conversión por canal de venta
+1595,Tasa media de carrito de compra
+1596,Tasa de abandono de carrito de compra
+1597,Número de nuevos clientes
+1598,Tasa de retorno de clientes
+1599,Tasa de satisfacción de empleados
+1600,Tasa de absentismo de empleados
+1601,Tasa de rotación de empleados
+1602,Número de formaciones seguidas por empleado
+1603,Número de errores de producción
+1604,Tasa de corrección de errores de producción
+1605,Tasa de satisfacción de proveedores
+1606,Tiempo de respuesta de proveedores
+1607,Número de entregas a tiempo
+1608,Tasa de pedidos realizados a tiempo
+1609,Coste de inventario
+1610,Tasa de rotación de inventario
+1611,Nivel de satisfacción de socios comerciales
+1612,Tasa de participación en eventos profesionales
+1613,Tasa de conversión de prospectos
+1614,Tasa de conversión de visitantes en prospectos
+1615,Número de contactos con prospectos
+1616,Tasa de retención de prospectos
+1617,Tasa de satisfacción de prospectos
+1618,Tasa de conversión de ventas en línea
+1619,Tasa de satisfacción de clientes en línea
+1620,Número de devoluciones de productos
+1621,Tasa de satisfacción de devoluciones de productos
+1622,Tasa de respuesta a solicitudes de soporte
+1623,Tasa de satisfacción de solicitudes de soporte
+1624,Tasa de conversión de usuarios en clientes
+1625,Tasa de satisfacción de usuarios
+1626,Número de descargas de aplicación móvil
+1627,Tasa de retención de usuarios de aplicación móvil
+1628,Tasa de conversión de usuarios de aplicación móvil en clientes
+1629,Tasa de apertura de notificaciones push
+1630,Tasa de conversión de notificaciones push
+1631,Número de fans en redes sociales
+1632,Tasa de engagement en redes sociales
+1633,Número de veces que se comparten publicaciones en redes sociales
+1634,Tasa de conversión de publicidad en redes sociales
+1635,Tasa de conversión de leads a oportunidades de venta
+1636,Tasa de conversión de oportunidades de venta a ventas
+1637,潜在客户转化率
+1638,网站访问量
+1639,网站跳出率
+1640,网站页面浏览量
+1641,网站转化率
+1642,客户获得成本（CPA）
+1643,点击率（CTR）
+1644,电子邮件开启率
+1645,电子邮件取消订阅率
+1646,电子邮件转化率
+1647,客户满意度
+1648,对客户请求的平均响应时间
+1649,客户投诉数
+1650,客户投诉解决率
+1651,客户投诉处理时间
+1652,客户忠诚度水平
+1653,客户流失率
+1654,获得一个客户的成本（CAC）
+1655,平均销售额
+1656,销售渠道转化率
+1657,购物车平均转化率
+1658,购物车放弃率
+1659,新客户数量
+1660,客户回头率
+1661,员工满意度
+1662,员工缺勤率
+1663,员工离职率
+1664,每个员工参加的培训数量
+1665,生产错误数量
+1666,生产错误纠正率
+1667,供应商满意度
+1668,供应商响应时间
+1669,按时交付数量
+1670,订单按时完成率
+1671,库存成本
+1672,库存周转率
+1673,合作伙伴满意度水平
+1674,参加专业活动比例
+1675,潜在客户转化率
+1676,访客转化率
+1677,潜在客户联系人数
+1678,潜在客户保留率
+1679,潜在客户满意度
+1680,线上销售转化率
+1681,线上客户满意度
+1682,商品退货数量
+1683,退货满意度
+1684,支持请求响应率
+1685,支持满意度
+1686,用户转化率
+1687,用户满意度
+1688,移动应用下载量
+1689,移动应用用户留存率
+1690,移动应用用户转化率
+1691,推送通知开启率
+1692,推送通知转化率
+1693,社交媒体粉丝数量
+1694,社交媒体参与度
+1695,社交媒体帖子分享次数
+1696,社交媒体广告转化率
+1697,潜在客户转化率
+1698,销售机会转化率
+1699,销售转化率
+1700,潜在顧客コンバージョン率
+1701,ウェブサイト訪問者数
+1702,ウェブサイトの離脱率
+1703,ウェブサイトページビュー数
+1704,ウェブサイトコンバージョン率
+1705,顧客獲得費用（CPA）
+1706,クリック率（CTR）
+1707,メールの開封率
+1708,メールの解除率
+1709,メールのコンバージョン率
+1710,顧客満足度
+1711,平均対応時間
+1712,顧客クレーム数
+1713,顧客クレーム処理率
+1714,顧客クレーム処理時間
+1715,顧客ロイヤルティレベル
+1716,顧客離脱率
+1717,顧客獲得費用（CAC）
+1718,平均販売額
+1719,販売チャネルコンバージョン率
+1720,カートの平均変換率
+1721,カート放棄率
+1722,新規顧客数
+1723,顧客リピート率
+1724,従業員満足度
+1725,従業員欠勤率
+1726,従業員離職率
+1727,従業員参加の平均トレーニング数
+1728,製造エラー数
+1729,製造エラー修正率
+1730,サプライヤ満足度
+1731,サプライヤレスポンスタイム
+1732,定時納品数
+1733,オーダー定時完了率
+1734,在庫コスト
+1735,在庫回転率
+1736,パートナー満足度レベル
+1737,専門イベントへの参加率
+1738,潜在顧客コンバージョン率
+1739,訪問者コンバージョン率
+1740,潜在顧客の連絡先数
+1741,潜在顧客保有率
+1742,潜在顧客満足度
+1743,オンライン販売コンバージョン率
+1744,オンライン顧客満足度
+1745,商品の返品数
+1746,返品の満足度
+1747,サポートリクエストの応答率
+1748,サポートの満足度
+1749,ユーザーコンバージョン率
+1750,ユーザー満足度
+1751,モバイルアプリのダウンロード数
+1752,モバイルアプリのユーザーリテ
+1753,अधिकारिक वेबसाइट यात्रा
+1754,वेबसाइट का बाउंस दर
+1755,वेबसाइट पृष्ठ दृश्यों की संख्या
+1756,वेबसाइट अभिलाषा दर
+1757,वेबसाइट कन्वर्जन दर
+1758,ग्राहक प्राप्ति लागत (CPA)
+1759,क्लिक दर (CTR)
+1760,ईमेल खोलने की दर
+1761,ईमेल अनुशासन की दर
+1762,ईमेल कन्वर्जन दर
+1763,ग्राहक संतुष्टि
+1764,औसत प्रतिक्रिया समय
+1765,ग्राहक शिकायतों की संख्या
+1766,ग्राहक शिकायत का संचालन दर
+1767,ग्राहक शिकायत का संचालन समय
+1768,ग्राहक वफादारी स्तर
+1769,ग्राहक छोड़ने की दर
+1770,ग्राहक प्राप्ति लागत (CAC)
+1771,औसत बिक्री मूल्य
+1772,बिक्री चैनल कन्वर्जन दर
+1773,औसत कार्ट रूपांतरण दर
+1774,कार्ट छोड़ने की दर
+1775,नए ग्राहकों की संख्या
+1776,ग्राहक दोहराव दर
+1777,कर्मचारी संतुष्टि
+1778,कर्मचारी अनुपस्थिति दर
+1779,कर्मचारी छोड़ने की दर
+1780,कर्मचारी प्रशिक्षण की औसत संख्या
+1781,विनिर्माण त्र
+1782,Jumlah kunjungan situs web resmi
+1783,Tingkat pentalan situs web
+1784,Jumlah tampilan halaman situs web
+1785,Tingkat keinginan situs web
+1786,Tingkat konversi situs web
+1787,Biaya perolehan pelanggan (CPA)
+1788,Tingkat klik (CTR)
+1789,Tingkat buka email
+1790,Tingkat disiplin email
+1791,Tingkat konversi email
+1792,Kepuasan pelanggan
+1793,Waktu respons rata-rata
+1794,Jumlah keluhan pelanggan
+1795,Tingkat penanganan keluhan pelanggan
+1796,Waktu penanganan keluhan pelanggan
+1797,Tingkat kesetiaan pelanggan
+1798,Tingkat keluar pelanggan
+1799,Biaya perolehan pelanggan (CAC)
+1800,Rata-rata nilai penjualan
+1801,Tingkat konversi saluran penjualan
+1802,Rata-rata tingkat konversi keranjang
+1803,Tingkat meninggalkan keranjang
+1804,Jumlah pelanggan baru
+1805,Tingkat retensi pelanggan
+1806,Kepuasan karyawan
+1807,Tingkat absensi karyawan
+1808,Tingkat keluar karyawan
+1809,Rata-rata jumlah pelatihan karyawan
+1810,Efisiensi produksi
+1811,Kualitas produksi
+1812,Waktu produksi
+1813,Tingkat cacat produk
+1814,Rasio hutang terhadap ekuitas
+1815,Rasio likuiditas
+1816,Rasio profitabilitas
+1817,Tingkat pendapatan kotor
+1818,Tingkat pendapatan bersih
+1819,Persentase pertumbuhan pendapatan
+1820,Tingkat marjin kotor
+1821,Tingkat marjin bersih
+1822,Tingkat pengembalian atas investasi (ROI)
+1823,Tingkat pengembalian atas ekuitas (ROE)
+1824,Tingkat konversi lead
+1825,Tingkat persetujuan kredit
+1826,Tingkat pelunasan hutang
+1827,Tingkat keterlambatan pembayaran
+1828,Tingkat pendapatan per karyawan
+1829,Tingkat margin laba kotor
+1830,Tingkat margin laba bersih
+1831,Waktu siklus penjualan
+1832,Waktu siklus produksi
+1833,Persentase pengiriman tepat waktu
+1834,Persentase ketersediaan stok
+1835,Jumlah keluhan pemasok
+1836,Tingkat penanganan keluhan pemasok
+1837,Waktu penanganan keluhan pemasok
+1838,Tingkat kepatuhan peraturan
+1839,Tingkat kecelakaan kerja
+1840,Tingkat ketersediaan mesin
+1841,Tingkat pemakaian bahan bakar
+1842,Jumlah proyek selesai tepat waktu
+1843,Tingkat kepuasan klien
+1844,Tingkat pengembalian dana
+1845,Tingkat rasio hutang dan ekuitas
+1846,Tingkat rasio arus kas
+1847,Tingkat rasio profitabilit
+1848,Resmi web sitesi ziyaret sayısı
+1849,Web sitesi atılma oranı
+1850,Web sitesi sayfa görüntüleme sayısı
+1851,Web sitesi talep oranı
+1852,Web sitesi dönüşüm oranı
+1853,Müşteri edinme maliyeti (CEM)
+1854,Tıklama oranı (CTR)
+1855,E-posta açılma oranı
+1856,E-posta disiplin oranı
+1857,E-posta dönüşüm oranı
+1858,Müşteri memnuniyeti
+1859,Ortalama yanıt süresi
+1860,Müşteri şikayeti sayısı
+1861,Müşteri şikayetlerinin ele alınma oranı
+1862,Müşteri şikayetlerinin ele alınma süresi
+1863,Müşteri sadakat oranı
+1864,Müşteri kayıp oranı
+1865,Müşteri edinme maliyeti (CEM)
+1866,Ortalama satış değeri
+1867,Satış kanalı dönüşüm oranı
+1868,Ortalama sepet dönüşüm oranı
+1869,Sepeti terk etme oranı
+1870,Yeni müşteri sayısı
+1871,Müşteri tutma oranı
+1872,Çalışan memnuniyeti
+1873,Çalışan devamsızlık oranı
+1874,Çalışan ayrılma oranı
+1875,Ortalama çalışan eğitim sayısı
+1876,Üretim verimliliği
+1877,Üretim kalitesi
+1878,Üretim süresi
+1879,Ürün hataları oranı
+1880,Borç / özkaynak oranı
+1881,Likidite oranı
+1882,Kârlılık oranı
+1883,Brüt gelir oranı
+1884,Net gelir oranı
+1885,Gelir büyüme yüzdesi
+1886,Brüt kar marjı
+1887,Net kar marjı
+1888,Yatırım getirisi oranı (ROI)
+1889,Özkaynak getirisi oranı (ROE)
+1890,Potansiyel müşteri dönüşüm oranı
+1891,Kredi onay oranı
+1892,Borç ödeme oranı
+1893,Gecikmiş ödeme oranı
+1894,Başına düşen gelir
+1895,Brüt kar marjı oranı
+1896,Net kar marjı oranı
+1897,Satış döngüsü süresi
+1898,Üretim döngüsü süresi
+1899,Zamanında gönderim yüzdesi
+1900,Stok erişilebilirlik yüzdesi
+1901,Tedarikçi şikayet sayısı
+1902,Tedarikçi şikayetlerinin ele alınma oranı
+1903,Besucherzahl der offiziellen Website
+1904,Absprungrate der Website
+1905,Seitenaufrufe der Website
+1906,Website-Anfragerate
+1907,Website-Konversionsrate
+1908,Kosten für die Kundengewinnung (CEM)
+1909,Klickrate (CTR)
+1910,E-Mail-Öffnungsraten
+1911,E-Mail-Klickrate
+1912,E-Mail-Konversionsrate
+1913,Kundenzufriedenheit
+1914,Durchschnittliche Antwortzeit
+1915,Kundenbeschwerden
+1916,Kundenbeschwerderate
+1917,Kundenbeschwerde-Lösungszeit
+1918,Kundenbindung
+1919,Kundenverlust-Rate
+1920,Kosten pro Neukunde (CAC)
+1921,Gesamtumsatz
+1922,Durchschnittlicher Umsatz pro Kunde
+1923,Umsatz pro Mitarbeiter
+1924,Gewinnspanne
+1925,Bruttogewinnspanne
+1926,Nettogewinnspanne
+1927,Betriebsgewinnspanne
+1928,Kapitalrendite (ROA)
+1929,Eigenkapitalrendite (ROE)
+1930,Betriebskapitalrendite (ROCE)
+1931,Rentabilität des investierten Kapitals (ROIC)
+1932,Wirtschaftlichkeit (ROI)
+1933,Umsatzwachstum
+1934,Kundenzuwachsrate
+1935,Produktverkaufszahlen
+1936,Produktrentabilität
+1937,Durchschnittliche Bestellgröße
+1938,Durchschnittliche Bestellwert
+1939,Durchschnittliche Warenkorbwert
+1940,Verkaufszahlen je Vertriebskanal
+1941,Kundenlebensdauer (CLV)
+1942,Wiederkehrende Kundenrate
+1943,Anzahl der wiederkehrenden Kunden
+1944,Durchschnittliche Bestellfrequenz
+1945,Bestandsverhältnis
+1946,Bestandsumschlagshäufigkeit
+1947,Durchschnittlicher Lagerbestand
+1948,Bestandskosten
+1949,Lieferanten-Lieferzeit
+1950,Durchschnittliche Beschaffungskosten
+1951,Beschaffungspraktiken
+1952,Einkaufspreisveränderungen
+1953,Qualitätskontrollrate
+1954,Lieferantenrendite
+1955,Lieferanten-Leistungskennzahlen
+1956,Durchschnittliche Liefermenge
+1957,Lieferantenbewertung
+1958,Lieferanten-Abhängigkeit
+1959,Kundenfeedbackrate
+1960,Mitarbeiterzufriedenheit
+1961,Mitarbeiterfluktuation
+1962,Mitarbeiterproduktivität
+1963,Mitarbeiterengagement
+1964,Mitarbeiterbindung
+1965,Mitarbeitermotivation
+1966,Mitarbeiterretention
+1967,Mitarbeiter-Leistungskennzahlen
+1968,Mitarbeiter-Abwesenheitsrate
+1969,Mitarbeiterauslastung
+1970,Fehlerhafte Produkte
+1971,Produktivität der Maschinen
+1972,Produktionskosten pro Einheit
+1973,Arbeitskosten pro Einheit
+1974,Produktionsauslastung
+1975,Arbeitsstunden pro Ein
+1976,Număr de vizitatori al site-ului web oficial
+1977,Rata de respingere a site-ului web
+1978,Vizualizări de pagini ale site-ului web
+1979,Rata de cerere a site-ului web
+1980,Rata de conversie a site-ului web
+1981,Costul de achiziționare a clienților (CEM)
+1982,Rata de clic (CTR)
+1983,Rata de deschidere a e-mailurilor
+1984,Rata de clic a e-mailurilor
+1985,Rata de conversie a e-mailurilor
+1986,Satisfacția clienților
+1987,Timpul mediu de răspuns
+1988,Reclamații ale clienților
+1989,Rata de reclamații ale clienților
+1990,Timpul mediu de soluționare a reclamațiilor ale clienților
+1991,Loyalty-ul clienților
+1992,Rata de pierdere a clienților
+1993,Costul pe nou client (CAC)
+1994,Venit total
+1995,Venit mediu per client
+1996,Venit per angajat
+1997,Marja de profit
+1998,Marja de profit brut
+1999,Marja de profit net
+2000,Marja de profit operațional
+2001,Rentabilitatea capitalului (ROA)
+2002,Rentabilitatea fondurilor proprii (ROE)
+2003,Rentabilitatea capitalului investit (ROCE)
+2004,Rentabilitatea capitalului investit (ROIC)
+2005,Rendabilitatea investițiilor (ROI)
+2006,Creșterea veniturilor
+2007,Rata de creștere a clienților noi
+2008,Vânzări ale produselor
+2009,Profitabilitatea produselor
+2010,Mărimea medie a comenzilor
+2011,Valoarea medie a comenzilor
+2012,Valoarea medie a coșului de cumpărături
+2013,Vânzări pe canal de distribuție
+2014,Durata de viață a clienților (CLV)
+2015,Rata de clienți recurenți
+2016,Numărul de clienți recurenți
+2017,Frecvența medie a comenzilor
+2018,Raportul de inventar
+2019,Frecvența de rotație a inventarului
+2020,Stoc mediu
+2021,Costurile de inventar
+2022,Timpul de livrare al furnizorului
+2023,Costurile de achiziționare medii
+2024,Practici de achiziție
+2025,Schimbările prețurilor de achiziție
+2026,Rata de control al calității
+2027,Rentabilitatea furnizorilor
+2028,Indicatorii de performanță ai furnizorilor
+2029,Cantitatea medie de livrare
+2030,Evaluarea furnizorilor
+2031,Dependența de furnizori
+2032,Rata de feedback a clienților
+2033,Satisfacția angajaț
+2034,Número de visitantes do site oficial
+2035,Taxa de rejeição do site
+2036,Visualizações de página do site
+2037,Taxa de solicitação do site
+2038,Taxa de conversão do site
+2039,Custo de aquisição de clientes (CAC)
+2040,Taxa de clique (CTR)
+2041,Taxa de abertura de e-mails
+2042,Taxa de clique de e-mails
+2043,Taxa de conversão de e-mails
+2044,Satisfação do cliente
+2045,Tempo médio de resposta
+2046,Reclamações de clientes
+2047,Taxa de reclamações de clientes
+2048,Tempo médio de solução de reclamações de clientes
+2049,Fidelidade do cliente
+2050,Taxa de perda de clientes
+2051,Custo por novo cliente (CPC)
+2052,Receita total
+2053,Receita média por cliente
+2054,Receita por funcionário
+2055,Margem de lucro
+2056,Margem de lucro bruto
+2057,Margem de lucro líquido
+2058,Margem de lucro operacional
+2059,Rentabilidade do ativo (ROA)
+2060,Rentabilidade do patrimônio líquido (ROE)
+2061,Rentabilidade do capital investido (ROIC)
+2062,Rentabilidade sobre o investimento (ROI)
+2063,Crescimento da receita
+2064,Taxa de crescimento de novos clientes
+2065,Vendas de produtos
+2066,Rentabilidade dos produtos
+2067,Tamanho médio do pedido
+2068,Valor médio do pedido
+2069,Valor médio do carrinho de compras
+2070,Vendas por canal de distribuição
+2071,Tempo de vida do cliente (LTV)
+2072,Taxa de clientes recorrentes
+2073,Número de clientes recorrentes
+2074,Frequência média de pedidos
+2075,Relatório de inventário
+2076,Frequência de rotação do inventário
+2077,Estoque médio
+2078,Custos de estoque
+2079,Tempo de entrega do fornecedor
+2080,Custos médios de aquisição
+2081,Práticas de aquisição
+2082,Alterações de preços de aquisição
+2083,Taxa de controle de qualidade
+2084,Rentabilidade dos fornecedores
+2085,Indicadores de desempenho dos fornecedores
+2086,Quantidade média de entrega
+2087,Avaliação de fornecedores
+2088,Dependência de fornecedores
+2089,Taxa de feedback do cliente
+2090,Satisfação do funcionário
+2091,Turnover de funcionários
+2092,Absentismo de funcionários
+2093,Custo de treinamento por funcionário
+2094,Tempo médio de contratação
+2095,Tempo médio de treinamento
+2096,Razão salarial
+2097,Despesas gerais e administrativas (SG&A)
+2098,Custo de produção
+2099,Eficiência de produção
+2100,Qualidade do produto
+2101,Tempo de ciclo de produção
+2102,Tempo de espera do cliente
+2103,Taxa de conversão de vendas
+2104,Número de leads gerados
+2105,Taxa de conversão de leads
+2106,Número de oportun
+2107,Αριθμός επισκεπτών στον επίσημο ιστότοπο
+2108,Ποσοστό απόρριψης ιστότοπου
+2109,Προβολές σελίδας ιστότοπου
+2110,Ποσοστό αίτησης ιστότοπου
+2111,Ποσοστό μετατροπής ιστότοπου
+2112,Κόστος απόκτησης πελατών (CAC)
+2113,Ποσοστό κλικ (CTR)
+2114,Ποσοστό ανοίγματος email
+2115,Ποσοστό κλικ email
+2116,Ποσοστό μετατροπής email
+2117,Ικανοποίηση πελατών
+2118,Μέσος χρόνος απόκρισης
+2119,Παράπονα πελατών
+2120,Ποσοστό παραπόνων πελατών
+2121,Μέσος χρόνος επίλυσης παραπόνων πελατών
+2122,Πιστότητα πελατών
+2123,Ποσοστό απώλειας πελατών
+2124,Κόστος ανά νέο πελάτη (CPC)
+2125,Συνολικά έσοδα
+2126,Μέσο έσοδο ανά πελάτη
+2127,Έσοδα ανά εργαζόμενο
+2128,Περιθώριο κέρδους
+2129,Ακαθάριστο περιθώριο κέρδους
+2130,Καθαρό περιθώριο κέρδους
+2131,Λειτουργικό περιθώριο κέρδους
+2132,Απόδοση περιουσιακών στοιχείων (ROA)
+2133,Απόδοση κεφαλαίου (ROE)
+2134,Απόδοση επενδυτικού κεφαλαίου (ROIC)
+2135,Antal besøgende på officiel hjemmeside
+2136,Hjemmesideafvisningsprocent
+2137,Sidevisninger på hjemmesiden
+2138,Hjemmesideanmodningsprocent
+2139,Hjemmesidekonverteringsprocent
+2140,Kundetilvækstomkostninger (CAC)
+2141,Klikprocent (CTR)
+2142,E-mail-åbningsprocent
+2143,E-mail-klikprocent
+2144,E-mail-konverteringsprocent
+2145,Kundetilfredshed
+2146,Gennemsnitlig svartid
+2147,Kundeklager
+2148,Procentdel af kundeklager
+2149,Gennemsnitlig tid til at løse kundeklager
+2150,Kundeloyalitet
+2151,Kundetabprocent
+2152,Omkostninger pr. nyt kunde (CPC)
+2153,Samlet indtjening
+2154,Gennemsnitlig indtjening pr. kunde
+2155,Indtjening pr. medarbejder
+2156,Bruttofortjenstmargen
+2157,Bruttofortjenstmargin før skat
+2158,Nettofortjenstmargen
+2159,Driftsfortjenstmargen
+2160,Afkastningsgrad på aktiver (ROA)
+2161,Afkastningsgrad på egenkapital (ROE)
+2162,Afkastningsgrad på investeret kapital (ROIC)
+2163,Egenkapitalandel
+2164,Omsætningsvækst
+2165,Vækst i nettoresultat
+2166,Lageromsætningshastighed
+2167,Omsætning pr. medarbejder
+2168,Lønomkostningsprocent
+2169,Gennemsnitlig ledelsestid
+2170,Fraværsprocent
+2171,Medarbejdertilfredshed
+2172,Medarbejderafgangsprocent
+2173,Medarbejderengagement
+2174,Gennemsnitlig oplæringstid
+2175,Antal fejl
+2176,Fejlprocent
+2177,Kundefrafaldsprocent
+2178,Kundeakkvisition
+2179,Forventet indtjening pr. kunde
+2180,Gennemsnitlig tid på webstedet
+2181,Konverteringsgrad for sociale medier
+2182,Kundereaktivitetsgrad
+2183,Vækst i sociale medier-følgere
+2184,Sociale medier-synlighedsgrad
+2185,Sociale medier-tilbagemeldingsgrad
+2186,Sociale medier-kommentarprocent
+2187,Sociale medier-delingprocent
+2188,Sociale medier-engagementprocent
+2189,Antal onlinekonverteringer
+2190,Konverteringsrate for onlineannoncering
+2191,Omkostninger pr. klik (CPC)
+2192,Omkostninger pr. konvertering (CPA)
+2193,Gennemsnitligt antal besøg før en onlinekonvertering
+2194,Brug af søgeord
+2195,Organisk søgetrafik
+2196,Gennemsnitlig position for sø
