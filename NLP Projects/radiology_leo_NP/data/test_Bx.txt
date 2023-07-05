@@ -1,0 +1,1654 @@
+EMPI|EPIC_PMRN|MRN_Type|MRN|Report_Number|Report_Date_Time|Report_Description|Report_Status|Report_Type|Report_Text
+100105268|10044754017|MGH|1183886|S22-50496|8/5/2022 4:10:00 PM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S22-50496                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-50496
+Patient Name: MANDARINI, LOUIS A. JR. 
+DOB: 5/18/1951 (Age: 71) 
+Sex: M
+MRN: 1183886
+Location: PERIOP
+Institution: MGH
+Date of Operation: 8/2/2022
+Date of Accession: 8/2/2022 
+Reported: 8/5/2022 16:10
+Results To:
+Jahan Mohebali MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. RIGHT FOOT TRANSMETATARSAL AMPUTATION:  
+Skin with necrosis, ulceration, and acute inflammation.
+Acute osteomyelitis. 
+Calcific atherosclerosis. 
+No evidence of acute osteomyelitis at margin. 
+
+B. PROXIMAL MARGIN OF 3RD DIGIT:  
+There is no evidence of osteomyelitis. 
+
+
+
+**Electronically Signed Out By Gunnlaugur Petur Nielsen MD**
+
+Resident Pathologist:
+Jinesa Moodley MBBCH, BAO
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Ulcer of right lower extremity, unspecified ulcer stage
+
+SPECIMENS SUBMITTED:
+A: RIGHT FOOT TRANSMETATARSAL AMPUTATION
+B: PROXIMAL MARGIN OF 3RD DIGIT
+
+GROSS DESCRIPTION
+Received fresh in 2 parts, both labeled Mandarini, Louis and MRN 1183886:
+
+A.  Received fresh labeled "right TMA foot" is a 7.0 x 7.0 x 4.0 cm right TMA
+specimen consisting of 3 intact toes, in which the middle toe displays a flat
+proximal bone resection margin, and the flanking toes display disarticulated
+proximal margins.  The proximal soft tissue margin appears viable and is inked
+black.  The epidermis displays a 6.0 x 2.5 cm tan-red, circumferential
+ulceration on the middle toe.  Each toe displays a brown-gray toenail at the
+distal aspect of the toe the remaining epidermis is tan-pink and wrinkled.  The
+specimen is sectioned to reveal the trabeculated bone underlying the middle toe
+ulceration is black-gray and softened surrounded by red-yellow, hemorrhagic soft
+tissue.  The remaining flanking toes display yellow-pink, trabeculated bone
+surrounded by cortical bone, averaging 0.1 cm.  Also received in the container
+is a 7.3 x 5.2 x 2.0 cm aggregate of tan-yellow, bony tissue fragments with
+attached tan-red, soft tissue, in which one of the bony tissue fragments
+displays a metallic screw.  Photographs are taken representative and sections
+are submitted as follows:
+
+A1: Bone marrow from middle toe proximal bone resection margin
+A2: Representative proximal soft tissue margin, en face
+A3-A5: Representative ulceration of middle toe, to include involved underlying
+bone, following decalcification
+
+B.  Received fresh labeled "proximal margin of third digit (toe)" is a 0.8 x 0.5
+x 0.3 cm tan-red, bony tissue fragment, which is wrapped and submitted in toto
+in cassette B1, following decalcification.
+
+Grossed by:
+Carly Eaton
+[report_end]
+
+100099708|10044437936|MGH|1141282|XS22-23281|11/14/2022 9:31:00 AM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  XS22-23281                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Mass General/North Shore Center for Outpatient Care
+102 Endicott Street - Danvers, MA 01923
+Lab Director: Bruce Beckwith, MD
+Tel: 978-882-6363   Fax: 978-825-6504
+
+Surgical Pathology Report
+
+
+Accession #: XS22-23281
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. COLON POLYPS, ASCENDING X 3:
+Fragments of tubular adenoma.
+
+B. COLON POLYP, RECTUM:  
+Tubular adenoma.
+
+
+
+Pathologist interpretation performed at Mass General Brigham Salem Hospital, 81
+Highland Avenue, Salem, MA 01970.
+
+**Electronically Signed Out By Austin G Turner MD**
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed this case and confirmed or
+corrected the diagnosis. 
+
+CLINICAL HISTORY
+Rectal bleeding
+Tubular adenoma [D36.9]
+
+
+SPECIMENS SUBMITTED:
+A: COLON POLYPS, ASCENDING X 3
+B: COLON POLYP, RECTUM
+
+GROSS DESCRIPTION
+A. COLON POLYPS, ASCENDING X 3:  
+The specimen is received in formalin labeled with the patient's name, medical
+record number, and "ascending colon polyp x3", and consists of 4 irregular and
+polypoid fragment(s) of pink-tan tissue, measuring 0.2-0.6 cm, entirely
+submitted in A1.  Due to the nature of the tissue, the smaller fragment(s) may
+fail to survive processing.
+
+B. COLON POLYP, RECTUM:  
+The specimen is received in formalin labeled with the patient's name, medical
+record number, and "rectal polyp", and consists of 2 irregular and polypoid
+fragment(s) of pink-tan tissue, measuring 0.1 and 0.3 cm, entirely submitted in
+B1.  Due to the nature of the tissue, the smaller fragment(s) may fail to
+survive processing.
+
+
+CR  11/10/2022
+Grossing Staff:  CR
+
+Some processing of this specimen was performed at Salem Hospital, 81 Highland
+Ave., Salem MA 01970, Lab Director Bruce Beckwith, MD.  Due to loss of elastic
+tension and/or tissue shrinkage in formalin, the clinical sizes of tissue
+specimens may be larger than those provided in this report.
+
+
+
+Patient Name: BRIENZE, ROBERT A. 
+DOB: 8/29/1942 (Age: 80) 
+Sex: M
+MRN: 1141282
+Institution: MGH
+Location: AMBSURG
+Date of Operation: 11/10/2022
+Date of Accession: 11/10/2022 
+Reported: 11/14/2022 09:31
+Ordered By:  Manish K Gala MD
+Copy To:
+[report_end]
+
+100077844|10043181543|MGH|0948519|S22-45096|7/14/2022 8:53:00 AM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S22-45096                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-45096
+Patient Name: DEVLIN, PAUL A. 
+DOB: 1/28/1956 (Age: 66) 
+Sex: M
+MRN: 0948519
+Location: MGPGSWAC
+Institution: MGH
+Date of Operation: 7/11/2022
+Date of Accession: 7/11/2022 
+Reported: 7/14/2022 08:53
+Results To:
+Roy Phitayakorn MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. EXCISION CYST, RIGHT POSTERIOR NECK:  
+Epidermoid cyst.
+
+
+**Electronically Signed Out By Mai P Hoang MD**
+
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+66-year-old male with mass painful and growing
+
+SPECIMENS SUBMITTED:
+A: EMPIRICAL EXCISION CYST, RIGHT POSTERIOR NECK
+
+GROSS DESCRIPTION
+Received in formalin, labeled Devlin,Paul A. and MRN (0948519) only, is a 1.0 x
+0.4 cm tan-gray elliptical skin which is excised to a depth of 0.5 cm. 
+Representative sections submitted in A1.  Also received in the same container is
+a 0.7 x 0.5 x 0.2 cm tan-gray previously disrupted cystlike structure.  Specimen
+will be serially sectioned and entirely submitted also in cassette A1
+.
+
+Grossed by:
+Anderson Jones
+[report_end]
+
+100131692|10046259890|MGH|1429940|S22-59748|9/14/2022 10:34:00 AM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S22-59748                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-59748
+Patient Name: CAIN, MICHAEL J. 
+DOB: 10/25/1964 (Age: 57) 
+Sex: M
+MRN: 1429940
+Location: MGPDADE2
+Institution: MGH
+Date of Operation: 9/9/2022
+Date of Accession: 9/9/2022 
+Reported: 9/14/2022 10:34
+Results To:
+JiaDe Yu MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. SKIN, SHAVE BIOPSY, LEFT UPPER BACK:  
+Squamous cell carcinoma, well differentiated, invasive, present at the deep
+margin.
+
+
+
+**Electronically Signed Out By Lyn McDivitt Duncan MD**
+
+Resident Pathologist:
+Thomas Denize MD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+AK vs SCC vs other.
+
+SPECIMENS SUBMITTED:
+A: SKIN, SHAVE BIOPSY, LEFT UPPER BACK
+
+GROSS DESCRIPTION
+A.  Received in formalin labeled Cain, Michael and, MRN 1429940, is a 1.9 x 1.7
+x 0.1 cm tan-gray skin shave.  The epidermoid surface is completely surfaced by
+a tan-brown lesion extending to a height of 2.0 cm.  Please note the lesion
+extends past the margin.  The resection margin is inked blue and the specimen is
+serially sectioned.  Submitted entirely in A1-A8. Please note that the specimen
+fragmented upon sectioning.  Please note that all sections may not be
+full-thickness. 
+
+Grossed by:
+Elissa Santos
+[report_end]
+
+100131692|10046259890|MGH|1429940|S22-84465|12/20/2022 4:52:00 PM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S22-84465                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-84465
+Patient Name: CAIN, MICHAEL J. 
+DOB: 10/25/1964 (Age: 58) 
+Sex: M
+MRN: 1429940
+Location: MGPDADE8
+Institution: MGH
+Date of Operation: 12/16/2022
+Date of Accession: 12/16/2022 
+Reported: 12/20/2022 16:52
+Results To:
+Mayra E Lorenzo MD, PHD
+Thet Su Win MD, PHD
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. LEFT UPPER BACK SKIN EXCISION:  
+Resdiual squamous cell carcinoma, well differentiated, invasive, the examined
+inked margins are free.
+Scar, consistent with prior surgical procedure.
+
+
+**Electronically Signed Out By Rosalynn M Nazarian MD**
+
+Resident Pathologist:
+Melanie Kwan MD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Excision of biopsy-proven well differentiated SCC
+
+SPECIMENS SUBMITTED:
+A: LEFT UPPER BACK SKIN EXCISION
+
+GROSS DESCRIPTION
+Received in formalin, labeled Cain, Michael J and MRN (1429940) only, is a 6.1 x
+2.1 cm elliptical skin excised to a depth of 0.9 cm.  There is a 1.5 x 1.5 x 1.0
+cm tan-white lesion 0.3 cm from the nearest margin.  Inked black and serially
+sectioned entirely in: A1:ends; A2-A10: body.  Please note the specimen
+fragmented upon sectioning. 
+
+Grossed by:
+Mariah Warren
+[report_end]
+
+100059644|10022280951|MGH|0737821|S22-336|1/3/2022 12:00:00 AM|MPATS|F|MPATS|Accession Number:  S22-336                     Report Status:  Final
+Type:  Surgical Pathology
+Pathology Report:  S22-336
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-336
+Patient Name: WARREN, HOWLAND S. 
+DOB: 5/16/1951 (Age: 70) 
+Sex: M
+MRN: 0737821
+Location: MGPDADE2
+Institution: MGH
+Date of Operation: 1/3/2022
+Date of Accession: 1/4/2022 
+Reported: 1/6/2022 06:10
+Results To:
+Ellen K Roh MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. SKIN, SHAVE BIOPSY, LEFT MEDIAL CANTHUS:  
+Basal cell carcinoma, nodular type, present at deep and side margins.
+
+
+**Electronically Signed Out By Mai P Hoang MD**
+
+Resident Pathologist:
+Christopher W Mount MD, PHD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Rule out BCC
+
+SPECIMENS SUBMITTED:
+A: SKIN, SHAVE BIOPSY, LEFT MEDIAL CANTHUS
+
+GROSS DESCRIPTION
+Received in formalin, labeled Warren, Howland S. and MRN (0737821) is a 0.3 x
+0.2 x 0.1 cm tan-gray skin shave.  Inked blue and bisected.  Entirely in A1.
+
+Grossed by:
+Amanda Awley
+[report_end]
+
+100059644|10022280951|MGH|0737821|S22-11468|2/23/2022 1:21:00 PM|MPATS|F|MPATS|Accession Number:  S22-11468                     Report Status:  Final
+Type:  Surgical Pathology
+Pathology Report:  S22-11468
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-11468
+Patient Name: WARREN, HOWLAND S. 
+DOB: 5/16/1951 (Age: 70) 
+Sex: M
+MRN: 0737821
+Location: ASCWAL
+Institution: MGH
+Date of Operation: 2/23/2022
+Date of Accession: 2/23/2022 
+Reported: 3/1/2022 17:00
+Results To:
+Michelle M Kim MD, PHD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. PROSTATE BIOPSY, RIGHT POSTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+B. PROSTATE BIOPSY, RIGHT POSTERIOR LATERAL:  
+Benign prostatic tissue.
+
+C. PROSTATE BIOPSY, RIGHT BASE:  
+Benign prostatic tissue.
+
+D. PROSTATE BIOPSY, RIGHT ANTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+Note: A PIN4 stain reveals the glands of interest display basal cells (P63-brown
+nuclear; CK903-brown cytoplasmic) without significant staining for racemase
+(P504S-red cytoplasmic), supporting the diagnosis.
+
+E. PROSTATE BIOPSY, RIGHT ANTERIOR LATERAL:  
+Benign prostatic tissue.
+
+F. PROSTATE BIOPSY, LEFT POSTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+G. PROSTATE BIOPSY, LEFT POSTERIOR LATERAL:  
+Atypical small acinar proliferation.
+
+Note: A PIN4 stain reveals the atypical glands lack basal cells (P63-brown
+nuclear; CK903-brown cytoplasmic) with staining for racemase (P504S-red
+cytoplasmic), supporting the diagnosis.
+
+H. PROSTATE BIOPSY, LEFT BASE:  
+Benign prostatic tissue.
+
+I. PROSTATE BIOPSY, LEFT ANTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+J. PROSTATE BIOPSY, LEFT ANTERIOR LATERAL:  
+Benign prostatic tissue.
+
+Dr. Chin-Lee Wu has reviewed Parts D and G and concurs with the diagnosis.
+
+
+**Electronically Signed Out By Kristine M Cornejo MD**
+
+Consulting Pathologist(s):
+Chin-Lee Wu MD, PHD
+
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Elevated PSA
+
+SPECIMENS SUBMITTED:
+A: PROSTATE BIOPSY, RIGHT POSTERIOR MEDIAL
+B: PROSTATE BIOPSY, RIGHT POSTERIOR LATERAL
+C: PROSTATE BIOPSY, RIGHT BASE
+D: PROSTATE BIOPSY, RIGHT ANTERIOR MEDIAL
+E: PROSTATE BIOPSY, RIGHT ANTERIOR LATERAL
+F: PROSTATE BIOPSY, LEFT POSTERIOR MEDIAL
+G: PROSTATE BIOPSY, LEFT POSTERIOR LATERAL
+H: PROSTATE BIOPSY, LEFT BASE
+I: PROSTATE BIOPSY, LEFT ANTERIOR MEDIAL
+J: PROSTATE BIOPSY, LEFT ANTERIOR LATERAL
+
+GROSS DESCRIPTION
+Received 10 containers each labeled with Warren, Howland and MRN 0737821:
+
+A. Received in formalin and labeled "right posterior medial prostate biopsy x2",
+are two tan soft tissue cores measuring 0.6 x 0.1 cm and 1.0 x 0.1 cm.  Entirely
+in A1.
+
+B. Received in formalin and labeled "right posterior lateral prostate biopsy
+x2", are two tan soft tissue cores measuring 1.0 x 0.1 cm and 1.1 x <0.1 cm. 
+Entirely B1.  The specimen is delicate and may not survive processing.
+
+C. Received in formalin and labeled "right base prostate biopsy x1", is a 1.3 x
+0.1 cm tan soft tissue core.  Entirely in C1.
+
+D. Received in formalin and labeled "right anterior medial prostate biopsy x2",
+are two tan soft tissue cores measuring 1.3 x 0.1 cm and 1.7 x 0.1 cm.  Entirely
+in D1.
+
+E. Received in formalin and labeled "right anterior lateral prostate biopsy x2",
+are two tan soft tissue cores averaging 1.5 x 0.1 cm.  Entirely in E1.
+
+F. Received in formalin and labeled "left posterior medial prostate biopsy x2",
+are two tan soft tissue cores measuring 0.9 x 0.1 cm and 1.2 x 0.1 cm.  Entirely
+in F1.
+
+G. Received in formalin and labeled "left posterior lateral prostate biopsy x2",
+are two tan soft tissue cores averaging 1.3 x 0.1 cm.  Entirely in G1.
+
+H. Received in formalin and labeled "left base prostate biopsy x1", is a 0.8 x
+0.1 cm tan soft tissue core.  Entirely in H1.
+
+I. Received in formalin and labeled "left anterior medial prostate biopsy x2",
+are two tan soft tissue cores averaging 0.8 x 0.1 cm.  Entirely in I1.
+
+J. Received in formalin and labeled "left anterior lateral prostate biopsy x2",
+are three tan soft tissue cores ranging from 0.4 x <0.1 cm to 1.0 x 0.1 cm. 
+Entirely in J1.  The specimen is delicate and may not survive processing.
+
+Grossed by:
+Stephanie Smith
+
+Immunohistochemical and in-situ hybridization tests performed at Massachusetts
+General Hospital have been developed and their performance characteristics
+determined by the Immunohistochemistry Laboratories in the Department of
+Pathology at Massachusetts General Hospital. They have not been cleared or
+approved by the U.S.Food and Drug Administration (FDA); the FDA has determined
+that such clearance or approval is not necessary.
+[report_end]
+
+100059644|10022280951|MGH|0737821|S22-46334|7/18/2022 10:10:00 AM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S22-46334                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-46334
+Patient Name: WARREN, HOWLAND S. 
+DOB: 5/16/1951 (Age: 71) 
+Sex: M
+MRN: 0737821
+Location: MGPDADE2
+Institution: MGH
+Date of Operation: 7/14/2022
+Date of Accession: 7/15/2022 
+Reported: 7/18/2022 10:10
+Results To:
+Ellen K Roh MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. SKIN, SHAVE BIOPSY, RIGHT LOWER LEG:  
+Dermal nevus, present at margin.
+Associated ruptured follicular cyst.
+
+
+**Electronically Signed Out By Mai P Hoang MD**
+
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+R/O SCC
+
+SPECIMENS SUBMITTED:
+A: SKIN, SHAVE BIOPSY, RIGHT LOWER LEG
+
+GROSS DESCRIPTION
+A.  Received in formalin labeled Warren, Howland and, MRN 0737821, is a 0.8 x
+0.7 x 0.1 cm tan-gray skin shave.  The epidermoid surface is remarkable for a
+0.6 x 0.6 cm slightly raised tan lesion, which abuts the nearest margin.  Inked
+blue and serially sectioned.  Entirely in: A1:ends; A2: body.
+
+Grossed by:
+Elissa Santos
+[report_end]
+
+100221724|10051295458|MGH|1818983|S22-73463|11/7/2022 4:36:00 PM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S22-73463                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-73463
+Patient Name: GRADY, ROBERT N. 
+DOB: 1/1/1948 (Age: 74) 
+Sex: M
+MRN: 1818983
+Location: BLKENDO
+Institution: MGH
+Date of Operation: 11/3/2022
+Date of Accession: 11/3/2022 
+Reported: 11/7/2022 16:36
+Results To:
+Norman Shizuaki Nishioka MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. COLON POLYPECTOMY, TRANSVERSE:  
+Fragments of sessile serrated adenoma/polyp.
+
+B. COLON POLYPECTOMY, SIGMOID:  
+Fragments of sessile serrated adenoma/polyp.
+
+
+**Electronically Signed Out By Angela R Shih MD**
+
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+History of colonic polyps.
+
+
+SPECIMENS SUBMITTED:
+A: COLON POLYPECTOMY, TRANSVERSE
+B: COLON POLYPECTOMY, SIGMOID
+
+GROSS DESCRIPTION
+Received 2 containers each labeled with Grady, Robert and, MRN 1818983 
+
+A. Received in formalin and labeled " transverse colon polyps", is a 1.0 x 1.0 x
+0.1 cm aggregate of tan polypoid tissue fragments.  Filtered and submitted
+entirely in A1.
+
+B. Received in formalin and labeled " sigmoid colon polyp", is a 1.0 x 0.8 x 0.4
+cm tan polypoid tissue fragment.  Entirely in B1.
+
+
+
+Grossed by:
+Elissa Santos
+[report_end]
+
+100221724|10051295458|MGH|1818983|S23-4349|1/23/2023 8:40:00 AM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S23-4349                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S23-4349
+Patient Name: GRADY, ROBERT N. 
+DOB: 1/1/1948 (Age: 75) 
+Sex: M
+MRN: 1818983
+Location: MGPDADE2
+Institution: MGH
+Date of Operation: 1/19/2023
+Date of Accession: 1/19/2023 
+Reported: 1/23/2023 08:40
+Results To:
+Bonnie Teresa Mackool MD, MSPH
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. SKIN, PUNCH BIOPSY, CHEST LESION:  
+Basal cell carcinoma, superficial and nodular types, pigmented, present at side
+margin.
+
+This case has been previewed by Dr. Dimitra Pouli, fellow in Dermatopathology.
+
+
+**Electronically Signed Out By Mai P Hoang MD**
+
+Resident Pathologist:
+Dimitra Pouli MD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Question of superficial and pigmented basal cell CA
+
+SPECIMENS SUBMITTED:
+A: SKIN, PUNCH BIOPSY, CHEST LESION
+
+GROSS DESCRIPTION
+Received in formalin, labeled with Grady, Robert and MRN 1818983 only, is a 0.3
+cm tan-gray circular skin excised to a depth of 0.4 cm. Inked blue and entirely
+submitted in A1.
+
+Grossed by:
+Ameinna Yasipour
+[report_end]
+
+100218228|10051092830|MGH|1791885|S22-11335|2/23/2022 9:45:00 AM|MPATS|F|MPATS|Accession Number:  S22-11335                     Report Status:  Final
+Type:  Surgical Pathology
+Pathology Report:  S22-11335
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-11335
+Patient Name: HENEY, NIALL M. MD 
+DOB: 7/22/1942 (Age: 79) 
+Sex: M
+MRN: 1791885
+Location: BLKENDO
+Institution: MGH
+Date of Operation: 2/23/2022
+Date of Accession: 2/23/2022 
+Reported: 2/25/2022 17:11
+Results To:
+James Michael Richter MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. COLON POLYPECTOMY, SIGMOID:  
+Fragments of tubular adenoma.
+
+B. COLON POLYPECTOMY, RECTUM:  
+Colonic mucosa with no diagnostic abnormality.
+
+
+**Electronically Signed Out By Yiru Wu MD**
+
+Resident Pathologist:
+Maxwell Taylor Roth MD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Healthcare maintenance
+
+SPECIMENS SUBMITTED:
+A: COLON POLYPECTOMY, SIGMOID
+B: COLON POLYPECTOMY, RECTUM
+
+GROSS DESCRIPTION
+Received 2 containers each labeled Heney, Niall M. and MRN (1791885)
+
+A. Received in formalin and labeled "sigmoid colon polyp" is a 0.5 x 0.3 x 0.1
+cm aggregate of tan-brown polypoid tissue fragments.  Entirely in A1.
+
+B. Received in formalin and labeled "rectal polyps" is a 0.5 x 0.3 x 0.1 cm
+tan-brown polypoid tissue fragment.  Entirely in B1.
+
+
+Grossed by:
+Amanda Awley
+[report_end]
+
+100218228|10051092830|MGH|1791885|S22-54767|8/25/2022 2:44:00 PM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S22-54767                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-54767
+Patient Name: HENEY, NIALL M. MD 
+DOB: 7/22/1942 (Age: 80) 
+Sex: M
+MRN: 1791885
+Location: MGHSURGONC
+Institution: MGH
+Date of Operation: 8/19/2022
+Date of Accession: 8/19/2022 
+Reported: 8/25/2022 14:44
+Results To:
+Genevieve M Boland MD, PHD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. SKIN EXCISION, RIGHT LOWER LEG:  
+
+Metastatic melanoma is observed in one subcutaneous lymph node (1/1) (see note).
+
+Note:  Metastatic melanoma is highlighted with immunohistochemical stains for
+MelanA and Sox10 and replacing almost entirely the lymph node (7mm greatest
+linear extent). No melanoma in epidermis or dermis is seen.
+
+
+This case has been previewed by Dr. Dimitra Pouli, fellow in Dermatopathology.
+ 
+
+
+**Electronically Signed Out By Rosalynn M Nazarian MD**
+
+Resident Pathologist:
+Dimitra Pouli MD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+New soft tissue nodule, history of acral melanoma
+
+SPECIMENS SUBMITTED:
+A: SKIN EXCISION, RIGHT LOWER LEG
+
+GROSS DESCRIPTION
+Received fresh labeled Heney, Niall M, MRN 1791885 only is an unoriented 2.3 x
+1.0 cm tan-white granular skin ellipse, excised to a depth of 1.2 cm.  No
+discrete lesions are identified on the epithelial surface.  The specimen is
+inked blue and serially sectioned to reveal a 0.8 x 0.6 x 0.4 cm circumscribed
+freely movable nodule with a solid dark brown cut surface in the subcutaneous
+tissue, 0.1 cm from the closest inked margin.  Representative of the nodule is
+allocated to the tissue bank per protocol Boland 11-181.  The remaining specimen
+is entirely submitted in cassettes A1-A3 (en face tips in A1; remaining
+subcutaneous nodule in A2).
+
+Grossed by:
+Lynn Mccourt
+
+Immunohistochemical and in-situ hybridization tests performed at Massachusetts
+General Hospital have been developed and their performance characteristics
+determined by the Immunohistochemistry Laboratories in the Department of
+Pathology at Massachusetts General Hospital. They have not been cleared or
+approved by the U.S.Food and Drug Administration (FDA); the FDA has determined
+that such clearance or approval is not necessary.
+[report_end]
+
+100218228|10051092830|MGH|1791885|S22-59085|9/14/2022 1:47:00 PM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S22-59085                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-59085
+Patient Name: HENEY, NIALL M. MD 
+DOB: 7/22/1942 (Age: 80) 
+Sex: M
+MRN: 1791885
+Location: PERIOP
+Institution: MGH
+Date of Operation: 9/8/2022
+Date of Accession: 9/8/2022 
+Reported: 9/14/2022 13:47
+Results To:
+Young-Min Kwon MBBS, PHD
+Ashish Mittal MD
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. RIGHT FEMORAL HEAD EXCISION:  
+Osteoarthritis with osteophytes and subchondral cyst. 
+Synovium with focal chronic inflammation.
+Marrow with maturing trilineage hematopoiesis.
+
+
+**Electronically Signed Out By Gunnlaugur Petur Nielsen MD**
+
+Resident Pathologist:
+Jinesa Moodley MBBCH, BAO
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Primary osteoarthritis of right hip
+
+SPECIMENS SUBMITTED:
+A: RIGHT FEMORAL HEAD EXCISION
+
+GROSS DESCRIPTION
+Received fresh labeled Niall Heney, MRN 1791885, and "right femoral head" is a
+5.8 x 5.2 x 4.1 cm femoral head with attached 1.4 cm in length of femoral neck. 
+The external surface is gray and white, smooth to granular, and remarkable for
+areas of eburnation and mild osteophytic growth.  Sectioning reveals cortical
+bone that ranges from <0.1-0.2 cm thick surrounding tan-yellow trabecular bone
+with gray-white discoloration subjacent to the area of eburnation. 
+Representative sections are submitted in A1-A2 following decalcification.
+
+Grossed by:
+Samuel Benson
+[report_end]
+
+100261876|10053570346|MGH|2090852|S22-32850|5/19/2022 12:31:00 PM|MPATS|F|MPATS|Accession Number:  S22-32850                     Report Status:  Final
+Type:  Surgical Pathology
+Pathology Report:  S22-32850
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S22-32850
+Patient Name: MARLEY, EUGENE R. III 
+DOB: 4/14/1954 (Age: 68) 
+Sex: M
+MRN: 2090852
+Location: PERIOP
+Institution: MGH
+Date of Operation: 5/19/2022
+Date of Accession: 5/19/2022 
+Reported: 5/24/2022 15:51
+Results To:
+Richard Aaron Hodin MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. UMBILICAL HERNIA CONTENTS:  
+Hernia sac.
+
+
+**Electronically Signed Out By Gunnlaugur Petur Nielsen MD**
+
+Resident Pathologist:
+Miranda E Machacek MD, PHD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Umbilical hernia sac. 
+
+SPECIMENS SUBMITTED:
+A: UMBILICAL HERNIA CONTENTS
+
+GROSS DESCRIPTION
+A.  Received fresh labeled Eugene Marley, MRN 2090852 and "umbilical hernia
+contents" is a 4.0 x 3.0 x 1.5 cm portion of lobulated yellow fat and pink
+membranous soft tissue.  Representative sections are submitted in A1.
+
+Grossed by:
+Derek Kingman
+[report_end]
+
+100261876|10053570346|MGH|2090852|S23-24282|4/11/2023 5:19:00 PM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S23-24282                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S23-24282
+Patient Name: MARLEY, EUGENE R. III 
+DOB: 4/14/1954 (Age: 68) 
+Sex: M
+MRN: 2090852
+Location: PERIOP
+Institution: MGH
+Date of Operation: 4/6/2023
+Date of Accession: 4/6/2023 
+Reported: 4/11/2023 17:19
+Results To:
+Carlos Fernandez-del Castillo MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. GALLBLADDER CHOLECYSTECTOMY:  
+
+Acute and chronic cholecystitis and cholelithiasis.
+
+
+
+**Electronically Signed Out By Jonathan N Glickman MD, PHD**
+
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Gallstones
+
+SPECIMENS SUBMITTED:
+A: GALLBLADDER CHOLECYSTECTOMY
+
+GROSS DESCRIPTION
+Received fresh labeled Eugene Marley, MRN 2090852, and "gallbladder" is a 10.0 x
+6.5 x 5.0 cm previously disrupted, distorted gallbladder surfaced by abundant
+adhesions and fat.  The grossly appreciable serosa is red-tan, dull with
+scattered petechial hemorrhage.  There is exposed tan-white, fibrinous, necrotic
+appearing debris on the surface of the specimen.  The specimen is opened to
+reveal multiple ovoid, semibosselated, yellow choleliths measuring up to 2.3 cm
+in greatest dimension occluding the gallbladder neck adjacent to the cystic
+duct.  The fundus is markedly distorted and appears replaced by an abscess-like
+cavity filled with red-tan to tan-white necrotic debris and exudate.  The wall
+is fibrotic and ill-defined and ranges from <0.1-0.9 cm thick.  Representative
+sections are submitted as follows:
+
+A1: Cystic duct margin, en face
+A2: Gallbladder neck
+A3: Gallbladder fundus
+
+Grossed by:
+Samuel Benson
+[report_end]
+
+100266212|10053816566|MGH|2118586|S23-2841|1/17/2023 11:47:00 AM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S23-2841                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S23-2841
+Patient Name: DRYJA, THADDEUS P. MD 
+DOB: 12/6/1951 (Age: 71) 
+Sex: M
+MRN: 2118586
+Location: MGPUROCRP
+Institution: MGH
+Date of Operation: 1/12/2023
+Date of Accession: 1/12/2023 
+Reported: 1/17/2023 11:47
+Results To:
+Dimitar V Zlatev MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. PROSTATE BIOPSY, RIGHT POSTERIOR MEDIAL:  
+Prostatic adenocarcinoma
+Gleason score 3 + 3 = 6/10 (Grade Group 1)
+Number of cores involved: 1 of 2
+Percentage and length of cores involved: 10% (1 mm)
+Perineural invasion is: Not identified
+
+B. PROSTATE BIOPSY, RIGHT POSTERIOR LATERAL:  
+Benign prostatic tissue.
+
+C. PROSTATE BIOPSY, RIGHT BASE:  
+Benign prostatic tissue.
+
+D. PROSTATE BIOPSY, RIGHT ANTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+E. PROSTATE BIOPSY, RIGHT ANTERIOR LATERAL:  
+Benign prostatic tissue.
+
+F. PROSTATE BIOPSY, LEFT POSTERIOR MEDIAL:  
+Prostatic adenocarcinoma
+Gleason score 3 + 3 = 6/10 (Grade Group 1)
+Number of cores involved: 1 of 2
+Percentage and length of cores involved: 25% (3 mm)
+Perineural invasion is: Not identified
+
+G. PROSTATE BIOPSY, LEFT POSTERIOR LATERAL:  
+Benign prostatic tissue.
+
+H. PROSTATE BIOPSY, LEFT BASE:  
+Benign prostatic tissue.
+
+I. PROSTATE BIOPSY, LEFT ANTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+J. PROSTATE BIOPSY, LEFT ANTERIOR LATERAL:  
+Benign prostatic tissue.
+
+K. LEFT TARGET X3 PROSTATE BIOPSY:  
+Prostatic adenocarcinoma
+Gleason score 3 + 3 = 6/10 (Grade Group 1)
+Number of cores involved: 1 of 3
+Percentage and length of cores involved: 30% (3 mm)
+Perineural invasion is: Not identified
+
+
+**Electronically Signed Out By Chin-Lee Wu MD, PHD**
+
+Resident Pathologist:
+Shi Bai MD, PHD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Prostate cancer.
+
+SPECIMENS SUBMITTED:
+A: PROSTATE BIOPSY, RIGHT POSTERIOR MEDIAL
+B: PROSTATE BIOPSY, RIGHT POSTERIOR LATERAL
+C: PROSTATE BIOPSY, RIGHT BASE
+D: PROSTATE BIOPSY, RIGHT ANTERIOR MEDIAL
+E: PROSTATE BIOPSY, RIGHT ANTERIOR LATERAL
+F: PROSTATE BIOPSY, LEFT POSTERIOR MEDIAL
+G: PROSTATE BIOPSY, LEFT POSTERIOR LATERAL
+H: PROSTATE BIOPSY, LEFT BASE
+I: PROSTATE BIOPSY, LEFT ANTERIOR MEDIAL
+J: PROSTATE BIOPSY, LEFT ANTERIOR LATERAL
+K: LEFT TARGET X3 PROSTATE BIOPSY
+
+GROSS DESCRIPTION
+Received 11 containers each labeled with Dryja, Thaddeus P and MRN (2118586)
+
+A. Received in formalin and labeled " prostate R posterior medial x2 ", are 2
+tan-gray soft tissue core biopsies measuring 1.3 x 0.1 cm and 2.2 x 0.1 cm. 
+Wrapped and entirely submitted in A1.  The specimen is delicate and may not
+survive processing.
+
+B. Received in formalin and labeled " prostate R posterior lateral x2", are 2
+tan-gray soft tissue core biopsies measuring 0.5 x 0.1 cm and 2.0 x 0.1 cm. 
+Wrapped and entirely submitted in B1.
+
+C. Received in formalin and labeled " prostate right base x1" , are 2 tan-gray
+soft tissue core biopsies measuring 0.6 x 0.1 cm and 0.8 x 0.1 cm.  Wrapped and
+entirely submitted in C1.
+
+D. Received in formalin and labeled " prostate R anterior medial x2", are 2
+tan-gray soft tissue core biopsies measuring 1.1 x 0.1 cm and 1.4 x 0.1 cm. 
+Wrapped and entirely submitted in D1.
+
+E. Received in formalin and labeled " prostate R anterior lateral x2 ",  are 2
+tan-gray soft tissue core biopsies measuring 1.7 x 0.1 cm and 1.8 x 0.1 cm. 
+Wrapped and entirely submitted in E1.
+
+F. Received in formalin and labeled " prostate L posterior medial x2", are 2
+tan-gray soft tissue core biopsies measuring 1.4 x 0.1 cm and 1.9 x 0.1 cm. 
+Wrapped and entirely submitted in F1.
+
+G. Received in formalin and labeled " prostate L posterior lateral x2 ", are 2
+tan-gray soft tissue core biopsies measuring 0.1 x 0.1 cm and centimeters. 
+Wrapped and entirely submitted in G1.  The specimen is delicate and may not
+survive processing.
+
+H. Received in formalin and labeled " prostate left base x1", is a tan-gray soft
+tissue core biopsy measuring 1.6 x 0.1 cm.  Wrapped and entirely submitted in
+H1.
+
+I. Received in formalin and labeled " prostate L anterior medial x2 ", are 2
+tan-gray soft tissue core biopsies measuring 0.8 x 0.1 cm and 0.9 x 0.1 cm. 
+Wrapped and entirely submitted in I1.
+
+J. Received in formalin and labeled " prostate L anterior lateral x2 ", are 3
+tan-gray soft tissue core biopsies ranging from 0.8 x 0.1 cm to 1.2 x 0.1 cm. 
+Wrapped and entirely submitted in J1.
+
+K. Received in formalin and labeled " prostate target left PZ x3 ", are 4
+tan-gray soft tissue core biopsies ranging from 0.6 x 0.1 cm to 1.7 x 0.1 cm. 
+Wrapped and entirely submitted in K1.
+
+
+Grossed by:
+Katrin Batuyeva
+[report_end]
+
+100242756|10052489480|MGH|1967086|S23-5334|1/26/2023 12:28:00 PM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S23-5334                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S23-5334
+Patient Name: DEBOER, ROBERT S. 
+DOB: 4/21/1945 (Age: 77) 
+Sex: M
+MRN: 1967086
+Location: BLKENDO
+Institution: MGH
+Date of Operation: 1/24/2023
+Date of Accession: 1/24/2023 
+Reported: 1/26/2023 12:28
+Results To:
+Brian Chung Surjanhata MD
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. COLON POLYPECTOMY, CECUM:  
+Tubular adenoma.
+
+B. COLON POLYPECTOMY, SIGMOID:  
+Tubular adenoma.
+
+
+**Electronically Signed Out By Martha Bishop Pitman MD**
+
+Resident Pathologist:
+Khalid Algarrahi MBCHB
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+BRBPR
+
+SPECIMENS SUBMITTED:
+A: COLON POLYPECTOMY, CECUM
+B: COLON POLYPECTOMY, SIGMOID
+
+GROSS DESCRIPTION
+Received 2 containers labeled Deboer,Robert S. and MRN 1967086:
+
+A. Received in formalin, labeled "cecal polyp" is a 0.3 x 0.3 x 0.2 cm tan
+polypoid soft tissue.  Entirely in A1.
+
+B. Received in formalin, labeled "sigmoid colon polyps" are 2 tan polypoid soft
+tissue fragments measuring 0.6 x 0.3 x 0.1 cm and 0.6 x 0.2 x 0.2 cm.  Entirely
+in B1.
+
+
+
+Grossed by:
+Anderson Jones
+[report_end]
+
+100242756|10052489480|MGH|1967086|N23-2897|3/27/2023 6:18:00 PM|NON-GYN CYTOLOGY|F|EPAT444396|Accession Number:  N23-2897                     Report Status:  Final
+Type:  NON-GYN CYTOLOGY
+
+Massachusetts General Hospital
+Boston, MA 02114   Tel (617) 726-2967
+
+Non Gyn Cytology Report
+
+
+
+Accession #:  N23-2897
+Patient Name:  DEBOER, ROBERT S.
+DOB:  4/21/1945 (Age: 77)
+Sex:  M
+MRN:  1967086
+Institution:  MGH
+Location:  MGPUR1UR1
+Date of Collection:  3/23/2023
+Date of Accession:  3/23/2023
+Reported:  3/27/2023 18:18
+Results to:
+Helen Huili Mu, DNP
+
+
+
+FINAL DIAGNOSIS
+
+A.  VOIDED URINE:
+
+SPECIMEN ADEQUACY:
+Satisfactory for evaluation.
+
+INTERPRETATION:
+NEGATIVE FOR HIGH GRADE UROTHELIAL CARCINOMA
+
+DIAGNOSIS:
+Reactive-appearing urothelial cells.
+Squamous cells, debris, and few red blood cells.
+
+This case has been reviewed by Elisabeth S. Tabb, M.D., fellow in cytopathology.
+
+          
+Electronically Signed Out By:  William C Faquin MD, PHD
+
+Mary Rego, SCT(ASCP)MB
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+
+
+
+CLINICAL HISTORY
+Microscopic hematuria
+
+
+
+SPECIMEN SOURCE
+A: VOIDED URINE
+
+GROSS DESCRIPTION
+A. VOIDED URINE:  Received container labeled DEBOER,ROBERT S., MRN 1967086 with
+50cc's of clear yellow fluid. One SurePath slide made.
+[report_end]
+
+100154252|10020196936|MGH|1628626|S23-5567|1/27/2023 8:34:00 AM|ANATOMIC PATHOLOGY|F|EPAT66997|Accession Number:  S23-5567                     Report Status:  Final
+Type:  ANATOMIC PATHOLOGY
+
+Massachusetts General Hospital
+55 Fruit Street, Boston, MA 02114    Tel (617) 726-2967
+
+Surgical Pathology Report
+
+
+Accession #: S23-5567
+Patient Name: MALKEMUS, CHARLES M. 
+DOB: 12/13/1943 (Age: 79) 
+Sex: M
+MRN: 1628626
+Location: MGPUROCRP
+Institution: MGH
+Date of Operation: 1/24/2023
+Date of Accession: 1/25/2023 
+Reported: 1/27/2023 08:34
+Results To:
+Adam Scott Feldman MD, MPH
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+A. PROSTATE BIOPSY, RIGHT POSTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+B. PROSTATE BIOPSY, RIGHT POSTERIOR LATERAL:  
+Benign prostatic tissue.
+
+C. PROSTATE BIOPSY, RIGHT BASE:  
+Benign prostatic tissue.
+
+D. PROSTATE BIOPSY, RIGHT ANTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+E. PROSTATE BIOPSY, RIGHT ANTERIOR LATERAL:  
+Scant benign prostatic tissue.
+
+F. PROSTATE BIOPSY, LEFT POSTERIOR MEDIAL:  
+Benign prostatic tissue.
+
+G. PROSTATE BIOPSY, LEFT POSTERIOR LATERAL:  
+Prostatic adenocarcinoma
+Gleason score 3 + 3 = 6/10 (Grade Group 1)
+Number of cores involved: 1 of 2
+Percentage and length of cores involved: 35% (2 mm)
+Perineural invasion is: Not identified
+
+H. PROSTATE BIOPSY, LEFT BASE:  
+Benign prostatic tissue.
+
+I. PROSTATE BIOPSY, LEFT ANTERIOR MEDIAL:  
+Prostatic adenocarcinoma
+Gleason score 3 + 3 = 6/10 (Grade Group 1)
+Number of cores involved: 2 of 2
+Percentage and length of cores involved: 10% (1 mm), 5% (0.5 mm)
+Perineural invasion is: Not identified
+
+J. PROSTATE BIOPSY, LEFT ANTERIOR LATERAL:  
+Benign prostatic tissue.
+
+K. PROSTATE BIOPSY, CANCER RIGHT ANTERIOR:  
+Benign prostatic tissue.
+
+L. PROSTATE BIOPSY, TARGET LEFT ANTERIOR:  
+Prostatic adenocarcinoma
+Gleason score 3 + 3 = 6/10 (Grade Group 1)
+Number of cores involved: 1 of 3
+Percentage and length of cores involved: 40% (2.5 mm)
+Perineural invasion is: Not identified
+
+
+**Electronically Signed Out By Robert Henry Young MD**
+
+Resident Pathologist:
+Shi Bai MD, PHD
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed the case and confirmed the
+diagnosis. All slides and stains were of sufficient quality to establish the
+diagnosis, unless otherwise stated.
+
+CLINICAL HISTORY
+Prostate cancer.
+
+SPECIMENS SUBMITTED:
+A: PROSTATE BIOPSY, RIGHT POSTERIOR MEDIAL
+B: PROSTATE BIOPSY, RIGHT POSTERIOR LATERAL
+C: PROSTATE BIOPSY, RIGHT BASE
+D: PROSTATE BIOPSY, RIGHT ANTERIOR MEDIAL
+E: PROSTATE BIOPSY, RIGHT ANTERIOR LATERAL
+F: PROSTATE BIOPSY, LEFT POSTERIOR MEDIAL
+G: PROSTATE BIOPSY, LEFT POSTERIOR LATERAL
+H: PROSTATE BIOPSY, LEFT BASE
+I: PROSTATE BIOPSY, LEFT ANTERIOR MEDIAL
+J: PROSTATE BIOPSY, LEFT ANTERIOR LATERAL
+K: PROSTATE BIOPSY, CANCER RIGHT ANTERIOR
+L: PROSTATE BIOPSY, TARGET LEFT ANTERIOR
+
+GROSS DESCRIPTION
+Received 12 containers each labeled Malkemus, Charles and MRN 1628626
+
+A. Received in formalin and labeled " prostate right posterior medial x2", are 2
+tan soft tissue cores measuring 0.9 x 0.1 cm to 1.1 x 0.1 cm.  The specimen is
+wrapped and submitted entirely in cassette A1.
+
+B. Received in formalin and labeled " prostate right posterior lateral x2", are
+2 tan soft tissue cores measuring 0.7 x 0.1 cm and 1.0 x 0.1 cm.  The specimen
+is wrapped and submitted entirely in cassette B1.
+
+C. Received in formalin and labeled " prostate right base x2", are 3 tan soft
+tissue cores averaging 0.7 x 0.1 cm.  The specimen is wrapped and submitted
+entirely in cassette C1.
+
+D. Received in formalin and labeled " prostate right anterior medial x2", are 2
+tan soft tissue cores measuring 1.0 x 0.1 cm and 1.2 x 0.1 cm.  The specimen is
+wrapped and submitted entirely in cassette D1.
+
+E. Received in formalin and labeled " prostate right anterior lateral x2", are 2
+tan soft tissue cores measuring 0.4 x 0.1 cm and 1.0 x 0.1 cm.  The specimen is
+wrapped and submitted entirely in cassette E1.  The specimen is delicate and may
+not survive processing.
+
+F. Received in formalin and labeled " prostate left posterior medial x2", are 2
+tan soft tissue cores measuring 0.9 x 0.1 cm and 1.5 x 0.1 cm.  The specimen is
+wrapped and submitted entirely in cassette F1.
+
+G. Received in formalin and labeled " prostate left posterior lateral x2", are 2
+tan soft tissue cores measuring 0.5 x 0.1 cm and 0.7 x 0.1 cm.  The specimen is
+wrapped and submitted entirely in cassette G1.
+
+H. Received in formalin and labeled " prostate left base x2", are 2 tan soft
+tissue cores measuring 0.6 x 0.1 cm and 1.1 x 0.1 cm.  The specimen is wrapped
+and submitted entirely in cassette H1.
+
+I. Received in formalin and labeled " prostate left anterior medial x2", are 2
+tan soft tissue fragments measuring 1.0 x 0.1 cm and 1.3 x 0.1 cm.  The specimen
+is wrapped and submitted entirely in cassette I1.
+
+J. Received in formalin and labeled " prostate left anterior lateral x2", are 2
+tan soft tissue fragments measuring 1.0 x 0.1 cm and 1.3 x 0.1 cm.  The specimen
+is wrapped and submitted entirely in cassette J1.
+
+K. Received in formalin and labeled " prostate target right anterior x3", are 4
+tan soft tissue cores ranging from 0.5 x 0.1 cm to 1.7 x 0.1 cm.  The specimen
+is wrapped and submitted entirely in cassette K1.
+
+L. Received in formalin and labeled " prostate target left anterior x3", are 3
+tan soft tissue cores ranging from 0.7 x 0.1 cm to 0.9 x 0.1 cm.  The specimen
+is wrapped and submitted entirely in cassette L1.
+
+
+Grossed by:
+Emily Spurr
+[report_end]
+
+103196197|10082650226|NSM|00124909|XS22-4266|3/8/2022 2:32:00 PM|NPATS|F|NPATS|Accession Number:  XS22-4266                     Report Status:  Final
+Type:  Surgical Pathology
+Pathology Report:  XS22-4266
+
+Mass General Brigham - Salem Hospital
+81 Highland Avenue - Salem, MA 01970
+Lab Director: Bruce Beckwith, MD
+Tel: 978-354-4101   Fax: 978-825-6504
+
+Surgical Pathology Report
+
+
+Accession #: XS22-4266
+
+
+FINAL PATHOLOGIC DIAGNOSIS:
+
+A. LEFT ILIAC BONE LESION, NEEDLE CORE BIOPSY:  
+Dense, sclerotic bone with thickened bony trabeculae, irregular cement lines and
+mild reactive marrow fibrosis.  
+See note.
+
+Note: Immunostains for pankeratin Oscar and pankeratin AE1/AE3 (A1, A2) are
+negative for metastatic carcinoma.  The findings are compatible with Paget's
+disease of bone in the appropriate clinical setting.  There is no evidence of
+malignancy.  This case was reviewed at an intradepartmental consensus
+conference.
+
+Pathologist interpretation performed at Mass General Brigham Salem Hospital, 81
+Highland Avenue, Salem, MA 01970.
+
+**Electronically Signed Out By Mark A Tulecke MD**
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed this case and confirmed or
+corrected the diagnosis. 
+
+CLINICAL HISTORY
+Prostate cancer [C 61]
+
+
+SPECIMENS SUBMITTED:
+A: LEFT ILIAC BONE, NEEDLE CORE BIOPSY
+
+GROSS DESCRIPTION
+A. LEFT ILIAC BONE, NEEDLE CORE BIOPSY:  
+The specimen is received in formalin labeled with the patient4s name, medical
+record number, and "left iliac bone", and consists of 2 cylindrical cores of
+tan-white bone, measuring 1.5 and 1.3 cm which are entirely submitted in A1-A2
+following Rapid Cal Immuno decalcification treatment.
+
+
+CR  3/9/2022
+Grossing Staff:  CR
+
+Some processing of this specimen was performed at Salem Hospital, 81 Highland
+Ave., Salem MA 01970, Lab Director Bruce Beckwith, MD.  Due to loss of elastic
+tension and/or tissue shrinkage in formalin, the clinical sizes of tissue
+specimens may be larger than those provided in this report.
+
+Unless otherwise stated above and if applicable, immunostains were performed at
+Salem Hospital. These tests were developed and their performance characteristics
+were determined by Salem Hospital.  Assays may not have been validated in
+decalcified tissues, and results in decalcified tissues should be interpreted
+with caution.  The tests may not have been cleared or approved by the U.S. Food
+and Drug Administration, but the FDA has determined that such clearance or
+approval is not necessary.  These tests are for clinical purposes and should not
+be regarded as investigational.  Salem Hospital laboratory is accredited by the
+College of American Pathologists, and is approved by CLIA for the performance of
+high complexity testing.  Unless otherwise specified, all histochemical and
+immunohistochemical controls are adequate.
+
+Patient Name: TREMBLAY, GREGORY 
+DOB: 3/9/1957 (Age: 64) 
+Sex: M
+MRN: 00124909
+Institution: Salem Hospital
+Location: SLMCTSCANS
+Date of Operation: 3/8/2022
+Date of Accession: 3/8/2022 
+Reported: 3/15/2022 16:45
+Ordered By:  Peter C Yang MD
+Copy To: 
+Raj P Shah MD, MBA
+[report_end]
+
+102978143|10070989008|NSM|00328904|XN23-567|2/15/2023 9:25:00 AM|NON-GYN CYTOLOGY|F|EPAT444396|Accession Number:  XN23-567                     Report Status:  Final
+Type:  NON-GYN CYTOLOGY
+
+Mass General Brigham - Salem Hospital
+81 Highland Avenue - Salem, MA 01970
+Lab Director: Bruce Beckwith, MD
+Tel: 978-354-4101   Fax: 978-825-6504
+
+Non Gyn Cytology Report
+
+
+Accession #:  XN23-567
+
+ 
+FINAL DIAGNOSIS
+
+A.  LEFT UPPER LOBE LUNG NODULE FINE NEEDLE ASPIRATION BIOPSY:
+
+SPECIMEN ADEQUACY:
+Satisfactory for evaluation.
+
+INTERPRETATION:
+ATYPICAL.
+
+DIAGNOSIS:
+Groups of mildly atypical epithelioid cells present. See note
+
+Note: See concurrent tissue biopsy report XS233506 for additional information.
+Case will be sent to Massachusetts General Hospital for consultation and a final
+report to follow.
+
+B.  LEFT UPPER LOBE LUNG NODULE CELL BLOCK:
+
+SPECIMEN ADEQUACY:
+Unsatisfactory for evaluation.  Specimen processed and examined, see diagnosis.
+
+INTERPRETATION:
+UNSATISFACTORY FOR EVALUATION.
+
+DIAGNOSIS:
+Virtually acellular specimen.
+
+Review and concurrence: Case was also reviewed by Dr. Mark Tulecke with
+concurrence.
+
+Electronically Signed Out By:  Yineng Fu MD, MSC
+
+
+By his/her signature above, the pathologist listed as making the Final Diagnosis
+certifies that he/she has personally reviewed this case and confirmed or
+corrected the diagnosis.
+ 
+
+CLINICAL HISTORY
+C61 PROSTATE CANCER
+R91.1 LESION OF LEFT LUNG
+
+
+
+RAPID INTERPRETATION
+FNA LEFT UPPER LOBE LUNG NODULE:  ADEQUACY EPISODE #1 PASSES 1-4 ADEQUATE.
+
+Sarah E Kane MD
+
+
+SPECIMEN SOURCE
+A: LEFT UPPER LOBE LUNG NODULE FINE NEEDLE ASPIRATION BIOPSY
+B: LEFT UPPER LOBE LUNG NODULE CELL BLOCK
+
+GROSS DESCRIPTION
+A. LEFT UPPER LOBE LUNG NODULE FINE NEEDLE ASPIRATION BIOPSY:  Received 4
+air-dried smears  for staining and interpretation.
+
+B. LEFT UPPER LOBE LUNG NODULE CELL BLOCK:  The specimen is received in formalin
+labeled with the patient's name, medical record number, and LEFT UPPER LOBE
+LUNG, and consists of an intact plasma button with a tan cellular aggregate (1
+cm in greatest dimension) which is entirely submitted in B1.
+
+
+Some processing of this specimen was performed at Salem Hospital, 81 Highland
+Ave., Salem MA 01970, Lab Director Bruce Beckwith, MD.
+
+
+Patient Name:  AGNEW, JAMES
+DOB:  12/4/1946 (Age: 76)
+Sex:  M
+MRN:  00328904
+Institution:  Salem Hospital
+Location:  SLMCTSCANS
+Date of Collection:  2/13/2023
+Date of Accession:  2/13/2023
+Reported:  2/15/2023 09:25
+Ordered By:  Peter C Yang MD
+Copy To:
+Pauline M Bishop MD
+[report_end]
